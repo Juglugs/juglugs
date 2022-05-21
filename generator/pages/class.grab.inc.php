@@ -1,322 +1,483 @@
 <?php // This file is protected by copyright law and provided under license. Reverse engineering of this file is strictly prohibited.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=927939557;$UWqAI54609863ApMLJ=73646451;$DZmix82701605yQxOt=814001443;$ynvMF30448709LAMiU=441591742;$BmEFI56136265uUKPU=61977671;$KTCyI74842763lIbTb=593024844;$ScHXN60241547ibIKu=929430426;$lJrcb70805064fympL=693332555;$iabXW98008080uTeEF=185624038;$fFFoe39909848oPOGm=674482446;$woWkZ54289369WHYwg=628996561;$mJcfR31615750PGpRO=867191503;$ogNOb91555563izaSh=84294670;$iEBqx35954252hrEFK=58128645;$GqDsl61128338KRlyc=212750757;$TckGm91152846WSCrS=93875668;$mqwkm12497226AhvzZ=735894330;$vmFLf33864263MOBbB=798307399;$BjEpV61333939krgln=950943057;$YgxhN13286758ISjbo=526314231;$nmvYI73951014fliHD=936872968;$CaqOu98128038cjekS=427366494;$LapOR29593598fZeWA=769352417;$bnrMX42331928jcTdI=386135912;$tVOkm60881937Qiydv=1160746;$YQxir29849754KGMoB=111416219;$uYOGl19575227xkuJv=153801403;$XTiRC50023107oaaRm=459503857;$mukVm97285139lsQRB=616050344;$Lsjer85176117FUhdh=416418795;$aUEuJ86584640lOPMx=798570532;$fDqqO25917837cfSib=782821347;$gbGBT59507100bdDJV=410122036;$BDTnL46216615HTnKY=312493073;$Rkafp11409854iyylQ=462953775;$HkKeY22433247stTiA=564994773;$jShuV27526301nSnfY=166032735;$VMbOk31308089rUfql=39711129;$ifHGQ72017666JvpCA=802417236;$Ngpjw43321436wCbKZ=603412896;$fKYmV40571026yYDze=435562181;$QEnUv15458244nFdnt=432421497;$qxMGu69781383ymBMs=133018034;$DXifV41662977mWGxO=639681092;$fFPwp73075818bTFcd=379616350;$wdQnk35404441aQQTL=94287448;$gEfHU60544625PPXam=159459799;$PpfZY40596841OoAQq=667889923;?><?php class SiteCrawler { var $A76kndxSzOnikhY6uL0 = false; var $Jory6V07EvLOFuOS0 = array(); var $AcpzwbnlgjKcAF = array(); var $NdDirA6nDitD7 = array(); var $Y2JFas41Ha7Bh = false; var $JKKdudUKlq = false; var $lXZzreYj5Sp71N6a = array(); var $YCx6tRQ6S9VOxA8 = ''; var $HF09NtRGt5wcIet = ''; var $t71f_efSaAOndERJMx1 = ''; var $fp32WfdYeyzsL = ''; var $gkc6cuOs53JHjwRAY6 = ''; var $BQuugH4detSL1C = ''; var $xinVcH1Gf2 = ''; var $LGu93aFor = ''; var $xKSjC9fm7Ct = ''; var $CKkufD8Jt = ''; var $fdlKwoX4HgiIlRtTjC = 0; var $eWMxEMwbnUJuhi = false; var $H7dpHAe1ZxqW2d4_oS = false; var $ctime = 0; var $pl = 0; var $mu = 0; var $tsize = 0; var $links_level = 0; var $nettime = 0; var $ylHq2XW203CDYm1xpm = 0; var $fetch_no = 0; var $R6kB6cBogCUcR = 0; var $Oi9Zmgr2enoS8qf7N3x = 0; var $addedcnt = array(); var $Lr95wALjvGm = 0; var $mWZvXOgbL2muF5 = 0; var $wBD3MhpjtBO8tqmNhcW = 0; var $num_urls_processed_in_current_batch = 0; var $K9akDNrFty1 = 0; var $fb23nrOMWYh = array(); var $JcPjyNwPYF = array(); var $sm_base = array(); var $Qzca9KtuSuweE7eg = array(); var $UxoQSL7Suyq5hIutb = array(); var $VL35Keydv0RV = array(); var $urls_list_full = array(); var $urls_list_skipped = array(); var $lyHshYw4WEuS5UB = array(); var $VlATSmYmC7EQlOaRu = array(); var $XrYcC_5YQ_q1ne = array(); var $PcrmU5d0puI6Fy = array(); var $tVaBDPWljvwqY = array(); var $Af48Krgc4Y = array(); var $sm_sessions = array(); var $TKMlV28iMSJLJeW = array(); var $progpar = array(); var $bwFKDeaDhz = array(); var $IjB3lcClHx = array(); var $runstate = array(); var $ref_links_list = array(); var $Yqrb0MMKAex3GumRNM = array(); var $z9wRO_UXMNYH7e4OnAv = array(); var $crawl_stats = array(); var $UCZR3jLESp3_U = ''; var $VA1LHa1ylRh = false; var $uk1X1bxy5kVbdo19 = array( 1 => 'external', 2 => 'allowed-external', 3 => 'subdomain', 4 => 'out-folder', 5 => 'protocol', ); function sHrx8IoVOZ8R($BtAUqRxJJgysfr = '') { $this->m820vHOHqXjLbour0(array( 'current' => array( 'desc' => $BtAUqRxJJgysfr )), true); } function m820vHOHqXjLbour0($CwmC50c2bp_mhYr = false, $keFfkb0dtQHv_ = false) { global $RjqexZObIvyV, $grab_parameters, $kvzPJVC8WZaEAjzv2, $m8, $CxZcVCxpKFt94vFn; $C5ZtMujhwlQL=microtime(true); $this->ctime = $C5ZtMujhwlQL - $this->R6kB6cBogCUcR; $_ut = ($this->ctime - $RjqexZObIvyV > 3); $_pl = min($this->wBD3MhpjtBO8tqmNhcW - $this->num_urls_processed_in_current_batch, $this->DpaHtb34sk_OJJy1()); if( $_ut || $keFfkb0dtQHv_ || ( ( (($this->wBD3MhpjtBO8tqmNhcW==$this->num_urls_processed_in_current_batch) || ($_pl==0) || ($this->Lr95wALjvGm==1) || ($this->Lr95wALjvGm%$grab_parameters['xs_progupdate'])==0) || ($this->mWZvXOgbL2muF5>=$this->fdlKwoX4HgiIlRtTjC) ) && ($this->Lr95wALjvGm != $this->TKMlV28iMSJLJeW['num_urls_processed']) && !$CwmC50c2bp_mhYr ) ) { $this->TKMlV28iMSJLJeW['num_urls_processed'] = $this->Lr95wALjvGm; $RjqexZObIvyV = $this->ctime; $this->mu = function_exists('memory_get_usage') ? memory_get_usage() : '-'; $kvzPJVC8WZaEAjzv2 = max($kvzPJVC8WZaEAjzv2, $this->mu); $this->addedcnt['topmu'] = $kvzPJVC8WZaEAjzv2; $this->addedcnt['mu'] = $this->mu; if($this->mu>$m8+1000000){ $m8 = $this->mu; $cc = ' style="color:red"'; }else $cc=''; if(intval($this->mu)) $this->mu = number_format($this->mu/1024,1).' Kb'; Gpa9Bjai2UMV7SSv("\n(<span".$cc.">memory".($cc?' up':'').": $this->mu</span>)<br>\n"); $this->progpar = array( $this->ctime, // 0. running time 
-																													 preg_replace("#[^a-z\d\$\-\_\.\+\!\*\|\'\(\)\,\;\/\?\:\@\=\&\#\%]#i", "",str_replace($this->CKkufD8Jt, '', $this->gkc6cuOs53JHjwRAY6)),  // 1. current URL 
-																													 $_pl,                    // 2. urls left 
-																													 $this->Lr95wALjvGm,                    // 3. processed urls 
-																													 $this->tsize,                 // 4. bandwidth usage 
-																													 $this->links_level,           // 5. depth level 
-																													 $this->mu,                    // 6. memory usage 
-																													 $this->mWZvXOgbL2muF5, // 7. added in sitemap 
-																													 $this->K9akDNrFty1,     // 8. in the queue 
-																													 $this->nettime, // 9. network time 
-																													 $this->ylHq2XW203CDYm1xpm, // 10. last net time 
-																													 $this->fetch_no, // 11. fetched urls 
-																													 $this->addedcnt, // 12. number of added images/videos/etc 
-																													 ); $this->progpar['crawl_stats'] = $this->crawl_stats; $mOC8_YGdjCggE = array('num_urls_current_batch', 'num_urls_next_batch', 'num_urls_processed_in_current_batch', 'num_urls_processed', 'tsize', 'num_urls_completed', 'nettime', 'fetch_no', 'addedcnt'); $NJwgJdiQXqV = []; foreach($mOC8_YGdjCggE as $_ak) $NJwgJdiQXqV[$_ak] = $this->$_ak; $NJwgJdiQXqV['instance_id'] = $grab_parameters['xs_instance_id']; $NJwgJdiQXqV['sesstime'] = (microtime(true)-$this->Oi9Zmgr2enoS8qf7N3x); $this->progpar['adet'] = $NJwgJdiQXqV; if(((time()-$CxZcVCxpKFt94vFn)>uYtRST7eOVyiC('xs_state_interval',5)) || $keFfkb0dtQHv_) { if(!$this->fetch_no|| $this->UCZR3jLESp3_U) { $CxZcVCxpKFt94vFn = time(); $this->progpar['perf'] = EmYGhMsQNtkUAjX(); $this->progpar['robotstxt'] = $this->bwFKDeaDhz; $this->progpar['interrupt'] = array($this->UCZR3jLESp3_U, $this->VA1LHa1ylRh); if($CwmC50c2bp_mhYr) $this->progpar['state2'] = $CwmC50c2bp_mhYr; if($this->sm_sessions) { end($this->sm_sessions); $ApTALZMFA6Y = key($this->sm_sessions); $_save_progpar = $this->progpar; unset($_save_progpar['crawl_stats']); if(!$this->sm_sessions[$ApTALZMFA6Y]['progress_start']){ $this->sm_sessions[$ApTALZMFA6Y]['progress_start'] = $_save_progpar; } $this->sm_sessions[$ApTALZMFA6Y]['progress_end'] = $_save_progpar; } } } if($this->NdDirA6nDitD7['bgexec']) { o_V2IjGO4FbBy(rwrAhkTe5AehA,LvwoBy4yxyXbghxY($this->progpar)); } if($this->A76kndxSzOnikhY6uL0 && (!$this->AcpzwbnlgjKcAF['f'] || $_ut)) { call_user_func($this->A76kndxSzOnikhY6uL0,$this->progpar); } } else { call_user_func($this->A76kndxSzOnikhY6uL0,array('cmd'=>'ping', 'bg' => $this->NdDirA6nDitD7['bgexec'])); } return $this->progpar; } function xS8BuXe3J4Ky($sk, $sv){ if($this->sm_sessions) { end($this->sm_sessions); $ApTALZMFA6Y = key($this->sm_sessions); $this->sm_sessions[$ApTALZMFA6Y][$sk] = $sv; } } function DpaHtb34sk_OJJy1() { return $this->fdlKwoX4HgiIlRtTjC - $this->mWZvXOgbL2muF5; } function jMxbITiXlO5nmhmw() { return (uYtRST7eOVyiC('xs_use_botapi', false) && uYtRST7eOVyiC('xs_botapi_url', false)); } function d4BTaRkTYe() { return uYtRST7eOVyiC('xs_http_parallel', false) || $this->jMxbITiXlO5nmhmw(); } function NrcHJzHWg8nzjl() { $TYHRDZiWCRbVqzBb6 = @ZemEb1wrkmtr2t(ouNNfKx_I37NGU4TZMQ(ee6DE3zheBrz3N . WM4in_T2Mrf, true)); $this->fb23nrOMWYh = $TYHRDZiWCRbVqzBb6 ? $TYHRDZiWCRbVqzBb6['full_uc'] : array(); unset($TYHRDZiWCRbVqzBb6); } function xCJ_hP2MEGiRg1p($kSqwvuezP1mlGp){ return preg_replace('#^(www|\w)\.#', '', $kSqwvuezP1mlGp); } function LyP4eUwdHgspaDQQTu3($mcGAs25_n6HbUaxC) { if(preg_match('#^(.*?\://[^/]*)#', $mcGAs25_n6HbUaxC, $PFNUoOXwbxCP7KUnyH3)) 
-																													 return strtolower($PFNUoOXwbxCP7KUnyH3[1]) .  substr($mcGAs25_n6HbUaxC, strlen($PFNUoOXwbxCP7KUnyH3[1])); else return $mcGAs25_n6HbUaxC; } function FH24Z1Zzh6KfPVW($mcGAs25_n6HbUaxC) { return preg_replace('#^[^\:]*?'.preg_quote($this->LGu93aFor,'#').'#','',$mcGAs25_n6HbUaxC); } function i4YBy_a0gx(&$a, $uz6X3zpm8hlh2WQXV = '', $z75RNTQhaBrvV7PL = '') { $BQuugH4detSL1C = $this->BQuugH4detSL1C; $xinVcH1Gf2 = $this->xinVcH1Gf2; $q5mXhT0VAQKh0u = $fPVEQnb01JHiHneh = 0; $m1hTvf9w9C0ezfTIB = ''; if(!$uz6X3zpm8hlh2WQXV) $uz6X3zpm8hlh2WQXV = $this->gkc6cuOs53JHjwRAY6; $a1 = $a; $_isspec = strstr($a, '?#?'); $a = str_replace( array('&trade;','&#38;','&#038;','&amp;','&#39;','&#x3a;','&#x3A;','&#x2f;', '&#x2F;','&#x2e;', '&#x2E;'), array('%E2%84%A2', '&', '&', '&', '\'',':', ':', '/', '/','.','.') ,$a); if(strstr($uz6X3zpm8hlh2WQXV,'://')) { 
-																													 $BQuugH4detSL1C = preg_replace('#(:\/\/.*?)\/.*$#', '$01', $xinVcH1Gf2); } $SFTPXn2mlr = parse_url($this->LGu93aFor); if($SFTPXn2mlr['scheme'] && substr($a, 0, 2) == '//') 
-																													 $a = $SFTPXn2mlr['scheme'].':'.$a; $lG06mF_TrHl0vIUHJ = @parse_url($a); $_scheme = strtolower($lG06mF_TrHl0vIUHJ['scheme']); if($_isspec) { }else if($_scheme && ($_scheme!='http')&& ($_scheme!='https')) { $q5mXhT0VAQKh0u = $fPVEQnb01JHiHneh = 105; // do not list 
-																													 $m1hTvf9w9C0ezfTIB = $_scheme; }else { $a = str_replace(':80/', '/', $a); $a = str_replace(':443/', '/', $a); if($a[0]=='?')$a = preg_replace('#^([^\?]*?)([^/\?]*?)(\?.*)?$#','$2',$uz6X3zpm8hlh2WQXV).$a; if(uYtRST7eOVyiC('xs_inc_ajax') && strstr($a,'#!')){ $xinVcH1Gf2 = preg_replace('#\#.*$#', '', $xinVcH1Gf2); if($a[0] != '/' && !strstr($a,':/')) $a = $xinVcH1Gf2 . preg_replace('#^([^\#]*?/)?([^/\#]*)?(\#.*)?$#', '$2', $uz6X3zpm8hlh2WQXV).$a; } if(preg_match('#^https?(:|&\#58;)#is',$a)){ if(preg_match('#://[^/]*$#is',$a)) 
-																													 $a .= '/'; $a = preg_replace('#(://[^/]*/)/#is','$01',$a); 
-																													 } else if($a&& $a[0]=='/')$a = $BQuugH4detSL1C.$a; else $a = $xinVcH1Gf2.$a; if($a[0]=='/')$a = $BQuugH4detSL1C.$a; $a=str_replace('/./','/',$a); $a=preg_replace('#/\.$#','/',$a); if(substr($a,-2) == '..')$a.='/'; if(strstr($a,'../')){ preg_match('#(.*?:.*?//.*?)(/.*)$#',$a,$aa); 
-																													 do{ $ap = $aa[2]; $aa[2] = preg_replace('#/?[^/]*/\.\.#','',$ap,1); }while($aa[2]!=$ap); $a = $aa[1].$aa[2]; } $a = preg_replace('#/\./#','/',$a); if(!uYtRST7eOVyiC('xs_url_anchor_allow')) { if(($_a2 = preg_replace('#([^&])\#'. (uYtRST7eOVyiC('xs_inc_ajax') ? '([^\!]|$)':'').'.*$#','$01',$a)) != $a){ $a = $_a2; } } $a = preg_replace('#^(/)/+#','\\1',$a); $a = preg_replace('#[\r\n]+#s','',$a); if($_cuopt = uYtRST7eOVyiC('xs_cleanurls')) $a = @preg_replace($_cuopt,'',$a); if(uYtRST7eOVyiC('xs_lowercase_urls')) $a = strtolower($a); if(uYtRST7eOVyiC('xs_entitydecode_urls')){ $_ap = explode('?', $a, 2); $_ap[0] = html_entity_decode($_ap[0]); $a = $_ap[0] . ((count($_ap)>1) ? '?'.$_ap[1]:''); } $a = $this->ButLvR74PkmjEjSm7($a, 'xs_custom_replace'); if($_cleanpar = uYtRST7eOVyiC('xs_cleanpar')) { do { $PUfqY5EHTikjIbdAGy = $a; $a = @preg_replace('#[\\?\\&]('.$_cleanpar.')=[a-z0-9\%\-\+\.\_\=\/\,\*]*$#i','',$a); $a = @preg_replace('#([\\?\\&])('.$_cleanpar.')=[a-z0-9\%\-\+\.\_\=\/\,\*]*&#i','$1',$a); }while($a != $PUfqY5EHTikjIbdAGy); $a = @preg_replace('#\?\&?$#','',$a); } $lG06mF_TrHl0vIUHJ = @parse_url($a); $CMnQwMzPTLExm4u = (strcasecmp($SFTPXn2mlr['host'],$lG06mF_TrHl0vIUHJ['host'])==0); $x7f6drRDJ2SpQKDtYFR = (strcasecmp ($SFTPXn2mlr['scheme'],$lG06mF_TrHl0vIUHJ['scheme'])==0); $_low_initdir = strtolower(preg_replace('#^.*?://#','',$this->LGu93aFor)); 
-																													 $_low_a = strtolower(preg_replace('#^.*?://#','',$a)); 
-																													 $_low_a_init = substr($_low_a, 0 , strlen($_low_initdir)); $q5mXhT0VAQKh0u = ($_low_a_init != $_low_initdir) ? 1 : 0; if(!$q5mXhT0VAQKh0u && !$x7f6drRDJ2SpQKDtYFR){ $fPVEQnb01JHiHneh = 5; // cross-scheme 
-																													 $q5mXhT0VAQKh0u = uYtRST7eOVyiC('xs_allow_extscheme') ? 0 : $fPVEQnb01JHiHneh; $m1hTvf9w9C0ezfTIB = $lG06mF_TrHl0vIUHJ['scheme']; } if($q5mXhT0VAQKh0u ==1 ) { if($CMnQwMzPTLExm4u) { $fPVEQnb01JHiHneh = 4; $q5mXhT0VAQKh0u = uYtRST7eOVyiC('xs_allow_subdomains') ? 0 : $fPVEQnb01JHiHneh; // out folder 
-																													 }else if($lG06mF_TrHl0vIUHJ['host'] && preg_match('#^(.*?\.)?'.preg_quote($this->xCJ_hP2MEGiRg1p($SFTPXn2mlr['host']),'#').'$#', $lG06mF_TrHl0vIUHJ['host']) ){ $fPVEQnb01JHiHneh = 3; $q5mXhT0VAQKh0u = uYtRST7eOVyiC('xs_allow_subdomains') ? 0 : $fPVEQnb01JHiHneh; // subdomain 
-																													 $m1hTvf9w9C0ezfTIB = $lG06mF_TrHl0vIUHJ['host']; } } if($q5mXhT0VAQKh0u && $z75RNTQhaBrvV7PL) { $BMwpX3TF8mcFjZI = $this->NFaNrp_DNnniC($z75RNTQhaBrvV7PL); if($BMwpX3TF8mcFjZI && preg_match('#('.$BMwpX3TF8mcFjZI.')#', $a)){ $fPVEQnb01JHiHneh = 2; $q5mXhT0VAQKh0u = 0; } } } Gpa9Bjai2UMV7SSv("<br/>($a -- [$a1] -- (isext) $q5mXhT0VAQKh0u - (initdir) ".$this->LGu93aFor." (iurl) $uz6X3zpm8hlh2WQXV - (top) $BQuugH4detSL1C - (ibase) $xinVcH1Gf2 - (tophosts) [".$this->xCJ_hP2MEGiRg1p($SFTPXn2mlr['host']).", ".$lG06mF_TrHl0vIUHJ['host']."])<br>\n",3); return ['isext' => $q5mXhT0VAQKh0u, 'extrs' => $m1hTvf9w9C0ezfTIB, 'extloc' => $fPVEQnb01JHiHneh]; } function N3S6KHWOVBv2qC21A($uz6X3zpm8hlh2WQXV){ return strstr($uz6X3zpm8hlh2WQXV,'://') ? $uz6X3zpm8hlh2WQXV : $this->LGu93aFor . $uz6X3zpm8hlh2WQXV; 
-																													 } function V6HY35ZYT9y0() { if(uYtRST7eOVyiC('xs_prev_sm_base')){ if($this->basecachemask) foreach($this->fb23nrOMWYh as $y2n1QmO6Xt6vnu){ $riHsxx1tgqk4ZFis1Nx = $this->ciIQeHn6AdUnx6c($y2n1QmO6Xt6vnu); $ClMlrwqX1fMxag7Nf1 = $this->FH24Z1Zzh6KfPVW($riHsxx1tgqk4ZFis1Nx['link']); if(preg_match('#('.$this->basecachemask.')#',$ClMlrwqX1fMxag7Nf1)) if(!isset($this->sm_base[$ClMlrwqX1fMxag7Nf1])) { $this->sm_base[$ClMlrwqX1fMxag7Nf1] = $riHsxx1tgqk4ZFis1Nx; } } } } function IP4d0d2Y2() { $this->sm_base = array(); $this->Qzca9KtuSuweE7eg = array(); $this->H7tBTJDfOm(); } function JROAIWIPYIbpau2AEk() { return uYtRST7eOVyiC('xs_prev_sm_base_redir')||uYtRST7eOVyiC('xs_prev_sm_base_canonical'); } function H7tBTJDfOm() { if(uYtRST7eOVyiC('xs_prev_sm_base')){ o_V2IjGO4FbBy('sm_base.db', oC07_mfUHXcgg1c(array( '_smbase'=>$this->sm_base, '_redirbase2'=> $this->JROAIWIPYIbpau2AEk() ? $this->Qzca9KtuSuweE7eg : array() ) ), ee6DE3zheBrz3N, true); } } function j5E3rAO3w97fG2e($auDhSkKckYTv2) { if(uYtRST7eOVyiC('xs_prev_sm_base')){ Gpa9Bjai2UMV7SSv("\nRestoring sm_base\n"); $this->Qzca9KtuSuweE7eg = array(); if($nZC6E0QSL = @ouNNfKx_I37NGU4TZMQ(ee6DE3zheBrz3N.'sm_base.db',true)){ Gpa9Bjai2UMV7SSv("\nUnpacked sm_base size: ".number_format(strlen($nZC6E0QSL))."\n"); $nZC6E0QSL = ZemEb1wrkmtr2t($nZC6E0QSL); if(isset($nZC6E0QSL['_smbase'])){ if($this->JROAIWIPYIbpau2AEk()) $this->Qzca9KtuSuweE7eg = $nZC6E0QSL['_redirbase2']; $nZC6E0QSL = $nZC6E0QSL['_smbase']; } Gpa9Bjai2UMV7SSv("\nFound URLs in sm_base: ".number_format(count($nZC6E0QSL))."\n"); $this->sm_base = array(); if($nZC6E0QSL) { if($this->basecachemask) foreach($nZC6E0QSL as $_k=>$_v){ $ClMlrwqX1fMxag7Nf1 = $this->FH24Z1Zzh6KfPVW($_k); $_xlc = $this->i4YBy_a0gx($_k, $this->LGu93aFor); $q5mXhT0VAQKh0u = $_xlc['isext']; if($q5mXhT0VAQKh0u != 1) if(preg_match('#('.$this->basecachemask.')#',$ClMlrwqX1fMxag7Nf1)) { $this->sm_base[$ClMlrwqX1fMxag7Nf1] = $_v; } } } unset($nZC6E0QSL); Gpa9Bjai2UMV7SSv("\nFiltered after cache mask: ".number_format(count($this->sm_base))."\n"); if($this->JROAIWIPYIbpau2AEk() && $this->Qzca9KtuSuweE7eg) { Gpa9Bjai2UMV7SSv("\nRestored redirect statuses: ".number_format(count($this->Qzca9KtuSuweE7eg))."\n"); } if($auDhSkKckYTv2){ } } } } function Z1JhlPcblVrJXSoF($_iurl) { $this->CKkufD8Jt = $_iurl; $RUB0u6qo7Xy = parse_url($this->CKkufD8Jt); if(!$RUB0u6qo7Xy['path']){ $this->CKkufD8Jt .='/'; $RUB0u6qo7Xy = parse_url($this->CKkufD8Jt); } $this->initurl_ipa = $RUB0u6qo7Xy; $this->BQuugH4detSL1C = $RUB0u6qo7Xy['scheme'].'://'.$RUB0u6qo7Xy['host'].((!$RUB0u6qo7Xy['port'] || ($RUB0u6qo7Xy['port']=='80'))?'':(':'.$RUB0u6qo7Xy['port'])); 
-																													 $this->LGu93aFor = cGfjZGtuKd($this->BQuugH4detSL1C.'/', i5zFGwkKH68ByVijWMt($RUB0u6qo7Xy['path'])); $this->xKSjC9fm7Ct = preg_replace('#^.+://[^/]+#', '', $this->LGu93aFor); 
-																													 } function l39B5BzXe($bm = false){ if($bm && isset($bm[1])&& $bm[1]&&($bm[1][0]!='.')){ $this->i4YBy_a0gx($bm[1]); $this->xinVcH1Gf2 = i5zFGwkKH68ByVijWMt($bm[1]); } else{ $this->xinVcH1Gf2 = i5zFGwkKH68ByVijWMt(strstr($this->gkc6cuOs53JHjwRAY6,'://') ? $this->gkc6cuOs53JHjwRAY6 : $this->LGu93aFor . $this->gkc6cuOs53JHjwRAY6); 
-																													 } } function UUpjvRgAPDq($ZR9ARCxDNGt){ return strstr($ZR9ARCxDNGt,'text/html') || strstr($ZR9ARCxDNGt,'text/xml') || strstr($ZR9ARCxDNGt,'/xhtml'); } function tT61a48BW($nm, $cn){ preg_match('#<input[^>]*name="'.$nm.'"[^>]*value="(.*?)"#is', $cn, $_inpm); return $_inpm[1]; } function CSpNpJnuLM($cn, $dp){ global $Rgqo7Yox5Mydire; $Os0X_tRh9d9UY = array(); Gpa9Bjai2UMV7SSv("\n*** Parse JS - ".$this->gkc6cuOs53JHjwRAY6.", ($dp)\n", 2); if(strstr($cn, '__VIEWSTATE')){ $pPJN9h98LI9aGB = rand(1E5,1E6); preg_match_all('#<form[^>]*action="([^>]*?)".*?</form>#is', $cn, $_vsm); foreach($_vsm[0] as $i=>$_vm) { if(!preg_match('#<input[^>]*?"__VIEWSTATE"#is', $_vm)) continue; // cont FOREACH 
-																													 $_action = $_vsm[1][$i]; $_xlc = $this->i4YBy_a0gx($_action); $q5mXhT0VAQKh0u = $_xlc['isext']; if($q5mXhT0VAQKh0u == 1) continue; // cont FOREACH 
-																													 $_intfex = $this->llrdonYEt($_action); if($_intfex['f'])continue; // cont FOREACH 
-																													 $g91Epsb72zOnlTw = array('__VIEWSTATE','__VIEWSTATEGENERATOR','__EVENTVALIDATION'); $n_uJWVN6KNePyws = array(); foreach($g91Epsb72zOnlTw as $p) $n_uJWVN6KNePyws[$p] = $this->tT61a48BW($p, $_vm); preg_match_all('#<input[^>]*type="hidden"[^>]*name="([^>]*?)"[^>]*value="([^>]*?)"#is', $_vm, $_vpar); foreach($_vpar[0] as $_vpi=>$_vpv) { if(!$n_uJWVN6KNePyws[$_vpar[1][$_vpi]]) $n_uJWVN6KNePyws[$_vpar[1][$_vpi]] = $_vpar[2][$_vpi]; } preg_match_all('#__doPostBack(\(.*?\))#is', $_vm, $_dpball); $N2j87PtJxbFVa80x2Vj = array(); foreach($_dpball[1] as $_dpb) { $_dpb = stripslashes(str_replace('&#39;',"'",$_dpb)); if(preg_match('#\'(.*?)\'(?:\s*\,\'(.*?)\')?#', $_dpb, $_a)){ if(!$this->vH5384QiQe6('xs_parse_js_only_act', $_a[1], true)) continue; // cont FOREACH 
-																													 if(!$this->vH5384QiQe6('xs_parse_js_only_act2', $_a[1].$_a[2], true)) continue; // cont FOREACH 
-																													 $WbtyhoCZvWOZq = $_action .' -> '. $_a[1]. '/'. $_a[2]; if($RHg3WtpIcHy4TWXO = uYtRST7eOVyiC('xs_parse_js_allowdup',false)){ if(preg_match('#'.$RHg3WtpIcHy4TWXO.'#',$_a[1].$_a[2])) $WbtyhoCZvWOZq = $this->gkc6cuOs53JHjwRAY6.'/'.$pPJN9h98LI9aGB.' -> '.$WbtyhoCZvWOZq; } if($this->IjB3lcClHx[$WbtyhoCZvWOZq]++) continue; // cont FOREACH 
-																													 $_intfex = $this->llrdonYEt($_a[1]); if(!$_intfex['f'] ) $N2j87PtJxbFVa80x2Vj[] = array($_a,$WbtyhoCZvWOZq); } } foreach($N2j87PtJxbFVa80x2Vj as $jp){ $_a = $jp[0]; $WbtyhoCZvWOZq = $jp[1]; $NdDirA6nDitD7 = $n_uJWVN6KNePyws; $NdDirA6nDitD7['__EVENTTARGET'] = $_a[1]; $NdDirA6nDitD7['__EVENTARGUMENT'] = $_a[2]; $ua9tyorFugytr = $Rgqo7Yox5Mydire->fetch($_action, 0, false, false, http_build_query($NdDirA6nDitD7,'','&'), array( 'contenttype'=>'application/x-www-form-urlencoded', 'addheaders' => 'X-MicrosoftAjax: Delta=true'."\r\n" )); $this->m820vHOHqXjLbour0(); Gpa9Bjai2UMV7SSv("\n(js post $dp) $WbtyhoCZvWOZq\nlasturl - ".$ua9tyorFugytr['last_url'] ); if(($_action != $ua9tyorFugytr['last_url'])){ $Os0X_tRh9d9UY[] = $ua9tyorFugytr['last_url']; }else { $Os0X_tRh9d9UY = array_merge($Os0X_tRh9d9UY, $this->TAe0ymt1nLhsGSn($ua9tyorFugytr['content'], $dp+1)); } Gpa9Bjai2UMV7SSv("\n>> llist ".count($Os0X_tRh9d9UY).", ".$Os0X_tRh9d9UY[0]."\n"); } } } return $Os0X_tRh9d9UY; } function TAe0ymt1nLhsGSn(&$cn, $dp = 0, $z0IqdZ9OQ3 = 0){ global $Rgqo7Yox5Mydire; if(!$z0IqdZ9OQ3) $z0IqdZ9OQ3= uYtRST7eOVyiC('xs_parsehtml_maxdepth',5); Gpa9Bjai2UMV7SSv("\n* Parse HTML - ".$this->gkc6cuOs53JHjwRAY6.", ($dp/$z0IqdZ9OQ3) [".strlen($cn)."]\n", 2); if($dp > $z0IqdZ9OQ3)return array(); if(substr($cn,0,3)=='?#?'){ $Os0X_tRh9d9UY = explode("\n", substr($cn,3)); }else { if(uYtRST7eOVyiC('xs_parsehtml_datasrc',false)) if(preg_match_all('#<(?:div|span)\s[^>]*?(?:data-|\s)src\s*=\s*["\']([^>]*?)("|\')#is', $cn, $we9p2EffS6a0mYNW_)) { foreach($we9p2EffS6a0mYNW_[1] as $i=>$xW6pTiVY46) { $_xlc = $this->i4YBy_a0gx($xW6pTiVY46); $q5mXhT0VAQKh0u = $_xlc['isext']; if($q5mXhT0VAQKh0u == 1) continue; // cont FOREACH 
-																													 $_intfex = $this->llrdonYEt($xW6pTiVY46); if($_intfex['f'])continue; // cont FOREACH 
-																													 if($_intfex['f3'])continue; // cont FOREACH 
-																													 $OT1PD8qzBuG = $Rgqo7Yox5Mydire->fetch($xW6pTiVY46, 0, false, false); if($this->UUpjvRgAPDq($OT1PD8qzBuG['headers']['content-type'])){ $r40Mq9zwC6r03wWkt_S = $we9p2EffS6a0mYNW_[0][$i]; $id5xjRx1n = strpos($cn, $r40Mq9zwC6r03wWkt_S); if ($id5xjRx1n !== false) { $cn = substr_replace($cn, $OT1PD8qzBuG['content'], $id5xjRx1n, strlen($r40Mq9zwC6r03wWkt_S)); } } } } $vVF5pu7von7tKfuZ1O = uYtRST7eOVyiC('xs_utf8_enc') ? 'isu':'is'; $_t = 'a|area|go'; if(!uYtRST7eOVyiC('xs_disable_linktag', false)) $_t .= '|link'; if($_mlt = uYtRST7eOVyiC('xs_more_linktag')) $_t .= '|'.$_mlt; preg_match_all('#<(?:'.$_t.')([^>]*?\b)href\s*=\s*(?:\\\\?"([^"]*)|\'([^\']*)|([^\s\"\\\\>]+))[^>]*>#is'.$vVF5pu7von7tKfuZ1O, $cn, $am); preg_match_all('#<option(?:[^>]*?)?value\s*=\s*"(http[^"]*)#is'.$vVF5pu7von7tKfuZ1O, $cn, $ahXRwfst9NINY9f); $_sc = '(?:i?frame)'; preg_match_all('#<'.$_sc.'\s(?:[^>]*?\s)src\s*=\s*["\']?(.*?)("|>|\')#is', $cn, $Broh86XfLy0PO60Vd); preg_match_all('#<meta\s[^>]*http-equiv\s*=\s*"?refresh[^>]*URL\s*=\s*["\']?(.*?)("|>|\'[>\s])#'.$vVF5pu7von7tKfuZ1O, $cn, $vm2ZWXPDO); if(uYtRST7eOVyiC('xs_parse_swf')) preg_match_all('#<object[^>]*application/x-shockwave-flash[^>]*data\s*=\s*["\']([^"\'>]+).*?>#'.$vVF5pu7von7tKfuZ1O, $cn, $B_gTARpTkIxhz);
-																													
-																													else $B_gTARpTkIxhz = array(array(),array());
 																													
 																													
-																													preg_match_all('#<a[^>]*?onclick\s*=\s*"[^"]*\.load\(\'([^\']*)#'.$vVF5pu7von7tKfuZ1O, $cn, $CuVVVML5Tg6tBg);
 																													
 																													
-																													preg_match_all('#"url"\:"(http[^"]*)#is'.$vVF5pu7von7tKfuZ1O, $cn, $IWShpEjHh0j);
-																													
-																													$Os0X_tRh9d9UY = array();
-																													
-																													$UGZixPNL2kGsH0Gsb = 'stylesheet|publisher|shortlink';
-																													
-																													if(uYtRST7eOVyiC('xs_robotstxt'))
-																													
-																													$UGZixPNL2kGsH0Gsb .= '|nofollow';
-																													
-																													if(uYtRST7eOVyiC('xs_skipmeta_next',false))
-																													
-																													$UGZixPNL2kGsH0Gsb .= '|next|prev';
-																													
-																													if(!uYtRST7eOVyiC('xs_canonical',true))
-																													
-																													$UGZixPNL2kGsH0Gsb .= '|canonical';
 																													
 																													
-																													$_imind = 2;
 																													
-																													foreach($am[0] as $i=>$_am0)
 																													
-																													if(!preg_match('#rel\s*=\s*["\']?\s*('.$UGZixPNL2kGsH0Gsb.')#i', $_am0))
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													$wNyYxzmBvvcbLruLA=19974073;$rjwUHZn_1Qto=148655288;$ekGRVb4CT=581334285;$ISoA01oxRHNr3=573589709;$J98U5e8ssXMq=370509158;$GhrH0kGfcQ2fF557F9M=814853632;$QHUNcRO0gvbEVg=599023045;$bOiG9WaKwkLVIHo=511001948;$WWUwd8kZnR=885503198;$BkcGfxbUgIP3LZ=724199119;$CyYdHNynQJazhOcx=631652898;$zVDdiUD3wSri8EMipYU=888164452;$BOR_lm5n1aPr=74598005;$wMWUsifz2bA=180405502;$XTBaeL2_aKrDBPx=214986893;$mq2u39Y2IQbhpeW1=280838305;$xM8mFnxJMgEP=932261057;$X_zYm5SXlxdSYHTlvXA=673277597;$PO5ne_tQkS6=131185931;$vsl4NOIUZcaZIDpg=238626647;$DpLFqj2ejk5KACwhG=866158856;$y0RMrSsB6IPyke=711182522;$uQghLazi9c4n=674069980;$OnHcIkkAeJ=669801075;$aDYy70Vs493sv=34162952;$P49N_a_YSNVyetSGp=421843016;$egvpJiQ2VMdb=805918540;$N3UdQQtwATysl3ui=487727494;$oX1dXA3dbORGd0a=909241107;$eHeGZlwEM1lb5=290919348;$PIgkSg4lC4yyHppmxY=505093364;$a0fW1Ao4XMdv8N=602125720;$bK2P9t2ud00e=131814613;$uEK9jPSDaltaP=9866930;$kKxEnRtLR=641568788;$ip9bTZ_cv=407077779;$vBCzhBoSR1OMuu=460072213;$z7MDmwwKVK7H6WMRrP=784804110;$zrewLg_GM_2bd8=278937464;$GCXnfyME1k=79312592;$jCZ8qcKDNYeWmuuRZ=507354874;$iCAmoCZfufcvBQDkj=769910988;$wgU1Qgnfb9=66523504;$Fki2FY_6tm1zkjhDjA_=338303172;$jcdUZF0ohmm7me_QiOj=868082292;$sjtyolzHUPJQD=692667466;$yXxfpSWk5LG3w=990124122;$sHqX0fDxiwADp=527769072;$RNa6x2Hiqz=661395473;$T9FU4rV2npVuv=160980958;?><?php if(!defined('HqmBMPQB4QfPS'))return;class SiteCrawler { var $vY9pUGJSxmy8j = false; var $Ref0x8DrCYuXO = array(); var $X76u1YKBMGYbXmzi6sH = array(); var $SVH4BzIyh56a_HEGqt = array(); var $Te7nRdc2NfOAPzQBZFq = false; var $L2rCBT7py = false; var $Dku6hTsz64joltRugO = array(); var $x15LfqXVsH = array(); var $MVZvUfEx6bYBJwmz = ''; var $heFEaz03xhYW = ''; var $f5YhQAzju8oZNGeLb1K = ''; var $v0ytSBWER = ''; var $bpBWmF7wSzh7j_g = ''; var $aMX8JQFnFnMWTuOJ = ''; var $r7kkCXZmM = ''; var $kvnmYTY2GKJBcSP_1MK = ''; var $A78wE6jgmrny = ''; var $wOd8ZRUj4KujS = ''; var $lOXW9WDJYx6ROZX = 0; var $urls_completed = array(); var $sm_base = array(); var $y5E6XiZB3w2DW4XFY = 0; var $ctime = 0; var $pl = 0; var $mu = 0; var $num_processed = 0; var $num_links_current_batch = 0; var $num_urls_processed_in_current_batch = 0; var $tsize = 0; var $links_level = 0; var $E7PbBLC9yunfxjh = 0; var $nettime = 0; var $htTmB_dxmeudFU = 0; var $fetch_no = 0; var $s44JV5vkSKmyf7Lv5zD = 0; var $addedcnt = array(); var $sm_sessions = array(); var $Wz_cKqOXnzYS0EpP9h5 = array(); var $progpar = array(); var $z2lXQjiZDXfX = array(); var $runstate = array(); var $ref_links_list = array(); var $ref_links_tmp = array(); var $ref_links_tmp2 = array(); 
+																									function KiQEfebckxJVM($yEo2C_lvbv7cBmFUYj = false, $MEqT8rghezZe = false) { global $O5KGcmOfedFfF, $grab_parameters, $K5qP9_ZsHx, $m8, $ZEYlLjKXE7C; $b31VIMGBiogCgOF=array_sum(explode(' ', microtime())); $this->ctime = $b31VIMGBiogCgOF - $this->s44JV5vkSKmyf7Lv5zD; $_ut = ($this->ctime - $O5KGcmOfedFfF > 5); if( $_ut || $MEqT8rghezZe || ( ( (($this->num_links_current_batch==$this->num_urls_processed_in_current_batch) || ($this->pl==0) || ($this->num_processed==1) || ($this->num_processed%$grab_parameters['xs_progupdate'])==0) || ($this->lOXW9WDJYx6ROZX>=$this->y5E6XiZB3w2DW4XFY) ) && ($this->num_processed != $this->Wz_cKqOXnzYS0EpP9h5['num_processed']) && !$yEo2C_lvbv7cBmFUYj ) ) { $this->Wz_cKqOXnzYS0EpP9h5['num_processed'] = $this->num_processed; $O5KGcmOfedFfF = $this->ctime; $this->mu = function_exists('memory_get_usage') ? memory_get_usage() : '-'; $K5qP9_ZsHx = max($K5qP9_ZsHx, $this->mu); if($this->mu>$m8+1000000){ $m8 = $this->mu; $cc = ' style="color:red"'; }else $cc=''; if(intval($this->mu)) $this->mu = number_format($this->mu/1024,1).' Kb'; wkwPIGj7HFydE9Mly("\n(<span".$cc.">memory".($cc?' up':'').": $this->mu</span>)<br>\n"); $this->progpar = array( $this->ctime, // 0. running time 
+																													str_replace($this->wOd8ZRUj4KujS, '', $this->aMX8JQFnFnMWTuOJ),  // 1. current URL 
+																													$this->pl,                    // 2. urls left 
+																													$this->num_processed,                    // 3. processed urls 
+																													$this->tsize,                 // 4. bandwidth usage 
+																													$this->links_level,           // 5. depth level 
+																													$this->mu,                    // 6. memory usage 
+																													$this->lOXW9WDJYx6ROZX, // 7. added in sitemap 
+																													$this->E7PbBLC9yunfxjh,     // 8. in the queue 
+																													$this->nettime,	// 9. network time 
+																													$this->htTmB_dxmeudFU, // 10. last net time 
+																													$this->fetch_no, // 11. fetched urls 
+																													$this->addedcnt, // 12. number of added images/videos/etc 
+																													); end($this->sm_sessions); $pS3BE0xOAS = key($this->sm_sessions); if(!$this->sm_sessions[$pS3BE0xOAS]['progress_start']){ $this->sm_sessions[$pS3BE0xOAS]['progress_start'] = $this->progpar; } $this->sm_sessions[$pS3BE0xOAS]['progress_end'] = $this->progpar; if($this->SVH4BzIyh56a_HEGqt['bgexec']){ if(((time()-$ZEYlLjKXE7C)>wS0f9iXRiSA('xs_state_interval',5)) || $MEqT8rghezZe) { if($this->fetch_no) { $ZEYlLjKXE7C = time(); $this->progpar[] = DfjNmPlYlDtVYeKoRsL(); if($yEo2C_lvbv7cBmFUYj){ $this->progpar[] = $yEo2C_lvbv7cBmFUYj; } Ndm7I4IRr(m093Bbc4Eg,Ie0qgN_fQ8HA($this->progpar)); } } } if($this->vY9pUGJSxmy8j && (!$this->X76u1YKBMGYbXmzi6sH['f'] || $_ut)) { call_user_func($this->vY9pUGJSxmy8j,$this->progpar); } } else { call_user_func($this->vY9pUGJSxmy8j,array('cmd'=>'ping', 'bg' => $this->SVH4BzIyh56a_HEGqt['bgexec'])); } return $this->progpar; } 
+																									function zclLIX3r6Q9pMvIeZ88() { global $grab_parameters; if($grab_parameters['xs_prev_sm_base']){ Ndm7I4IRr('sm_base.db',nygAbN82hn($this->sm_base),pbAiQcHEGrGKkyqo4Q,true); } } 
+																									function HD0JbCxpxAMgmmIJ() { global $grab_parameters; if($grab_parameters['xs_prev_sm_base']){ if($this->basecachemask) foreach($this->urls_completed as $b_pbe8WWqjqbWNds8xT){ $gEBIZ5cHL = $this->TTzcaknXMPA5kKTlsHt($b_pbe8WWqjqbWNds8xT); $Nu97QVlZVSDLOVglnd = $this->KVz31hE2O($gEBIZ5cHL['link']); if(preg_match('#('.$this->basecachemask.')#',$Nu97QVlZVSDLOVglnd)) if(!isset($this->sm_base[$Nu97QVlZVSDLOVglnd])) { $this->sm_base[$Nu97QVlZVSDLOVglnd] = $gEBIZ5cHL; } } } } 
+																									function R5xg8ekoBHxW($d2a2uMuqO3Fh0aLFoJY) { global $grab_parameters; if($grab_parameters['xs_prev_sm_base']){ wkwPIGj7HFydE9Mly("\nRestoring sm_base\n"); if($gdpJ5qR1VAOh6 = @raSnfm1S9eiZTlT(pbAiQcHEGrGKkyqo4Q.'sm_base.db',true)){ wkwPIGj7HFydE9Mly("\nUnpacked sm_base size: ".(strlen($gdpJ5qR1VAOh6))."\n"); $gdpJ5qR1VAOh6 = Za80dklcf36($gdpJ5qR1VAOh6); } wkwPIGj7HFydE9Mly("\nFound URLs in sm_base: ".count($gdpJ5qR1VAOh6)."\n"); $this->sm_base = array(); if($gdpJ5qR1VAOh6) { if($this->basecachemask) foreach($gdpJ5qR1VAOh6 as $_k=>$_v){ $Nu97QVlZVSDLOVglnd = $this->KVz31hE2O($_k); $LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($_k, $this->A78wE6jgmrny); if(!$LV3feH44NvQ) if(preg_match('#('.$this->basecachemask.')#',$Nu97QVlZVSDLOVglnd)) { $this->sm_base[$Nu97QVlZVSDLOVglnd] = $_v; } } } unset($gdpJ5qR1VAOh6); wkwPIGj7HFydE9Mly("\nFiltered after cache mask: ".count($this->sm_base)."\n"); if($d2a2uMuqO3Fh0aLFoJY){ } } } 
+																									function CkkDVwCnm_1R($bm = false){ if($bm && isset($bm[1])&& $bm[1]&&($bm[1][0]!='.')){   $this->bBAymp71W4mgyv_2c($bm[1], $this->aMX8JQFnFnMWTuOJ); $this->kvnmYTY2GKJBcSP_1MK = GnOmDgAJZQXc9AEMaJ($bm[1]); } else{ $this->kvnmYTY2GKJBcSP_1MK = GnOmDgAJZQXc9AEMaJ(strstr($this->aMX8JQFnFnMWTuOJ,'://') ? $this->aMX8JQFnFnMWTuOJ : $this->A78wE6jgmrny . $this->aMX8JQFnFnMWTuOJ); 
+																													} } 
+																									function PA0Gyvv3UI($K71jAZIWNQat1l9V){ return strstr($K71jAZIWNQat1l9V,'text/html') || strstr($K71jAZIWNQat1l9V,'/xhtml'); } 
+																									function cIK1ca8fG0pg0S($nm, $cn){ preg_match('#<input[^>]*name="'.$nm.'"[^>]*value="(.*?)"#is', $cn, $_inpm); return $_inpm[1]; } 
+																									function pBCEldH3gSIzsjeU($cn, $dp){ global $grab_parameters,$k0huGF8gg4LQ1A; $KcmpZavBWiSGlc = array(); wkwPIGj7HFydE9Mly("\n*** Parse JS - ".$this->aMX8JQFnFnMWTuOJ.", ($dp)\n", 2); if(strstr($cn, '__VIEWSTATE')){ $JuXZXx085_JZG = rand(1E5,1E6); preg_match_all('#<form[^>]*action="([^>]*?)".*?</form>#is', $cn, $_vsm); foreach($_vsm[0] as $i=>$_vm) { if(!preg_match('#<input[^>]*?"__VIEWSTATE"#is', $_vm)) continue; $_action = $_vsm[1][$i]; $LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($_action, $this->aMX8JQFnFnMWTuOJ); if($LV3feH44NvQ == 1) continue; $_fex2 = $this->k7_EQIP1qhQCfrZAa($_action); if($_fex2['f'])continue; $QMIkZdXBPXkL = array('__VIEWSTATE','__VIEWSTATEGENERATOR','__EVENTVALIDATION'); $g2fDJDz_Tawj = array(); foreach($QMIkZdXBPXkL as $p) $g2fDJDz_Tawj[$p] = $this->cIK1ca8fG0pg0S($p, $_vm); preg_match_all('#<input[^>]*type="hidden"[^>]*name="([^>]*?)"[^>]*value="([^>]*?)"#is', $_vm, $_vpar); foreach($_vpar[0] as $_vpi=>$_vpv) { if(!$g2fDJDz_Tawj[$_vpar[1][$_vpi]]) $g2fDJDz_Tawj[$_vpar[1][$_vpi]] = $_vpar[2][$_vpi]; } preg_match_all('#__doPostBack(\(.*?\))#is', $_vm, $_dpball); $g1hSZNkHzKVMV_ = array(); foreach($_dpball[1] as $_dpb) { $_dpb = stripslashes(str_replace('&#39;',"'",$_dpb)); if(preg_match('#\'(.*?)\'(?:\s*\,\'(.*?)\')?#', $_dpb, $_a)){ if(!$this->NxfMP9qoH('xs_parse_js_only_act', $_a[1], true)) continue; if(!$this->NxfMP9qoH('xs_parse_js_only_act2', $_a[1].$_a[2], true)) continue; $TXTWLnQNZuIApqYH = $_action .' -> '. $_a[1]. '/'. $_a[2]; if($RZw22HLFtuRk7BzMD0 = wS0f9iXRiSA('xs_parse_js_allowdup',false)){ if(preg_match('#'.$RZw22HLFtuRk7BzMD0.'#',$_a[1].$_a[2])) $TXTWLnQNZuIApqYH = $this->aMX8JQFnFnMWTuOJ.'/'.$JuXZXx085_JZG.' -> '.$TXTWLnQNZuIApqYH; } if($this->z2lXQjiZDXfX[$TXTWLnQNZuIApqYH]++) continue; $_fex2 = $this->k7_EQIP1qhQCfrZAa($_a[1]); if(!$_fex2['f'] ) $g1hSZNkHzKVMV_[] = array($_a,$TXTWLnQNZuIApqYH); } } foreach($g1hSZNkHzKVMV_ as $jp){ $_a = $jp[0]; $TXTWLnQNZuIApqYH = $jp[1]; $SVH4BzIyh56a_HEGqt = $g2fDJDz_Tawj; $SVH4BzIyh56a_HEGqt['__EVENTTARGET'] = $_a[1]; $SVH4BzIyh56a_HEGqt['__EVENTARGUMENT'] = $_a[2]; $uFxTSS9XSb52KZo7YrD = $k0huGF8gg4LQ1A->fetch($_action, 0, false, false, http_build_query($SVH4BzIyh56a_HEGqt,'','&'), array('contenttype'=>'application/x-www-form-urlencoded')); $this->KiQEfebckxJVM(); wkwPIGj7HFydE9Mly("\n(js post $dp) $TXTWLnQNZuIApqYH\nlast - ".$uFxTSS9XSb52KZo7YrD['last_url'] ); if(($_action != $uFxTSS9XSb52KZo7YrD['last_url'])){ $KcmpZavBWiSGlc[] = $uFxTSS9XSb52KZo7YrD['last_url']; }else { $KcmpZavBWiSGlc = array_merge($KcmpZavBWiSGlc, $this->am05AsFKZIyD($uFxTSS9XSb52KZo7YrD['content'], $dp+1)); } wkwPIGj7HFydE9Mly("\n>> llist ".count($KcmpZavBWiSGlc).", ".$KcmpZavBWiSGlc[0]."\n"); } } } return $KcmpZavBWiSGlc; } 
+																									function am05AsFKZIyD(&$cn, $dp = 0, $W7vOufXV1e = 0){ global $grab_parameters,$k0huGF8gg4LQ1A; if(!$W7vOufXV1e) $W7vOufXV1e= wS0f9iXRiSA('xs_parsehtml_maxdepth',5); wkwPIGj7HFydE9Mly("\n* Parse HTML - ".$this->aMX8JQFnFnMWTuOJ.", ($dp/$W7vOufXV1e) [".strlen($cn)."]\n", 2); if($dp > $W7vOufXV1e)return array(); if(preg_match_all('#<(?:div|span)\s[^>]*?(?:data-|\s)src\s*=\s*["\']([^>]*?)("|\')#is', $cn, $y99N3SqLl)) { foreach($y99N3SqLl[1] as $i=>$S6k9tLUMCTek9QF) { $LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($S6k9tLUMCTek9QF, $this->aMX8JQFnFnMWTuOJ); if($LV3feH44NvQ == 1) continue; $_fex2 = $this->k7_EQIP1qhQCfrZAa($S6k9tLUMCTek9QF); if($_fex2['f'])continue; $uvFjgZyHKM = $k0huGF8gg4LQ1A->fetch($S6k9tLUMCTek9QF, 0, false, false); if($this->PA0Gyvv3UI($uvFjgZyHKM['headers']['content-type'])){ $vyDPTD0FlDWOb_G = $y99N3SqLl[0][$i]; $OTVikTqWUqpprJPRSH = strpos($cn, $vyDPTD0FlDWOb_G); if ($OTVikTqWUqpprJPRSH !== false) { $cn = substr_replace($cn, $uvFjgZyHKM['content'], $OTVikTqWUqpprJPRSH, strlen($vyDPTD0FlDWOb_G)); } } } } $NPQb1A9Fyg = $grab_parameters['xs_utf8_enc'] ? 'isu':'is'; $_t = 'a|area|go'; $_t .= '|link'; preg_match_all('#<(?:'.$_t.')(?:[^>]*?\s)href\s*=\s*(?:"([^"]*)|\'([^\']*)|([^\s\"\\\\>]+))[^>]*>#is'.$NPQb1A9Fyg, $cn, $am); preg_match_all('#<option(?:[^>]*?)?value\s*=\s*"(http[^"]*)#is'.$NPQb1A9Fyg, $cn, $XuU7UBqrL_os8B_GdjT); $_sc = '(?:i?frame)'; preg_match_all('#<'.$_sc.'\s[^>]*?src\s*=\s*["\']?(.*?)("|>|\')#is', $cn, $L2HmGWTj9H); preg_match_all('#<meta\s[^>]*http-equiv\s*=\s*"?refresh[^>]*URL\s*=\s*["\']?(.*?)("|>|\'[>\s])#'.$NPQb1A9Fyg, $cn, $T9v4StE5HjmB1); if($grab_parameters['xs_parse_swf']) preg_match_all('#<object[^>]*application/x-shockwave-flash[^>]*data\s*=\s*["\']([^"\'>]+).*?>#'.$NPQb1A9Fyg, $cn, $p0Z32taip_p);
+																													
+																													else $p0Z32taip_p = array(array(),array());
+																													
+																													
+																													preg_match_all('#<a[^>]*?onclick\s*=\s*"[^"]*\.load\(\'([^\']*)#'.$NPQb1A9Fyg, $cn, $V2Te5xd_m_);
+																													
+																													
+																													preg_match_all('#"url"\:"(http[^"]*)#is'.$NPQb1A9Fyg, $cn, $Z2zkjGP9kFkUfy);
+																													
+																													$KcmpZavBWiSGlc = array();
+																													
+																													$H4tQMPyGoPl90rESIQ = 'stylesheet|publisher';
+																													
+																													if(isset($grab_parameters['xs_robotstxt']) && $grab_parameters['xs_robotstxt'])
+																													
+																													$H4tQMPyGoPl90rESIQ .= '|nofollow';
+																													
+																													for($i=0;$i<count($am[1]);$i++)
 																													
 																													{
 																													
-																													$_prehref = $am[1][$i];
+																													if(!preg_match('#rel\s*=\s*["\']?\s*('.$H4tQMPyGoPl90rESIQ.')#i', $am[0][$i]))
 																													
-																													if(!$_prehref || ($_prehref[strlen($_prehref)-1]!=':') )
-																													
-																													
-																													for($_j = 0; $_j<=2;$_j++)
-																													
-																													{
-																													
-																													if($__a = $am[$_imind + $_j][$i]){
-																													
-																													$__a = str_replace('”', '', $__a);
-																													
-																													if($__a[strlen($__a)-1] == '\\')
-																													
-																													$__a = stripslashes($__a);
-																													
-																													$Os0X_tRh9d9UY[] = $__a;
+																													$KcmpZavBWiSGlc[] = $am[1][$i];
 																													
 																													}
 																													
-																													}
+																													$KcmpZavBWiSGlc = @array_merge(
 																													
-																													}
-																													
-																													$Os0X_tRh9d9UY = @array_merge(
-																													
-																													$Os0X_tRh9d9UY,
+																													$KcmpZavBWiSGlc,
 																													
 																													
+																													$am[2],$am[3],
 																													
-																													$Broh86XfLy0PO60Vd[1],$vm2ZWXPDO[1],
+																													$L2HmGWTj9H[1],$T9v4StE5HjmB1[1],
 																													
-																													$ahXRwfst9NINY9f[1],$CuVVVML5Tg6tBg[1],
+																													$XuU7UBqrL_os8B_GdjT[1],$V2Te5xd_m_[1],
 																													
-																													$IWShpEjHh0j[1],
+																													$Z2zkjGP9kFkUfy[1],
 																													
-																													$B_gTARpTkIxhz[1]);
+																													$p0Z32taip_p[1]);
 																													
-																													if($dp < $z0IqdZ9OQ3)
+																													if($dp < $W7vOufXV1e)
 																													
-																													if(uYtRST7eOVyiC('xs_parse_js') &&
+																													if($grab_parameters['xs_parse_js'] &&
 																													
-																													$this->vH5384QiQe6('xs_parse_js_only', $this->gkc6cuOs53JHjwRAY6, true)
+																													$this->NxfMP9qoH('xs_parse_js_only', $this->aMX8JQFnFnMWTuOJ, true)
 																													
 																													){
 																													
-																													$ipMZvgTUbT = $this->CSpNpJnuLM($cn, $dp);
+																													$BKGcgJpnBw4nrvc7A = $this->pBCEldH3gSIzsjeU($cn, $dp);
 																													
-																													$Os0X_tRh9d9UY = @array_merge($Os0X_tRh9d9UY, $ipMZvgTUbT);
+																													$KcmpZavBWiSGlc = @array_merge($KcmpZavBWiSGlc, $BKGcgJpnBw4nrvc7A);
+																													
+																													}
+																													
+																													wkwPIGj7HFydE9Mly("\n* Parsed [".count($KcmpZavBWiSGlc)."] URLs\n", 2);
+																													
+																													return $KcmpZavBWiSGlc;
+																													
+																													}
+																													
+																													
+																									function Ptt9vi0YbID0fqFe($tipYoohv3rzRi9){
+																													
+																													
+																													return preg_replace('#^(www|\w)\.#', '', $tipYoohv3rzRi9);
+																													
+																													}
+																													
+																													
+																									function drKZs8x1lb3X3n($VTg9vpFl_1b_1OEu) {
+																													
+																													if(preg_match('#^(.*?\://[^/]*)#', $VTg9vpFl_1b_1OEu, $exq38FmOAtD3Vrwa))
+																													
+																													return strtolower($exq38FmOAtD3Vrwa[1]) .  substr($VTg9vpFl_1b_1OEu, strlen($exq38FmOAtD3Vrwa[1]));
+																													
+																													else
+																													
+																													return $VTg9vpFl_1b_1OEu;
+																													
+																													}
+																													
+																													
+																									function KVz31hE2O($VTg9vpFl_1b_1OEu)
+																													
+																													{
+																													
+																													return preg_replace('#^.*?'.preg_quote($this->A78wE6jgmrny,'#').'#','',$VTg9vpFl_1b_1OEu);
+																													
+																													}
+																													
+																													
+																									function bBAymp71W4mgyv_2c(&$a, $AKn7hFzTSwEhWIx, $b381QxsWK = '')
+																													
+																													{
+																													
+																													global $grab_parameters;
+																													
+																													$r7kkCXZmM = $this->r7kkCXZmM;
+																													
+																													$kvnmYTY2GKJBcSP_1MK = $this->kvnmYTY2GKJBcSP_1MK;
+																													
+																													$a1 = $a;
+																													
+																													$a = str_replace(
+																													
+																													array('&trade;','&#38;','&#038;','&amp;','&#x3a;','&#x3A;','&#x2f;', '&#x2F;','&#x2e;', '&#x2E;'),
+																													
+																													array('%E2%84%A2', '&', '&', '&', ':', ':', '/', '/','.','.')
+																													
+																													,$a);
+																													
+																													
+																													
+																													if(strstr($AKn7hFzTSwEhWIx,'://')) {
+																													
+																													$r7kkCXZmM = preg_replace('#(:\/\/.*?)\/.*$#', '$01', $kvnmYTY2GKJBcSP_1MK);
+																													
+																													
+																													}
+																													
+																													$aZgciCYKAafyx = parse_url($this->A78wE6jgmrny);
+																													
+																													if($aZgciCYKAafyx['scheme'] && substr($a, 0, 2) == '//')
+																													
+																													$a = $aZgciCYKAafyx['scheme'].':'.$a;
+																													
+																													
+																													
+																													
+																													$ghESvJ9ZSnQ = @parse_url($a);
+																													
+																													$_scheme = strtolower($ghESvJ9ZSnQ['scheme']);
+																													
+																													if($_scheme && ($_scheme!='http')&& ($_scheme!='https')) {
+																													
+																													$LV3feH44NvQ = 1;
+																													
+																													}else {
+																													
+																													$a = str_replace(':80/', '/', $a);
+																													
+																													$a = str_replace(':443/', '/', $a);
+																													
+																													if($a[0]=='?')$a = preg_replace('#^([^\?]*?)([^/\?]*?)(\?.*)?$#','$2',$AKn7hFzTSwEhWIx).$a;
+																													
+																													if($grab_parameters['xs_inc_ajax'] && strstr($a,'#!')){
+																													
+																													$kvnmYTY2GKJBcSP_1MK = preg_replace('#\#.*$#', '', $kvnmYTY2GKJBcSP_1MK);
+																													
+																													if($a[0] != '/' && !strstr($a,':/'))
+																													
+																													$a = $kvnmYTY2GKJBcSP_1MK . preg_replace('#^([^\#]*?/)?([^/\#]*)?(\#.*)?$#', '$2', $AKn7hFzTSwEhWIx).$a;
+																													
+																													}
+																													
+																													if(preg_match('#^https?(:|&\#58;)#is',$a)){
+																													
+																													if(preg_match('#://[^/]*$#is',$a))
+																													
+																													$a .= '/';
+																													
+																													$a = preg_replace('#(://[^/]*/)/#is','$01',$a);
+																													
+																													}
+																													
+																													else if($a&& $a[0]=='/')$a = $r7kkCXZmM.$a;
+																													
+																													else $a = $kvnmYTY2GKJBcSP_1MK.$a;
+																													
+																													if($a[0]=='/')$a = $r7kkCXZmM.$a;
+																													
+																													$a=str_replace('/./','/',$a);
+																													
+																													$a=preg_replace('#/\.$#','/',$a);
+																													
+																													if(substr($a,-2) == '..')$a.='/';
+																													
+																													if(strstr($a,'../')){
+																													
+																													preg_match('#(.*?:.*?//.*?)(/.*)$#',$a,$aa);
+																													
+																													do{
+																													
+																													$ap = $aa[2];
+																													
+																													$aa[2] = preg_replace('#/?[^/]*/\.\.#','',$ap,1);
+																													
+																													}while($aa[2]!=$ap);
+																													
+																													$a = $aa[1].$aa[2];
+																													
+																													}
+																													
+																													$a = preg_replace('#/\./#','/',$a);
+																													
+																													$a = preg_replace('#([^&])\#'.($grab_parameters['xs_inc_ajax']?'([^\!]|$)':'').'.*$#','$01',$a);
+																													
+																													
+																													$a = preg_replace('#^(/)/+#','\\1',$a);
+																													
+																													$a = preg_replace('#[\r\n]+#s','',$a);
+																													
+																													
+																													if($grab_parameters['xs_cleanurls'])
+																													
+																													$a = @preg_replace($grab_parameters['xs_cleanurls'],'',$a);
+																													
+																													if($grab_parameters['xs_lowercase_urls']){
+																													
+																													$a = strtolower($a);
+																													
+																													}
+																													
+																													if($grab_parameters['xs_custom_replace']){
+																													
+																													global $dtemijOBd;
+																													
+																													if(!isset($dtemijOBd)){
+																													
+																													$_ar = preg_split('#[\r\n]+#', trim($grab_parameters['xs_custom_replace']));
+																													
+																													$dtemijOBd = array();
+																													
+																													foreach($_ar as $v){
+																													
+																													$me = explode(' ', $v);
+																													
+																													if($me[0]&& $me[1])$dtemijOBd['#'.$me[0].'#'] = $me[1];
 																													
 																													}
 																													
 																													}
 																													
-																													Gpa9Bjai2UMV7SSv("\n* Parsed [".count($Os0X_tRh9d9UY)."] URLs\n", 2);
+																													if($dtemijOBd){
 																													
-																													
-																													return $Os0X_tRh9d9UY;
-																													
-																													}
-																													
-																													function U3q19rVU7EOiLZPySDT($PwtFy91kNSr82uSe){
-																													
-																													$XO0iq7C5M = array();
-																													
-																													if(preg_match('#(?:\[(\d+)\.\.(\d+)(?:\.\.(\d+))?\])#', $PwtFy91kNSr82uSe, $_mexpand)){
-																													
-																													$_mustep = max(1, intval($_mexpand[3]));
-																													
-																													for($i=0;($i<500000)&&($i*$_mustep+$_mexpand[1]<=$_mexpand[2]);$i++)
-																													
-																													$XO0iq7C5M[] = str_replace($_mexpand[0], $i*$_mustep+$_mexpand[1], $PwtFy91kNSr82uSe);
-																													
-																													}else
-																													
-																													$XO0iq7C5M = array($PwtFy91kNSr82uSe);
-																													
-																													return $XO0iq7C5M;
-																													
-																													}
-																													
-																													function vH5384QiQe6($HXEwbFL75Hm8NCOsPR, $uz6X3zpm8hlh2WQXV, $G8ITLAu2O2 = true){
-																													
-																													global $EgPEgwYikIdKy;
-																													
-																													$yz9iRuESaitPEgYSsu = $G8ITLAu2O2;
-																													
-																													if(uYtRST7eOVyiC($HXEwbFL75Hm8NCOsPR)){
-																													
-																													if(!isset($EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR])){
-																													
-																													$EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR] = uYtRST7eOVyiC($HXEwbFL75Hm8NCOsPR);
-																													
-																													if(!preg_match('#[\*\$]#',$EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR]))
-																													
-																													$EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR] = preg_quote($EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR],'#');
-																													
-																													$EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR] = '#'.str_replace(' ', '|', $EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR]).'#';
-																													
-																													}
-																													
-																													$yz9iRuESaitPEgYSsu = preg_match($EgPEgwYikIdKy[$HXEwbFL75Hm8NCOsPR],$uz6X3zpm8hlh2WQXV);
-																													
-																													}
-																													
-																													return $yz9iRuESaitPEgYSsu;
-																													
-																													}
-																													
-																													function U9E6sLwDkXCLtybu($sUawjJKBeG61UEDpO, $Wlp5TPASuidvTEC25u) {
-																													
-																													$BHYUWeJbvD = $this->$sUawjJKBeG61UEDpO;
-																													
-																													if($BHYUWeJbvD){
-																													
-																													if(!is_array($BHYUWeJbvD)){
-																													
-																													preg_match('#('.$BHYUWeJbvD.')#', $Wlp5TPASuidvTEC25u, $sm);
-																													
-																													return $sm;
-																													
-																													}
-																													
-																													foreach($BHYUWeJbvD as $_pt){
-																													
-																													if(preg_match('#('.$_pt.')#', $Wlp5TPASuidvTEC25u, $sm))
-																													
-																													return $sm;
+																													$a = @preg_replace(array_keys($dtemijOBd),array_values($dtemijOBd),$a);
 																													
 																													}
 																													
 																													}
 																													
-																													return false;
+																													if($grab_parameters['xs_cleanpar'])
+																													
+																													{
+																													
+																													do {
+																													
+																													$Jh2yJ9lJIwOSTdVY7X = $a;
+																													
+																													$a = @preg_replace('#[\\?\\&]('.$grab_parameters['xs_cleanpar'].')=[a-z0-9\%\-\+\.\_\=\/\,\*]*$#i','',$a);
+																													
+																													$a = @preg_replace('#([\\?\\&])('.$grab_parameters['xs_cleanpar'].')=[a-z0-9\%\-\+\.\_\=\/\,\*]*&#i','$1',$a);
+																													
+																													}while($a != $Jh2yJ9lJIwOSTdVY7X);
+																													
+																													$a = @preg_replace('#\?\&?$#','',$a);
 																													
 																													}
 																													
-																													function NFaNrp_DNnniC($Wlp5TPASuidvTEC25u) {
 																													
-																													if(!isset($this->Jory6V07EvLOFuOS0[$Wlp5TPASuidvTEC25u])){
+																													$LV3feH44NvQ = (strtolower(substr($a,0,strlen($this->A78wE6jgmrny)) ) != strtolower($this->A78wE6jgmrny)) ? 1 : 0;
 																													
-																													$xHecbpge9dda = trim(uYtRST7eOVyiC($Wlp5TPASuidvTEC25u));
+																													if(($LV3feH44NvQ==1) && $grab_parameters['xs_allow_subdomains']){
 																													
-																													$BHYUWeJbvD = $xHecbpge9dda ?
+																													$ghESvJ9ZSnQ = @parse_url($a);
+																													
+																													if($ghESvJ9ZSnQ['host'] &&
+																													
+																													
+																													preg_match($qq='#^(.*?\.)?'.preg_quote($this->Ptt9vi0YbID0fqFe($aZgciCYKAafyx['host']),'#').'$#', $ghESvJ9ZSnQ['host'])
+																													
+																													){
+																													
+																													$LV3feH44NvQ = 2;
+																													
+																													}
+																													
+																													}
+																													
+																													if(($LV3feH44NvQ==1) && $grab_parameters['xs_allow_extscheme']){
+																													
+																													$_i2 = preg_replace('#^.*?://#','',$this->A78wE6jgmrny);
+																													
+																													$_a2 = preg_replace('#^.*?://#','',$a);
+																													
+																													if(!$LV3feH44NvQ = strtolower(substr($_a2,0,strlen($_i2)) ) != strtolower($_i2))
+																													
+																													$LV3feH44NvQ = 2;
+																													
+																													}
+																													
+																													if(($LV3feH44NvQ==1) && $b381QxsWK) {
+																													
+																													
+																													$WioOPDRzFJfKDqi = $this->J4vPRMHzK($b381QxsWK);
+																													
+																													
+																													if($WioOPDRzFJfKDqi && preg_match('#('.$WioOPDRzFJfKDqi.')#', $a))
+																													
+																													$LV3feH44NvQ = 2;
+																													
+																													}
+																													
+																													}
+																													
+																													wkwPIGj7HFydE9Mly("<br/>($a -- [$a1] -- (isext) $LV3feH44NvQ - (initdir) ".$this->A78wE6jgmrny." (iurl) $AKn7hFzTSwEhWIx - (top) $r7kkCXZmM - (ibase) $kvnmYTY2GKJBcSP_1MK - (tophosts) [".$this->Ptt9vi0YbID0fqFe($aZgciCYKAafyx['host']).", ".$ghESvJ9ZSnQ['host']."])<br>\n",3);
+																													
+																													return $LV3feH44NvQ;
+																													
+																													}
+																													
+																													
+																									function oGNbg9vqexWio($AKn7hFzTSwEhWIx){
+																													
+																													return strstr($AKn7hFzTSwEhWIx,'://') ? $AKn7hFzTSwEhWIx : $this->A78wE6jgmrny . $AKn7hFzTSwEhWIx;
+																													
+																													}
+																													
+																													
+																									function NxfMP9qoH($BehATAY7B, $AKn7hFzTSwEhWIx, $PHA4ABEfvVsTMXt0 = true){
+																													
+																													global $GWqc5wGFGMENLwZhisl,$grab_parameters;
+																													
+																													$GWOsRPYsWBxaRDI = $PHA4ABEfvVsTMXt0;
+																													
+																													if($grab_parameters[$BehATAY7B]){
+																													
+																													if(!isset($GWqc5wGFGMENLwZhisl[$BehATAY7B])){
+																													
+																													$GWqc5wGFGMENLwZhisl[$BehATAY7B] = $grab_parameters[$BehATAY7B];
+																													
+																													if(!preg_match('#[\*\$]#',$GWqc5wGFGMENLwZhisl[$BehATAY7B]))
+																													
+																													$GWqc5wGFGMENLwZhisl[$BehATAY7B] = preg_quote($GWqc5wGFGMENLwZhisl[$BehATAY7B],'#');
+																													
+																													$GWqc5wGFGMENLwZhisl[$BehATAY7B] = '#'.str_replace(' ', '|', $GWqc5wGFGMENLwZhisl[$BehATAY7B]).'#';
+																													
+																													}
+																													
+																													$GWOsRPYsWBxaRDI = preg_match($GWqc5wGFGMENLwZhisl[$BehATAY7B],$AKn7hFzTSwEhWIx);
+																													
+																													}
+																													
+																													return $GWOsRPYsWBxaRDI;
+																													
+																													}
+																													
+																													
+																									function J4vPRMHzK($g1G64oq0ZZFb1KK){
+																													
+																													if(!isset($this->Ref0x8DrCYuXO[$g1G64oq0ZZFb1KK])){
+																													
+																													$this->Ref0x8DrCYuXO[$g1G64oq0ZZFb1KK] = trim($g1G64oq0ZZFb1KK) ?
 																													
 																													preg_replace(
 																													
@@ -324,91 +485,30 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													'$01(?:^|/)',
 																													
-																													preg_replace("#\s*[\r\n]+\s*#",'|', (strstr($xHecbpge9dda,'*') ? $xHecbpge9dda : preg_quote($xHecbpge9dda,'#')))
+																													preg_replace("#\s*[\r\n]+\s*#",'|', (strstr($s=trim($g1G64oq0ZZFb1KK),'*')?$s:preg_quote($s,'#')))
 																													
 																													) : '';
 																													
-																													$mCHFuT4nhbnd = array();
+																													}
 																													
-																													$W4jbKaU5HGl = 20000;
-																													
-																													while((strlen($BHYUWeJbvD) > $W4jbKaU5HGl) && ($HCPqoVOx4Pv4X3j++ < 50)){
-																													
-																													$KQeDLQUzcA3Zh33KL = strrpos(substr($BHYUWeJbvD,0, $W4jbKaU5HGl), '|');
-																													
-																													$mCHFuT4nhbnd[] = substr($BHYUWeJbvD, 0, $KQeDLQUzcA3Zh33KL-1);
-																													
-																													$BHYUWeJbvD = substr($BHYUWeJbvD, $KQeDLQUzcA3Zh33KL+1);
+																													return $this->Ref0x8DrCYuXO[$g1G64oq0ZZFb1KK];
 																													
 																													}
 																													
-																													if($mCHFuT4nhbnd)$mCHFuT4nhbnd[] = $BHYUWeJbvD;
 																													
-																													$this->Jory6V07EvLOFuOS0[$Wlp5TPASuidvTEC25u] = $mCHFuT4nhbnd ? $mCHFuT4nhbnd : $BHYUWeJbvD;
-																													
-																													}
-																													
-																													return $this->Jory6V07EvLOFuOS0[$Wlp5TPASuidvTEC25u];
-																													
-																													}
-																													
-																													function DIPoBCQkQ9fj($U7aCQ_HSM8qvDJ){
-																													
-																													global $O98U4RE9a7tilX3XFQ;
-																													
-																													if(!isset($O98U4RE9a7tilX3XFQ[$U7aCQ_HSM8qvDJ])) {
-																													
-																													$zDPMGLnA1 = array();
-																													
-																													if($_p = trim(uYtRST7eOVyiC($U7aCQ_HSM8qvDJ))){
-																													
-																													$_ar = preg_split('#[\r\n]+#', $_p);
-																													
-																													foreach($_ar as $v){
-																													
-																													$me = explode(' ', $v);
-																													
-																													if($me[0]&& $me[1])$zDPMGLnA1['#'.$me[0].'#'] = $me[1];
-																													
-																													}
-																													
-																													}
-																													
-																													$O98U4RE9a7tilX3XFQ[$U7aCQ_HSM8qvDJ] = $zDPMGLnA1;
-																													
-																													}
-																													
-																													return $O98U4RE9a7tilX3XFQ[$U7aCQ_HSM8qvDJ];
-																													
-																													}
-																													
-																													function ButLvR74PkmjEjSm7($a, $DWrgqgqzMvIgo0f) {
-																													
-																													if($zDPMGLnA1 = $this->DIPoBCQkQ9fj($DWrgqgqzMvIgo0f)){
-																													
-																													if($a2 = preg_replace(array_keys($zDPMGLnA1),array_values($zDPMGLnA1),$a))
-																													
-																													$a = $a2;
-																													
-																													}
-																													
-																													return $a;
-																													
-																													}
-																													
-																													function e0Gbq2gU5($twMLYsXuIC9pnaVkl3, $uz6X3zpm8hlh2WQXV) {
+																									function aZg3xMnbC_i($nuhscqzRdxDYVl, $AKn7hFzTSwEhWIx) {
 																													
 																													$f = false;
 																													
-																													if($twMLYsXuIC9pnaVkl3)
+																													if($nuhscqzRdxDYVl)
 																													
-																													foreach($twMLYsXuIC9pnaVkl3 as $bm)
+																													foreach($nuhscqzRdxDYVl as $bm)
 																													
 																													{
 																													
-																													if($f = preg_match('#^('.$bm.')#', $uz6X3zpm8hlh2WQXV, $_imatch))
+																													if($f = ($f || preg_match('#^('.$bm.')#', $AKn7hFzTSwEhWIx, $_imatch)))
 																													
-																													break;// break FOREACH
+																													break;
 																													
 																													}
 																													
@@ -416,51 +516,18 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													function RUaplgNGInZve($uz6X3zpm8hlh2WQXV) {
 																													
-																													$bm = $this->e0Gbq2gU5($this->t71f_efSaAOndERJMx1, $uz6X3zpm8hlh2WQXV);
+																									function MgKnEUlaw6_XfzaD($AKn7hFzTSwEhWIx) {
+																													
+																													$bm = $this->aZg3xMnbC_i($this->f5YhQAzju8oZNGeLb1K, $AKn7hFzTSwEhWIx);
 																													
 																													if($bm)
 																													
 																													{
 																													
-																													$tVkX6DfFmWHMvR9pX = $this->e0Gbq2gU5($this->botmatch_allow, $uz6X3zpm8hlh2WQXV);
+																													$km4308YcYeHeJX0pW3 = $this->aZg3xMnbC_i($this->botmatch_allow, $AKn7hFzTSwEhWIx);
 																													
-																													return $tVkX6DfFmWHMvR9pX ? false : $bm;
-																													
-																													}
-																													
-																													return false;
-																													
-																													}
-																													
-																													function nNQauD8yqV($CYrdjpIHAOWgcogb) {
-																													
-																													$us = '';
-																													
-																													if($_f = $this->U9E6sLwDkXCLtybu('excmask_std',$CYrdjpIHAOWgcogb))
-																													
-																													$us = 'exclude-urls-std';
-																													
-																													else
-																													
-																													if($_f = $this->U9E6sLwDkXCLtybu('excmask',$CYrdjpIHAOWgcogb))
-																													
-																													$us = 'exclude-urls';
-																													
-																													else
-																													
-																													if($_f =($_fbot = $this->RUaplgNGInZve($this->xKSjC9fm7Ct.$CYrdjpIHAOWgcogb))){
-																													
-																													$us = 'robots-txt';
-																													
-																													}
-																													
-																													if($_f){
-																													
-																													$this->Mp8_74X3QKt($CYrdjpIHAOWgcogb, $us);
-																													
-																													return $us;
+																													return $km4308YcYeHeJX0pW3 ? false : $bm;
 																													
 																													}
 																													
@@ -468,274 +535,58 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													function Mp8_74X3QKt($_lurl, $iAy4Xiz6k2fd, $avoCwzPLGPggEoeg = array()) {
 																													
-																													if(!is_array($iAy4Xiz6k2fd))
-																													
-																													$iAy4Xiz6k2fd = array($iAy4Xiz6k2fd,'');
-																													
-																													$rs = array_shift($iAy4Xiz6k2fd);
-																													
-																													if($avoCwzPLGPggEoeg)$iAy4Xiz6k2fd['fdi'] = $avoCwzPLGPggEoeg;
-																													
-																													$_uls = &$this->urls_list_skipped;
-																													
-																													if(!$_uls[$rs]){
-																													
-																													$_uls[$rs] = array();
-																													
-																													}
-																													
-																													if(!$_uls[$rs][$_lurl]) {
-																													
-																													$_uls['#cnt'][$rs]++;
-																													
-																													if(!strstr($rs,'-std'))
-																													
-																													$_uls['#tot']++;
-																													
-																													if($_ref = $this->z9wRO_UXMNYH7e4OnAv[$_lurl])
-																													
-																													$_ref = $_ref[0];
-																													
-																													else
-																													
-																													$_ref =  $this->gkc6cuOs53JHjwRAY6;
-																													
-																													Gpa9Bjai2UMV7SSv("\n({ skipped \"".$_lurl."\" - (".$rs.") / (".$iAy4Xiz6k2fd[0].") / (".$_ref.") })<br />\n");
-																													
-																													$_lmax = uYtRST7eOVyiC('xs_chlog_list_max');
-																													
-																													if(!$_lmax || (count($_uls[$rs]) < $_lmax))
-																													
-																													{
-																													
-																													$iAy4Xiz6k2fd['ref'] = $_ref;
-																													
-																													$_uls[$rs][$_lurl] = $iAy4Xiz6k2fd;
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													function o62A4fSUkV($_purl, $_lurl, $iAy4Xiz6k2fd) {
-																													
-																													if(!is_array($iAy4Xiz6k2fd))
-																													
-																													$iAy4Xiz6k2fd = array($iAy4Xiz6k2fd,'');
-																													
-																													$rs = array_shift($iAy4Xiz6k2fd);
-																													
-																													$_uls = &$this->PcrmU5d0puI6Fy;
-																													
-																													if(!$_uls[$rs]){
-																													
-																													$_uls[$rs] = array();
-																													
-																													}
-																													
-																													if(!$_uls[$rs][$_lurl]) {
-																													
-																													$_uls['#cnt'][$rs]++;
-																													
-																													if(!strstr($rs,'-std'))
-																													
-																													$_uls['#tot']++;
-																													
-																													$_ref =  $_purl;
-																													
-																													Gpa9Bjai2UMV7SSv("\n({image skipped ".$_lurl." - ".$rs." / ".$iAy4Xiz6k2fd[0]." / ".$_ref."})<br />\n");
-																													
-																													$_lmax = uYtRST7eOVyiC('xs_chlog_list_max');
-																													
-																													if(!$_lmax || (count($_uls[$rs]) < $_lmax))
-																													
-																													{
-																													
-																													$iAy4Xiz6k2fd['ref'] = $_ref;
-																													
-																													$_uls[$rs][$_lurl] = $iAy4Xiz6k2fd;
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													function u04XNfRtsQBwD1Mjst($_lurl, $_lurlcode = 0, $MuwBRIDxvs = false) {
-																													
-																													$this->XrYcC_5YQ_q1ne[$this->gkc6cuOs53JHjwRAY6] = $_lurl;
-																													
-																													$this->addedcnt['redirs']=count($this->XrYcC_5YQ_q1ne);
-																													
-																													if($_lurlcode || uYtRST7eOVyiC('xs_prev_sm_base_canonical', false)){
-																													
-																													$this->Qzca9KtuSuweE7eg[$this->gkc6cuOs53JHjwRAY6] = [$_lurl, $_lurlcode, $MuwBRIDxvs];
-																													
-																													$this->addedcnt['redirbase'] = count($this->Qzca9KtuSuweE7eg);
-																													
-																													}
-																													
-																													if($_lurlcode){
-																													
-																													
-																													return array('redirect', $_lurlcode, $_lurl, $MuwBRIDxvs);
-																													
-																													}
-																													
-																													return array('canonical', $_lurl);
-																													
-																													}
-																													
-																													function VTEALPCPBnuCYjF($CYrdjpIHAOWgcogb, $uz6X3zpm8hlh2WQXV, $gwTxmd2WqPraW = false){
-																													
-																													global $grab_parameters;
-																													
-																													$qt7yx4DD7Kx157 = max(1, intval($grab_parameters['xs_maxref']));
-																													
-																													$_rlmax = max(0, $grab_parameters['xs_ref_list_max']);
-																													
-																													if(!$gwTxmd2WqPraW){
-																													
-																													if(!isset($this->Yqrb0MMKAex3GumRNM[$CYrdjpIHAOWgcogb]) )
-																													
-																													$this->Yqrb0MMKAex3GumRNM[$CYrdjpIHAOWgcogb] = array();
-																													
-																													
-																													
-																													$_intmax = min($qt7yx4DD7Kx157, (count($this->Yqrb0MMKAex3GumRNM)<$_rlmax*2) ? $qt7yx4DD7Kx157 : 2);
-																													
-																													if(count($this->Yqrb0MMKAex3GumRNM[$CYrdjpIHAOWgcogb]) < $qt7yx4DD7Kx157)
-																													
-																													$this->Yqrb0MMKAex3GumRNM[$CYrdjpIHAOWgcogb][] = $uz6X3zpm8hlh2WQXV;
-																													
-																													}
-																													
-																													if($_rlmax && $grab_parameters['xs_ref_list_store']  ){
-																													
-																													if(!isset($this->ref_links_list[$CYrdjpIHAOWgcogb]) && count($this->ref_links_list)<$_rlmax){
-																													
-																													$this->ref_links_list[$CYrdjpIHAOWgcogb] = array();
-																													
-																													}
-																													
-																													if(isset($this->ref_links_list[$CYrdjpIHAOWgcogb]))
-																													
-																													{
-																													
-																													$this->ref_links_list[$CYrdjpIHAOWgcogb][-1]++;
-																													
-																													if(count($this->ref_links_list[$CYrdjpIHAOWgcogb]) <= $qt7yx4DD7Kx157) {
-																													
-																													if(!in_array($this->gkc6cuOs53JHjwRAY6, $this->ref_links_list[$CYrdjpIHAOWgcogb]))
-																													
-																													$this->ref_links_list[$CYrdjpIHAOWgcogb][] = $uz6X3zpm8hlh2WQXV;
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													function llrdonYEt(&$uz6X3zpm8hlh2WQXV) {
+																									function k7_EQIP1qhQCfrZAa(&$AKn7hFzTSwEhWIx) {
 																													
 																													global $grab_parameters;
 																													
 																													$us = '';
 																													
-																													if(isset($this->XrYcC_5YQ_q1ne[$uz6X3zpm8hlh2WQXV])){
+																													if(isset($this->x15LfqXVsH[$AKn7hFzTSwEhWIx]))
 																													
-																													$WzMPQPUKS =$this->XrYcC_5YQ_q1ne[$uz6X3zpm8hlh2WQXV];
+																													$AKn7hFzTSwEhWIx =$this->x15LfqXVsH[$AKn7hFzTSwEhWIx];
 																													
-																													$_xlc = $this->i4YBy_a0gx($WzMPQPUKS);
+																													$f = $this->Te7nRdc2NfOAPzQBZFq && preg_match('#'.$grab_parameters['xs_exc_skip'].'#i',$AKn7hFzTSwEhWIx);
 																													
-																													$q5mXhT0VAQKh0u = $_xlc['isext'];
+																													if($f&&!$us)$us = 'excl-ext';
 																													
-																													if($q5mXhT0VAQKh0u){
+																													if($this->MVZvUfEx6bYBJwmz&&!$f)$f=$f||@preg_match('#('.$this->MVZvUfEx6bYBJwmz.')#',$AKn7hFzTSwEhWIx);
 																													
-																													$f = true;
+																													if($f&&!$us)$us = 'excl-mask';
 																													
-																													$us = $this->uk1X1bxy5kVbdo19[$q5mXhT0VAQKh0u];
+																													if($this->heFEaz03xhYW && $f && $grab_parameters['xs_incl_force'])
 																													
-																													}
+																													$f = !preg_match('#('.$this->heFEaz03xhYW.')#',$AKn7hFzTSwEhWIx);
 																													
-																													}
+																													$f = $f || $this->MgKnEUlaw6_XfzaD($this->v0ytSBWER . $AKn7hFzTSwEhWIx);
 																													
-																													if(strstr($uz6X3zpm8hlh2WQXV,'?#?'))
-																													
-																													{
-																													
-																													
-																													$f3 = true;
-																													
-																													$us = 'command-url';
-																													
-																													}else
-																													
-																													{
-																													
-																													if(!$f && $this->Y2JFas41Ha7Bh){
-																													
-																													if($f =  @preg_match('#'.$grab_parameters['xs_exc_skip'].'#i',$uz6X3zpm8hlh2WQXV))
-																													
-																													$us = 'excl-extension';
-																													
-																													}
-																													
-																													if(!$f && $this->excmask_std){
-																													
-																													if($f = @preg_match('#('.($this->excmask_std).')#',$uz6X3zpm8hlh2WQXV))
-																													
-																													$us = 'exclude-urls-std';
-																													
-																													}
-																													
-																													if(!$f)
-																													
-																													if($f = $this->U9E6sLwDkXCLtybu('excmask',$uz6X3zpm8hlh2WQXV))
-																													
-																													$us = 'exclude-urls';
-																													
-																													if(!$f && ($f = $this->RUaplgNGInZve(
-																													
-																													strstr($uz6X3zpm8hlh2WQXV,'://') ?
-																													
-																													preg_replace('#^.*?\://[^/]*#','',$uz6X3zpm8hlh2WQXV)
-																													
-																													:
-																													
-																													$this->xKSjC9fm7Ct.$uz6X3zpm8hlh2WQXV
-																													
-																													) ))
-																													
-																													$us = 'robots-txt';
+																													if($f&&!$us)$us = 'excl-bot';
 																													
 																													$f2 = false;
 																													
-																													$riHsxx1tgqk4ZFis1Nx = false;
+																													$gEBIZ5cHL = false;
 																													
 																													if(!$f)
 																													
 																													{
 																													
-																													$f2 = $this->JKKdudUKlq && preg_match('#'.$grab_parameters['xs_inc_skip'].'#i',$uz6X3zpm8hlh2WQXV);
+																													$f2 = $this->L2rCBT7py && preg_match('#'.$grab_parameters['xs_inc_skip'].'#i',$AKn7hFzTSwEhWIx);
 																													
 																													
-																													if(!$f2 && $this->HF09NtRGt5wcIet ) {
+																													if($this->heFEaz03xhYW && !$f2) {
 																													
-																													$f2 = preg_match('#('.$this->HF09NtRGt5wcIet.')#',$uz6X3zpm8hlh2WQXV);
+																													$f2 = $f2||(preg_match('#('.$this->heFEaz03xhYW.')#',$AKn7hFzTSwEhWIx));
+																													
 																													
 																													}
 																													
-																													if(!$f2 && $grab_parameters['xs_parse_only'] && $uz6X3zpm8hlh2WQXV && ($uz6X3zpm8hlh2WQXV!='/'))
+																													if($grab_parameters['xs_parse_only'] && !$f2 && $AKn7hFzTSwEhWIx && ($AKn7hFzTSwEhWIx!='/'))
 																													
 																													{
 																													
-																													$f2 = !$this->vH5384QiQe6('xs_parse_only', $uz6X3zpm8hlh2WQXV, true);
+																													
+																													$f2 = $f2 || !$this->NxfMP9qoH('xs_parse_only', $AKn7hFzTSwEhWIx, true);
+																													
 																													
 																													}
 																													
@@ -743,117 +594,113 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$f3 = false;
 																													
-																													if($this->noincmask){
-																													
-																													if($f3=@preg_match('#('.$this->noincmask.')#',$uz6X3zpm8hlh2WQXV))
-																													
-																													$us = 'crawl-not-include';
-																													
-																													}
-																													
-																													if($f) {
-																													
-																													
-																													if(($this->links_level==0)&& ($this->num_urls_processed_in_current_batch>1)){
-																													
-																													if($grab_parameters['xs_moreurls_alwaysinc']){
-																													
-																													$us = '';
-																													
-																													}else {
-																													
-																													$f3 = $f;
-																													
-																													}
-																													
-																													$f = false;
-																													
-																													}
-																													
-																													}
-																													
-																													}
+																													if($this->noincmask)$f3=@preg_match('#('.$this->noincmask.')#',$AKn7hFzTSwEhWIx);
 																													
 																													return array('f' => $f, 'f2' => $f2, 'f3' => $f3, 'uskip' => $us);
 																													
 																													}
 																													
-																													function x9jVsd5GQ_0iK6e(&$uz6X3zpm8hlh2WQXV) {
+																													
+																									function puPBJwgZjs1JB2(&$AKn7hFzTSwEhWIx) {
 																													
 																													
 																													global $grab_parameters;
 																													
-																													$f = $this->vH5384QiQe6('xs_botapi_exclude', $uz6X3zpm8hlh2WQXV, false) || // matches exclude
+																													$f = $this->NxfMP9qoH('xs_botapi_exclude', $AKn7hFzTSwEhWIx, false) || // matches exclude
 																													
-																													!$this->vH5384QiQe6('xs_botapi_parse_only', $uz6X3zpm8hlh2WQXV, true); // OR not matches "parse only"
+																													!$this->NxfMP9qoH('xs_botapi_parse_only', $AKn7hFzTSwEhWIx, true); // OR not matches "parse only"
 																													
-																													return array('f' => $f, 'uskip' => 'excl-bot');
-																													
-																													}
-																													
-																													function eVq4rYPNrn8($riHsxx1tgqk4ZFis1Nx) {
-																													
-																													return ($riHsxx1tgqk4ZFis1Nx);
-																													
+																													return $f;
 																													
 																													}
 																													
-																													function ciIQeHn6AdUnx6c($riHsxx1tgqk4ZFis1Nx) {
 																													
-																													return ZemEb1wrkmtr2t($riHsxx1tgqk4ZFis1Nx);
+																									function dtRHNsRCOCS7gtKcKk3($gEBIZ5cHL) {
+																													
+																													return ($gEBIZ5cHL);
+																													
 																													
 																													}
 																													
-																													function D_92CNRcLCBbAvv() {
 																													
-																													if($this->links_level>0) {
+																									function TTzcaknXMPA5kKTlsHt($gEBIZ5cHL) {
 																													
-																													$this->UxoQSL7Suyq5hIutb = $this->VL35Keydv0RV;
-																													
-																													reset($this->UxoQSL7Suyq5hIutb);
-																													
-																													$this->urls_list_full += $this->UxoQSL7Suyq5hIutb;
-																													
-																													}else {
-																													
-																													$this->urls_list_full = $this->UxoQSL7Suyq5hIutb;
+																													return Za80dklcf36($gEBIZ5cHL);
 																													
 																													}
 																													
-																													$this->wBD3MhpjtBO8tqmNhcW = count($this->UxoQSL7Suyq5hIutb);
 																													
-																													$this->num_urls_processed_in_current_batch = 0;
+																									function VAsjehLyY7SfsjZNoL2($Io29DwFf3WcSyMtAl, $AKn7hFzTSwEhWIx){
 																													
-																													$this->z9wRO_UXMNYH7e4OnAv = $this->Yqrb0MMKAex3GumRNM;
+																													global $grab_parameters;
 																													
-																													$this->VL35Keydv0RV = array();
+																													$uYc3fIoW5Z = max(1, intval($grab_parameters['xs_maxref']));
 																													
-																													$this->Yqrb0MMKAex3GumRNM = array();
+																													if(!isset($this->ref_links_tmp[$Io29DwFf3WcSyMtAl]) )
 																													
-																													$this->sHrx8IoVOZ8R("Shifting to next batch level");
+																													$this->ref_links_tmp[$Io29DwFf3WcSyMtAl] = array();
 																													
-																													$this->crawl_stats['batches'][$this->links_level] = $this->progpar['adet'];
+																													if(count($this->ref_links_tmp[$Io29DwFf3WcSyMtAl]) < $uYc3fIoW5Z)
+																													
+																													$this->ref_links_tmp[$Io29DwFf3WcSyMtAl][] = $AKn7hFzTSwEhWIx;
+																													
+																													if(
+																													
+																													$grab_parameters['xs_ref_list_store'] &&
+																													
+																													($_rlmax = $grab_parameters['xs_ref_list_max'])
+																													
+																													){
+																													
+																													if(!isset($this->ref_links_list[$Io29DwFf3WcSyMtAl]) && count($this->ref_links_list)<$_rlmax){
+																													
+																													$this->ref_links_list[$Io29DwFf3WcSyMtAl] = array();
 																													
 																													}
 																													
-																													 
+																													if(isset($this->ref_links_list[$Io29DwFf3WcSyMtAl]))
 																													
-																													function Pq6NkswkyVYEDbR($NdDirA6nDitD7) {
+																													{
 																													
-																													global $grab_parameters,$Rgqo7Yox5Mydire,$kvzPJVC8WZaEAjzv2;
+																													$this->ref_links_list[$Io29DwFf3WcSyMtAl][-1]++;
+																													
+																													if(count($this->ref_links_list[$Io29DwFf3WcSyMtAl]) <= $uYc3fIoW5Z) {
+																													
+																													if(!in_array($this->aMX8JQFnFnMWTuOJ, $this->ref_links_list[$Io29DwFf3WcSyMtAl]))
+																													
+																													$this->ref_links_list[$Io29DwFf3WcSyMtAl][] = $AKn7hFzTSwEhWIx;
+																													
+																													}
+																													
+																													}
+																													
+																													}
+																													
+																													}
 																													
 																													
 																													
-																													$this->NdDirA6nDitD7 = $NdDirA6nDitD7;
+																													
+																									function V_tRhpx5sI9puf7($SVH4BzIyh56a_HEGqt) {
+																													
+																													global $grab_parameters,$k0huGF8gg4LQ1A,$K5qP9_ZsHx;
 																													
 																													
-																													if($this->NdDirA6nDitD7['bgexec'])
+																													error_reporting(E_ALL&~E_NOTICE);
+																													
+																													$this->SVH4BzIyh56a_HEGqt = $SVH4BzIyh56a_HEGqt;
+																													
+																													@set_time_limit($grab_parameters['xs_exec_time']);
+																													
+																													if($this->SVH4BzIyh56a_HEGqt['bgexec'])
 																													
 																													{
 																													
 																													ignore_user_abort(true);
 																													
 																													}
+																													
+																													register_shutdown_function('xvQcTIF8B113J');
 																													
 																													if(function_exists('ini_set'))
 																													
@@ -865,55 +712,43 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													$this->R6kB6cBogCUcR = $this->Oi9Zmgr2enoS8qf7N3x = microtime(true);
 																													
-																													$starttime = $CXZgCKQbL_L = time();
-																													
-																													$kvzPJVC8WZaEAjzv2 = $this->nettime = 0;
+																													$this->KiQEfebckxJVM(0,true);
 																													
 																													
-																													$this->m820vHOHqXjLbour0(0,true);
+																													$this->s44JV5vkSKmyf7Lv5zD = array_sum(explode(' ', microtime()));
 																													
+																													$starttime = $dgHgts6lFbG = time();
 																													
-																													$this->fdlKwoX4HgiIlRtTjC = $this->NdDirA6nDitD7['maxpg']>0 ? $this->NdDirA6nDitD7['maxpg'] : 1E10;
+																													$K5qP9_ZsHx = $this->nettime = 0;
 																													
-																													$this->eWMxEMwbnUJuhi = ($this->fdlKwoX4HgiIlRtTjC>=200000);
+																													$this->wOd8ZRUj4KujS = $this->SVH4BzIyh56a_HEGqt['initurl'];
 																													
-																													$this->H7dpHAe1ZxqW2d4_oS = ($this->fdlKwoX4HgiIlRtTjC<=1000);
+																													$this->y5E6XiZB3w2DW4XFY = $this->SVH4BzIyh56a_HEGqt['maxpg']>0 ? $this->SVH4BzIyh56a_HEGqt['maxpg'] : 1E10;
 																													
-																													$chqAiJrAXykZ3AMLs_ = $this->NdDirA6nDitD7['maxdepth'] ? $this->NdDirA6nDitD7['maxdepth'] : -1;
+																													$O5DEYzmlsLOVgGYR1jS = $this->SVH4BzIyh56a_HEGqt['maxdepth'] ? $this->SVH4BzIyh56a_HEGqt['maxdepth'] : -1;
 																													
-																													$this->A76kndxSzOnikhY6uL0 = $this->NdDirA6nDitD7['progress_callback'];
+																													$this->vY9pUGJSxmy8j = $this->SVH4BzIyh56a_HEGqt['progress_callback'];
 																													
-																													$this->YCx6tRQ6S9VOxA8 = $this->NFaNrp_DNnniC('xs_excl_urls');
+																													$this->MVZvUfEx6bYBJwmz = $this->J4vPRMHzK($grab_parameters['xs_excl_urls']);
 																													
-																													$this->excmask_std = $this->NFaNrp_DNnniC('xs_excl_urls_std');
+																													$this->heFEaz03xhYW = $this->J4vPRMHzK($grab_parameters['xs_incl_urls']);
 																													
-																													$this->HF09NtRGt5wcIet = $this->NFaNrp_DNnniC('xs_incl_urls');
+																													$this->noincmask = $this->J4vPRMHzK($grab_parameters['xs_noincl_urls']);
 																													
-																													$this->noincmask = $this->NFaNrp_DNnniC('xs_noincl_urls');
+																													$this->baseincmask = $this->J4vPRMHzK($grab_parameters['xs_prev_sm_incl']);
 																													
-																													$this->baseincmask = $this->NFaNrp_DNnniC('xs_prev_sm_incl');
+																													$this->basecachemask = $this->J4vPRMHzK($grab_parameters['xs_prev_sm_cache']);
 																													
-																													$this->basecachemask = $this->NFaNrp_DNnniC('xs_prev_sm_cache');
+																													$Rcj3xnKl_qu = $A6DPJo_TlvfZL8j = array();
 																													
-																													$this->basecachemask_skip = $this->NFaNrp_DNnniC('xs_prev_sm_cache_skip');
+																													$Xmfk5aHUVgA7WxET = '';
 																													
-																													$tagh20LfYEFTz = $jKKPTXmjqN0P2 = array();
-																													
-																													$aBNjh41fLx = '';
-																													
-																													$Lc3J_yXfeas3XcaVAQ = preg_split('#[\r\n]+#', $grab_parameters['xs_ind_attr']);
+																													$AXVeGxVDLaOnReA = preg_split('#[\r\n]+#', $grab_parameters['xs_ind_attr']);
 																													
 																													$this->allowcode = '#200'.($grab_parameters['xs_allow_httpcode']?'|'.$grab_parameters['xs_allow_httpcode']:'').'#';
 																													
-																													$this->forbidcode = '#403'.($grab_parameters['xs_forbid_httpcode']?'|'.$grab_parameters['xs_forbid_httpcode']:'').'#';
-																													
-																													$this->badreqcode = '#400|429#';
-																													
-																													$this->retry_stop_code = (($_tmp=$grab_parameters['xs_badreq_httpcode']) ?
-																													
-																													'#'.str_replace(' ', '|',$_tmp).'#':'');
+																													$this->badreqcode = '#400|429'.($grab_parameters['xs_badreq_httpcode']?'|'.$grab_parameters['xs_badreq_httpcode']:'').'#';
 																													
 																													$this->interruptcode = (($_tmp=$grab_parameters['xs_interrupt_httpcode'])?'#'.$_tmp.'#':'');
 																													
@@ -921,19 +756,19 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													{
 																													
-																													if(!file_exists(n5tMOg62N5))
+																													if(!file_exists(GFrAnuUwfGw3mh))
 																													
-																													mkdir(n5tMOg62N5, 0777);
+																													mkdir(GFrAnuUwfGw3mh, 0777);
 																													
 																													else
 																													
-																													if($this->NdDirA6nDitD7['resume']=='')
+																													if($this->SVH4BzIyh56a_HEGqt['resume']=='')
 																													
-																													m1iq__8vzNTagaS(n5tMOg62N5, '.txt');
+																													zY4U4qfszx17aI(GFrAnuUwfGw3mh, '.txt');
 																													
 																													}
 																													
-																													foreach($Lc3J_yXfeas3XcaVAQ as $ia)
+																													foreach($AXVeGxVDLaOnReA as $ia)
 																													
 																													if($ia)
 																													
@@ -943,105 +778,64 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if($is[0][0]=='$')
 																													
-																													$BOcu_xzMur0DejP = preg_replace('#\(([^\?])#','(?:$01',substr($is[0], 1));
+																													$xDgZ5hLZdrtqCTh = substr($is[0], 1);
 																													
 																													else
 																													
-																													$BOcu_xzMur0DejP = str_replace(array('\\^', '\\$'), array('^','$'), preg_quote($is[0],'#'));
+																													$xDgZ5hLZdrtqCTh = str_replace(array('\\^', '\\$'), array('^','$'), preg_quote($is[0],'#'));
 																													
-																													$jKKPTXmjqN0P2[] = $BOcu_xzMur0DejP;
+																													$A6DPJo_TlvfZL8j[] = $xDgZ5hLZdrtqCTh;
 																													
 																													
-																													$tagh20LfYEFTz[] =
+																													$Rcj3xnKl_qu[] =
 																													
 																													array('lm' => $is[1], 'f' => $is[2], 'p' => $is[3]);
 																													
 																													}
 																													
-																													if($jKKPTXmjqN0P2)
+																													if($A6DPJo_TlvfZL8j)
 																													
-																													$aBNjh41fLx = '('.implode(')|(',$jKKPTXmjqN0P2).')';
+																													$Xmfk5aHUVgA7WxET = '('.implode(')|(',$A6DPJo_TlvfZL8j).')';
 																													
-																													$this->Z1JhlPcblVrJXSoF($this->NdDirA6nDitD7['initurl']);
+																													$i1zq0dY3F9_zWWq = parse_url($this->wOd8ZRUj4KujS);
 																													
-																													$this->fb23nrOMWYh = array();
+																													if(!$i1zq0dY3F9_zWWq['path']){$this->wOd8ZRUj4KujS.='/';$i1zq0dY3F9_zWWq = parse_url($this->wOd8ZRUj4KujS);}
 																													
-																													$this->urls_404 = array();
-																													
-																													$this->Lr95wALjvGm = $this->tsize = $retrno = $O4kU9hKnV6 = $BmAoCtkHmjC = $this->fetch_no = 0;
-																													
-																													$tXkO6UNT7i = 0;
-																													
-																													if($this->jMxbITiXlO5nmhmw()) {
-																													
-																													
-																													$_prelist = array($this->CKkufD8Jt);
-																													
-																													if(uYtRST7eOVyiC('xs_robotstxt'))
-																													
-																													$_prelist[] = $this->BQuugH4detSL1C.'/robots.txt';
-																													
-																													$Rgqo7Yox5Mydire->PsiPUeBCQgzxKlY($_prelist);
-																													
-																													}
-																													
-																													$_init_check_url = $this->CKkufD8Jt;
+																													$lzNE5TjQXAahK7H35aV = 0;
 																													
 																													do {
 																													
-																													$ua9tyorFugytr = $Rgqo7Yox5Mydire->fetch($_init_check_url, 0, true, false, '', array('getinfo'=>true));// the first request is to skip session id
+																													$uFxTSS9XSb52KZo7YrD = $k0huGF8gg4LQ1A->fetch($this->wOd8ZRUj4KujS, 0, true, false, '', array('getinfo'=>true));// the first request is to skip session id
 																													
-																													$tgxWyFGjOk51hF = !preg_match($this->allowcode,$ua9tyorFugytr['code']);
+																													$hj01UnPDZ2UcHRo4eLE = !preg_match($this->allowcode,$uFxTSS9XSb52KZo7YrD['code']);
 																													
-																													if(($_lastu = $ua9tyorFugytr['last_url']) && ($_lastu != $_init_check_url)) {
-																													
-																													$_xlc = $this->i4YBy_a0gx($_lastu, $this->CKkufD8Jt);
-																													
-																													$_ext = $_xlc['isext'];
-																													
-																													if($_ext != 1) { // 1 - externals, 2 - subdomain/cross-protocol
-																													
-																													$_init_check_url = $_lastu;
-																													
-																													if($_ext){
-																													
-																													$this->Z1JhlPcblVrJXSoF($_init_check_url);
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													}while($tgxWyFGjOk51hF && ($tXkO6UNT7i++ <2)); // repeat 3 times
+																													}while($hj01UnPDZ2UcHRo4eLE && ($lzNE5TjQXAahK7H35aV++ <2));
 																													
 																													
 																													
-																													$this->runstate['info'] = $ua9tyorFugytr['info'];
+																													$this->runstate['info'] = $uFxTSS9XSb52KZo7YrD['info'];
 																													
-																													$this->runstate['info_content'] = $ua9tyorFugytr['content'];
-																													
-																													if($tgxWyFGjOk51hF)
+																													if($hj01UnPDZ2UcHRo4eLE)
 																													
 																													{
 																													
-																													$tgxWyFGjOk51hF = '';
+																													$hj01UnPDZ2UcHRo4eLE = '';
 																													
-																													foreach($ua9tyorFugytr['headers'] as $k=>$v)
+																													foreach($uFxTSS9XSb52KZo7YrD['headers'] as $k=>$v)
 																													
-																													$tgxWyFGjOk51hF .= $k.': '.$v.'<br />';
+																													$hj01UnPDZ2UcHRo4eLE .= $k.': '.$v.'<br />';
 																													
 																													return array(
 																													
-																													'errmsg'=>'<b>There was an error while retrieving the URL specified:</b> '.$this->CKkufD8Jt.''.
+																													'errmsg'=>'<b>There was an error while retrieving the URL specified:</b> '.$this->wOd8ZRUj4KujS.''.
 																													
-																													($ua9tyorFugytr['errormsg']?'<br><b>Error message:</b> '.$ua9tyorFugytr['errormsg']:'').
+																													($uFxTSS9XSb52KZo7YrD['errormsg']?'<br><b>Error message:</b> '.$uFxTSS9XSb52KZo7YrD['errormsg']:'').
 																													
-																													'<br><b>HTTP Code:</b><br>'.$ua9tyorFugytr['protoline'].
+																													'<br><b>HTTP Code:</b><br>'.$uFxTSS9XSb52KZo7YrD['protoline'].
 																													
-																													'<br><b>HTTP headers:</b><br>'.$tgxWyFGjOk51hF.
+																													'<br><b>HTTP headers:</b><br>'.$hj01UnPDZ2UcHRo4eLE.
 																													
-																													'<br><b>HTTP output:</b><br>'.$ua9tyorFugytr['content']
+																													'<br><b>HTTP output:</b><br>'.$uFxTSS9XSb52KZo7YrD['content']
 																													
 																													,
 																													
@@ -1049,108 +843,110 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													$this->CKkufD8Jt = $_lastu;
+																													$this->bBAymp71W4mgyv_2c($uFxTSS9XSb52KZo7YrD['last_url'], $this->wOd8ZRUj4KujS);
 																													
-																													register_shutdown_function('w81RXoNzadssEV06TGW');
+																													$this->wOd8ZRUj4KujS = $uFxTSS9XSb52KZo7YrD['last_url'];
 																													
-																													$this->lXZzreYj5Sp71N6a = $Rgqo7Yox5Mydire->fetch($this->CKkufD8Jt,0,true,true);
 																													
-																													$vD9L6rhO0PmkqKOMW6j = str_replace($this->LGu93aFor,'',$this->CKkufD8Jt);
 																													
-																													if(!$vD9L6rhO0PmkqKOMW6j)$vD9L6rhO0PmkqKOMW6j='';
+																													$this->urls_completed = array();
+																													
+																													$urls_ext = array();
+																													
+																													$this->urls_404 = array();
+																													
+																													$this->r7kkCXZmM = $i1zq0dY3F9_zWWq['scheme'].'://'.$i1zq0dY3F9_zWWq['host'].((!$i1zq0dY3F9_zWWq['port'] || ($i1zq0dY3F9_zWWq['port']=='80'))?'':(':'.$i1zq0dY3F9_zWWq['port']));
+																													
+																													$this->num_processed = $this->tsize = $retrno = $m8HTpd_0s = $N0PX75BqtEcrjK = $this->fetch_no = 0;
+																													
+																													$this->A78wE6jgmrny = XGuLWSESslGQjVANPx1($this->r7kkCXZmM.'/', GnOmDgAJZQXc9AEMaJ($i1zq0dY3F9_zWWq['path']));
+																													
+																													$nqlGKC7b_ZAN7dg = parse_url($this->A78wE6jgmrny);
+																													
+																													$this->v0ytSBWER = preg_replace('#^.+://[^/]+#', '', $this->A78wE6jgmrny);
+																													
+																													$this->Dku6hTsz64joltRugO = $k0huGF8gg4LQ1A->fetch($this->wOd8ZRUj4KujS,0,true,true);
+																													
+																													$e3gVo4pzCVZy188p = str_replace($this->A78wE6jgmrny,'',$this->wOd8ZRUj4KujS);
+																													
+																													$urls_list_full = array($e3gVo4pzCVZy188p=>1);
+																													
+																													if(!$e3gVo4pzCVZy188p)$e3gVo4pzCVZy188p='';
+																													
+																													$urls_list = array($e3gVo4pzCVZy188p=>1);
+																													
+																													$urls_list2 = $urls_list_skipped = array();
+																													
+																													$this->x15LfqXVsH = array();
 																													
 																													$this->links_level = 0;
 																													
-																													$this->UxoQSL7Suyq5hIutb = array($vD9L6rhO0PmkqKOMW6j=>1);
+																													$MqhSd09MtOq4uT = $this->ref_links_tmp = $this->ref_links_tmp2 = $this->ref_links_list = array();
 																													
-																													$this->D_92CNRcLCBbAvv();
+																													$ph9tZXA4lu = 0;
 																													
+																													
+																													
+																													$ELiT8ew5NjA = $this->y5E6XiZB3w2DW4XFY;
 																													
 																													if(!$grab_parameters['xs_progupdate'])$grab_parameters['xs_progupdate'] = 20;
 																													
-																													$this->t71f_efSaAOndERJMx1 = array();
+																													$this->f5YhQAzju8oZNGeLb1K = array();
 																													
 																													$this->botmatch_allow = array();
 																													
-																													if(uYtRST7eOVyiC('xs_robotstxt'))
+																													if(isset($grab_parameters['xs_robotstxt']) && $grab_parameters['xs_robotstxt'])
 																													
 																													{
 																													
-																													$this->bwFKDeaDhz = $Rgqo7Yox5Mydire->GoUkTerrISR58PP($this->BQuugH4detSL1C.'/robots.txt', array('skip_cookies'=>true));
+																													$h1y09q4tisyr5MRcb = $k0huGF8gg4LQ1A->fetch($this->r7kkCXZmM.'/robots.txt');
 																													
-																													if(!preg_match($this->allowcode, $this->bwFKDeaDhz['code']))
+																													if($this->r7kkCXZmM.'/' != $this->A78wE6jgmrny)
 																													
-																													$this->bwFKDeaDhz['content'] = '';
+																													{
 																													
-																													$pEuj3C8e7z = $this->bwFKDeaDhz['content'];
 																													
-																													if(!$grab_parameters['xs_inc_ajax'])
 																													
-																													$pEuj3C8e7z = preg_replace('#\s*\#.*#im', '', $pEuj3C8e7z);
+																													}
 																													
-																													$ra = preg_split('#\s*user-agent:\s*#im', $pEuj3C8e7z);
+																													$ra=preg_split('#user-agent:\s*#im',$h1y09q4tisyr5MRcb['content']);
 																													
-																													$DWSJF9y6zyz = $gdHRy5An0LU2dLhXOn = array();
+																													$eLrPzfTPKO97oQ0mH_W=$Ye5bqIxOG2ePHa=array();
 																													
-																													$qTMAkXSseK2ELEAb = false;
-																													
-																													$N4U6cGlXYF_IliHxS = false;
-																													
-																													$_ualist = array();
+																													$WYC4RmasUB1 = false;
 																													
 																													for($i=1;$i<count($ra);$i++){
 																													
-																													preg_match('#^\s*(\S+)(.*)$#s',$ra[$i],$zH38Xu9bJrZ);
+																													preg_match('#^(\S+)(.*)$#s',$ra[$i],$mKnBJSwVaktZgvkEa);
 																													
-																													$_ua = strtolower(trim($zH38Xu9bJrZ[1]));
+																													$fJXmitMs7XYPqiE = preg_match('#^googlebot$#is',$mKnBJSwVaktZgvkEa[1]);
 																													
-																													$_dir = trim($zH38Xu9bJrZ[2]);
+																													$bMR1qZsUSS5SL = ($mKnBJSwVaktZgvkEa[1]=='*');
 																													
-																													$DbbpFbjGV9z = ($_ua == 'googlebot');
+																													if(!$bMR1qZsUSS5SL&&!$fJXmitMs7XYPqiE)
 																													
-																													$cWJcHWGIQMr = ($_ua && ($_ua == uYtRST7eOVyiC('xs_robots_bot')));
+																													continue;
 																													
-																													$MjZFkwXGVHAvQy_P7 = ($_ua == '*');
+																													if($bMR1qZsUSS5SL && $WYC4RmasUB1)
 																													
-																													if(!$MjZFkwXGVHAvQy_P7 && !$DbbpFbjGV9z && !$cWJcHWGIQMr)
+																													continue;
 																													
-																													continue;  // cont FOR
+																													if($fJXmitMs7XYPqiE){
 																													
-																													if($MjZFkwXGVHAvQy_P7 && $qTMAkXSseK2ELEAb)
 																													
-																													continue; // cont FOR
+																													$WYC4RmasUB1 = true;
 																													
-																													if($N4U6cGlXYF_IliHxS)
-																													
-																													continue; // cont FOR
-																													
-																													if($cWJcHWGIQMr) {
-																													
-																													$N4U6cGlXYF_IliHxS = true;
-																													
-																													$DWSJF9y6zyz = $gdHRy5An0LU2dLhXOn = array();
+																													$eLrPzfTPKO97oQ0mH_W = $Ye5bqIxOG2ePHa = array();
 																													
 																													}
 																													
-																													#				preg_match_all('#^disallow:[^\S\r\n]*([^\#\r\n]*)#im', $_dir, $rm);
-																													
-																													preg_match_all('#^disallow:[^\S\r\n]*([^\r\n]*)#im', $_dir, $rm);
-																													
-																													if($DbbpFbjGV9z && (count($rm[1]) || !$_dir)){
-																													
-																													
-																													
-																													$qTMAkXSseK2ELEAb = true;
-																													
-																													$DWSJF9y6zyz = $gdHRy5An0LU2dLhXOn = array();
-																													
-																													}
+																													preg_match_all('#^disallow:\s*([^\#\r\n]*)#im',$mKnBJSwVaktZgvkEa[2],$rm);
 																													
 																													for($pi=0;$pi<count($rm[1]);$pi++)
 																													
 																													if($rm[1][$pi])
 																													
-																													$DWSJF9y6zyz[] =
+																													$eLrPzfTPKO97oQ0mH_W[] =
 																													
 																													str_replace('\\$','$',
 																													
@@ -1162,25 +958,13 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													)));
 																													
-																													preg_match_all('#^allow:\s*(\S*)#im',$zH38Xu9bJrZ[2],$rm);
+																													preg_match_all('#^allow:\s*(\S*)#im',$mKnBJSwVaktZgvkEa[2],$rm);
 																													
-																													for($pi=0;$pi<count($rm[1]);$pi++){
+																													for($pi=0;$pi<count($rm[1]);$pi++)
 																													
-																													$_rp = $rm[1][$pi];
+																													if($rm[1][$pi] && ($rm[1][$pi]!='/')) {
 																													
-																													$_rpall = ($_rp == '/');
-																													
-																													if($DbbpFbjGV9z && $_rpall){
-																													
-																													$qTMAkXSseK2ELEAb = true;
-																													
-																													$DWSJF9y6zyz = $gdHRy5An0LU2dLhXOn = array();
-																													
-																													}
-																													
-																													if($_rp && !$_rpall) {
-																													
-																													$gdHRy5An0LU2dLhXOn[] =
+																													$Ye5bqIxOG2ePHa[] =
 																													
 																													str_replace('\\$','$',
 																													
@@ -1188,7 +972,7 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													str_replace(' ','',
 																													
-																													preg_quote($_rp,'#')
+																													preg_quote($rm[1][$pi],'#')
 																													
 																													)));
 																													
@@ -1196,15 +980,13 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													}
+																													for($i=0;$i<count($eLrPzfTPKO97oQ0mH_W);$i+=200)
 																													
-																													for($i=0;$i<count($DWSJF9y6zyz);$i+=200)
+																													$this->f5YhQAzju8oZNGeLb1K[]=implode('|', array_slice($eLrPzfTPKO97oQ0mH_W, $i,200));
 																													
-																													$this->t71f_efSaAOndERJMx1[]=implode('|', array_slice($DWSJF9y6zyz, $i,200));
+																													for($i=0;$i<count($Ye5bqIxOG2ePHa);$i+=200)
 																													
-																													for($i=0;$i<count($gdHRy5An0LU2dLhXOn);$i+=200)
-																													
-																													$this->botmatch_allow[]=implode('|', array_slice($gdHRy5An0LU2dLhXOn, $i,200));
+																													$this->botmatch_allow[]=implode('|', array_slice($Ye5bqIxOG2ePHa, $i,200));
 																													
 																													}
 																													
@@ -1214,9 +996,9 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													'\#', '\#(?:[^\!]|$)', $grab_parameters['xs_proto_skip']);
 																													
-																													$this->Y2JFas41Ha7Bh = $grab_parameters['xs_exc_skip']!='\\.()';
+																													$this->Te7nRdc2NfOAPzQBZFq = $grab_parameters['xs_exc_skip']!='\\.()';
 																													
-																													$this->JKKdudUKlq = $grab_parameters['xs_inc_skip']!='\\.()';
+																													$this->L2rCBT7py = $grab_parameters['xs_inc_skip']!='\\.()';
 																													
 																													$grab_parameters['xs_inc_skip'] .= '(?:$|\?)';
 																													
@@ -1226,172 +1008,80 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$_GET['ddbg']=1;
 																													
-																													QmvClYcucJa();
+																													Z4wwdX_eBH();
 																													
 																													}
 																													
-																													$I2wjdAAsNKblNhs3T = 0;
+																													$epcQYfCl1 = 0;
 																													
-																													$this->l39B5BzXe();
+																													$this->CkkDVwCnm_1R();
 																													
-																													o_V2IjGO4FbBy(fblAQEhuR9vBvG3WD3,'');
+																													$this->num_urls_processed_in_current_batch = 0;
 																													
-																													$auDhSkKckYTv2 = false;
+																													$this->num_links_current_batch = 1;
 																													
-																													if($this->NdDirA6nDitD7['resume']!=''){
 																													
-																													Gpa9Bjai2UMV7SSv("\nRestoring session\n");
+																													Ndm7I4IRr(guXHCq5aVeE,'');
 																													
-																													$TYHRDZiWCRbVqzBb6 = @ZemEb1wrkmtr2t(ouNNfKx_I37NGU4TZMQ(ee6DE3zheBrz3N . EZDFQmUtjVbpx9NW, true));
+																													$d2a2uMuqO3Fh0aLFoJY = false;
 																													
-																													if($TYHRDZiWCRbVqzBb6)
+																													if($this->SVH4BzIyh56a_HEGqt['resume']!=''){
+																													
+																													wkwPIGj7HFydE9Mly("\nRestoring session\n");
+																													
+																													$mFUcZxJGA4itwRbJ = @U2Jtr5yOrK(raSnfm1S9eiZTlT(pbAiQcHEGrGKkyqo4Q . TYR4q027D0OWvh, true));
+																													
+																													if($mFUcZxJGA4itwRbJ)
 																													
 																													{
 																													
-																													$auDhSkKckYTv2 = true;
+																													$d2a2uMuqO3Fh0aLFoJY = true;
 																													
-																													echo 'Resuming the last session (last updated: '.date('Y-m-d H:i:s',$TYHRDZiWCRbVqzBb6['time']).')'."\n";
+																													echo 'Resuming the last session (last updated: '.date('Y-m-d H:i:s',$mFUcZxJGA4itwRbJ['time']).')'."\n";
 																													
-																													unset($TYHRDZiWCRbVqzBb6['sm_base']);
+																													unset($mFUcZxJGA4itwRbJ['sm_base']);
 																													
+																													extract($mFUcZxJGA4itwRbJ);
 																													
-																													if($TYHRDZiWCRbVqzBb6['urls_completed']){
-																													
-																													
-																													@WSvkWWFpjZnripMo(ee6DE3zheBrz3N.WM4in_T2Mrf);
-																													
-																													$this->mWZvXOgbL2muF5 = count($TYHRDZiWCRbVqzBb6['urls_completed']);
-																													
-																													$TYHRDZiWCRbVqzBb6['urls_completed_latest'] = $TYHRDZiWCRbVqzBb6['urls_completed'];
-																													
-																													unset($TYHRDZiWCRbVqzBb6['urls_completed']);
-																													
-																													}
-																													
-																													$dFnH11OWKVHCKEwlm = array(
-																													
-																													'imlist' => 'hashlist_img',
-																													
-																													'imlist2' => 'hashlist_vid',
-																													
-																													'urls_list' => 'urls_list_current_batch',
-																													
-																													'urls_list2' => 'urls_list_next_batch',
-																													
-																													'urls_ext' => 'urls_list_ext',
-																													
-																													'num_links_current_batch' => 'num_urls_current_batch',
-																													
-																													'num_processed' => 'num_urls_processed',
-																													
-																													'ref_links_tmp' => 'ref_urls_next_batch',
-																													
-																													'ref_links_tmp2' => 'ref_urls_current_batch',
-																													
-																													);
-																													
-																													foreach($dFnH11OWKVHCKEwlm as $_po => $_pn) {
-																													
-																													if(isset($TYHRDZiWCRbVqzBb6[$_po])) {
-																													
-																													$this->$_pn = $TYHRDZiWCRbVqzBb6[$_po];
-																													
-																													unset($TYHRDZiWCRbVqzBb6[$_po]);
-																													
-																													}
-																													
-																													}
-																													
-																													foreach($TYHRDZiWCRbVqzBb6 as $k=>$v){
+																													foreach($mFUcZxJGA4itwRbJ as $k=>$v){
 																													
 																													if(isset($this->$k)){
 																													
 																													$this->$k=$v;
 																													
-																													
-																													}else
-																													
-																													$$k = $v;
-																													
-																													}
-																													
-																													unset($_save_progpar['crawl_stats']);
-																													
-																													
-																													
-																													if($this->sm_sessions)
-																													
-																													foreach($this->sm_sessions as $_snum=>$_smsess){
-																													
-																													unset($this->sm_sessions[$_snum]['progress_start']['crawl_stats']);
-																													
-																													unset($this->sm_sessions[$_snum]['progress_end']['crawl_stats']);
-																													
-																													}
-																													
-																													
-																													$_ultmp = array();
-																													
-																													foreach($this->UxoQSL7Suyq5hIutb as $MBcYNgRUcpddzmm=>$c){
-																													
-																													$l1 = $MBcYNgRUcpddzmm;
-																													
-																													$_xlc = $this->i4YBy_a0gx($MBcYNgRUcpddzmm, $this->LGu93aFor);
-																													
-																													$MBcYNgRUcpddzmm = $this->FH24Z1Zzh6KfPVW($MBcYNgRUcpddzmm);
-																													
-																													$_ultmp[$MBcYNgRUcpddzmm] = $c;
-																													
-																													}
-																													
-																													$this->UxoQSL7Suyq5hIutb = $_ultmp;
-																													
-																													
-																													$this->R6kB6cBogCUcR -= $this->ctime;
-																													
-																													$I2wjdAAsNKblNhs3T = $this->ctime;
-																													
-																													unset($TYHRDZiWCRbVqzBb6);
-																													
-																													}else {
-																													
-																													
-																													@WSvkWWFpjZnripMo(ee6DE3zheBrz3N.WM4in_T2Mrf);
+																													unset($$v);
 																													
 																													}
 																													
 																													}
 																													
-																													$this->j5E3rAO3w97fG2e($auDhSkKckYTv2);
+																													$this->s44JV5vkSKmyf7Lv5zD-=$this->ctime;
 																													
-																													if($auDhSkKckYTv2){
+																													$epcQYfCl1 = $this->ctime;
 																													
+																													unset($mFUcZxJGA4itwRbJ);
 																													
-																													if(1)
+																													}
 																													
-																													if($_mu_s = $grab_parameters['xs_moreurls_resume']){
+																													}
 																													
-																													$_mu_list = preg_split('# +#', $_mu_s);
+																													$iCGf7dEtSbU = 0;
 																													
-																													foreach($_mu_list as $PwtFy91kNSr82uSe)
+																													$this->R5xg8ekoBHxW($d2a2uMuqO3Fh0aLFoJY);
 																													
-																													if($PwtFy91kNSr82uSe = trim($_mu_s))
+																													if($_murls = $grab_parameters['xs_moreurls_test']){
 																													
-																													{
+																													$this->mu = preg_split('#[\r\n]+#', $_murls);
 																													
-																													$XO0iq7C5M = $this->U3q19rVU7EOiLZPySDT($PwtFy91kNSr82uSe);
+																													foreach($this->mu as $YbDvNPDLdp){
 																													
-																													foreach($XO0iq7C5M as $MBcYNgRUcpddzmm) {
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($YbDvNPDLdp, $this->A78wE6jgmrny);
 																													
-																													$_xlc = $this->i4YBy_a0gx($MBcYNgRUcpddzmm, $this->LGu93aFor);
+																													if($LV3feH44NvQ!=1) {
 																													
-																													if($_xlc['isext']!=1) {
+																													$YbDvNPDLdp = $this->KVz31hE2O($YbDvNPDLdp);
 																													
-																													$MBcYNgRUcpddzmm = $this->FH24Z1Zzh6KfPVW($MBcYNgRUcpddzmm);
-																													
-																													if(!$this->urls_list_full[$MBcYNgRUcpddzmm]){
-																													
-																													$this->UxoQSL7Suyq5hIutb[$MBcYNgRUcpddzmm]++;
+																													$urls_list[$YbDvNPDLdp]++;
 																													
 																													}
 																													
@@ -1399,49 +1089,27 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													$this->wBD3MhpjtBO8tqmNhcW = count($this->UxoQSL7Suyq5hIutb);
+																													if($d2a2uMuqO3Fh0aLFoJY){
 																													
-																													}
-																													
-																													}
 																													
 																													}else
 																													
 																													{
 																													
-																													
-																													AS95brafV4MhLHC4b(true);
 																													
 																													if($_mu_s = $grab_parameters['xs_moreurls']) {
 																													
-																													$_mu_list = preg_split('#[\r\n]+#', $_mu_s);
+																													$this->mu = preg_split('#[\r\n]+#', $_mu_s);
 																													
+																													foreach($this->mu as $YbDvNPDLdp){
 																													
-																													foreach($_mu_list as $PwtFy91kNSr82uSe)
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($YbDvNPDLdp, $this->A78wE6jgmrny);
 																													
-																													if($PwtFy91kNSr82uSe = trim($PwtFy91kNSr82uSe))
+																													if($LV3feH44NvQ!=1) {
 																													
-																													{
+																													$YbDvNPDLdp = $this->KVz31hE2O($YbDvNPDLdp);
 																													
-																													if($oeN_W6W7dNiRt0rKOaH = ($PwtFy91kNSr82uSe[0] == '#'))
-																													
-																													$PwtFy91kNSr82uSe = substr($PwtFy91kNSr82uSe, 1);
-																													
-																													$XO0iq7C5M = $this->U3q19rVU7EOiLZPySDT($PwtFy91kNSr82uSe);
-																													
-																													foreach($XO0iq7C5M as $MBcYNgRUcpddzmm) {
-																													
-																													$_xlc = $this->i4YBy_a0gx($MBcYNgRUcpddzmm, $this->LGu93aFor);
-																													
-																													$q5mXhT0VAQKh0u = $_xlc['isext'];
-																													
-																													if(($q5mXhT0VAQKh0u!=1) || $oeN_W6W7dNiRt0rKOaH) {
-																													
-																													$MBcYNgRUcpddzmm = $this->FH24Z1Zzh6KfPVW($MBcYNgRUcpddzmm);
-																													
-																													$this->UxoQSL7Suyq5hIutb[$MBcYNgRUcpddzmm]++;
-																													
-																													}
+																													$urls_list[$YbDvNPDLdp]++;
 																													
 																													}
 																													
@@ -1451,55 +1119,35 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if($_mu_s = $grab_parameters['xs_moreurls_import']) {
 																													
-																													$_mu_imp = preg_split('#[\r\n]+#', $_mu_s);
+																													$this->mu_imp = preg_split('#[\r\n]+#', $_mu_s);
 																													
-																													foreach($_mu_imp as $zbBbYpc9QywRugHXCT){
+																													foreach($this->mu_imp as $XjY0_j8Woov_L6wt9Z){
 																													
-																													$_mdef = explode(';', $zbBbYpc9QywRugHXCT, 2);
+																													$_mdef = explode(';', $XjY0_j8Woov_L6wt9Z, 2);
 																													
-																													$H24X8dYjh = $this->U3q19rVU7EOiLZPySDT($_mdef[1]);
+																													$sTZJRrBTadswKbwX6ii = array();
 																													
-																													foreach($H24X8dYjh as $MBcYNgRUcpddzmm)
-																													
-																													{
-																													
-																													$mwLwruy5ID6GnqWCLNg = array();
-																													
-																													$bpb5CzzG0Ox74N = $Rgqo7Yox5Mydire->fetch($MBcYNgRUcpddzmm, 0, true, false, '',
-																													
-																													array('anytype'=>true));
+																													$EiKVQkP7zxHmIwYyV = $k0huGF8gg4LQ1A->fetch($_mdef[1]);
 																													
 																													switch($_mdef[0]){
 																													
 																													case 'txt':
 																													
-																													$mwLwruy5ID6GnqWCLNg = preg_split('#[\r\n]+#', $bpb5CzzG0Ox74N['content']);
-																													
-																													break;
-																													
-																													case 'sitemap':
-																													
-																													if(preg_match_all('#<loc[^>]*>(.*?)</loc>#is', $bpb5CzzG0Ox74N['content'], $Jq59eV5dPaUO7Pf))
-																													
-																													$mwLwruy5ID6GnqWCLNg = $Jq59eV5dPaUO7Pf[1];
+																													$sTZJRrBTadswKbwX6ii = preg_split('#[\r\n]+#', $EiKVQkP7zxHmIwYyV['content']);
 																													
 																													break;
 																													
 																													}
 																													
-																													foreach($mwLwruy5ID6GnqWCLNg as $MBcYNgRUcpddzmm) {
+																													foreach($sTZJRrBTadswKbwX6ii as $YbDvNPDLdp) {
 																													
-																													$_xlc = $this->i4YBy_a0gx($MBcYNgRUcpddzmm, $this->LGu93aFor);
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($YbDvNPDLdp, $this->A78wE6jgmrny);
 																													
-																													$q5mXhT0VAQKh0u = $_xlc['isext'];
+																													if($LV3feH44NvQ!=1) {
 																													
-																													if($q5mXhT0VAQKh0u!=1) {
+																													$YbDvNPDLdp = $this->KVz31hE2O($YbDvNPDLdp);
 																													
-																													$MBcYNgRUcpddzmm = $this->FH24Z1Zzh6KfPVW($MBcYNgRUcpddzmm);
-																													
-																													$this->UxoQSL7Suyq5hIutb[$MBcYNgRUcpddzmm]++;
-																													
-																													}
+																													$urls_list[$YbDvNPDLdp]++;
 																													
 																													}
 																													
@@ -1511,7 +1159,7 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if($grab_parameters['xs_prev_sm_base']){
 																													
-																													$UTviRK210imc3fDcb1f = count($this->UxoQSL7Suyq5hIutb);
+																													$A44mMfpwrmjIAlOnHKv = count($urls_list);
 																													
 																													if(is_array($this->sm_base)
 																													
@@ -1525,7 +1173,7 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if(preg_match('#('.$this->baseincmask.')#',$_u))
 																													
-																													$this->UxoQSL7Suyq5hIutb[$_u]++;
+																													$urls_list[$_u]++;
 																													
 																													}
 																													
@@ -1535,32 +1183,29 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$this->sm_base = array();
 																													
-																													Gpa9Bjai2UMV7SSv("\nAdded in urls list: ".(count($this->UxoQSL7Suyq5hIutb)-$UTviRK210imc3fDcb1f)."\n");
-																													
-																													if(is_array($this->Qzca9KtuSuweE7eg)
-																													
-																													&& ($grab_parameters['xs_prev_sm_base_min'] > count($this->Qzca9KtuSuweE7eg))
-																													
-																													)
-																													
-																													$this->Qzca9KtuSuweE7eg = array();
+																													wkwPIGj7HFydE9Mly("\nAdded in urls list: ".(count($urls_list)-$A44mMfpwrmjIAlOnHKv)."\n");
 																													
 																													}
 																													
-																													$this->D_92CNRcLCBbAvv();
+																													$iCGf7dEtSbU = count($urls_list);
 																													
+																													$urls_list_full = $urls_list;
+																													
+																													$this->num_links_current_batch = count($urls_list);
 																													
 																													}
 																													
-																													$vQhJcT8ct_Q = explode('|', $grab_parameters['xs_force_inc']);
+																													$Ar3WLiESdY = (wS0f9iXRiSA('xs_use_botapi', false) && wS0f9iXRiSA('xs_botapi_url', false));
 																													
-																													$RVy6wyco4qv7HO = $OJjg7dqAPuZW = array();
+																													$m7sJxx1ev = explode('|', $grab_parameters['xs_force_inc']);
 																													
-																													$this->K9akDNrFty1  = count($this->VL35Keydv0RV);
+																													$SMLYdzM8Msiva534J4 = $utIVJaPZH = array();
 																													
-																													sleep(1);
+																													$this->lOXW9WDJYx6ROZX = count($this->urls_completed);
 																													
-																													s0wbaNiWsfBVT2pAbh(true, true);
+																													$this->E7PbBLC9yunfxjh = count($urls_list2);
+																													
+																													sleep(1); @cMo3XWEqPThU4Id(pbAiQcHEGrGKkyqo4Q.guXHCq5aVeE);
 																													
 																													$this->sm_sessions[] = array(
 																													
@@ -1570,178 +1215,90 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													);
 																													
-																													$this->addedcnt['smbsess'] = $this->addedcnt['smbsessnew'] = 0;
+																													
+																													$this->KiQEfebckxJVM(0,true);
 																													
 																													
-																													$this->m820vHOHqXjLbour0(0,true);
+																													if($urls_list)
 																													
 																													
-																													if($this->UxoQSL7Suyq5hIutb)
-																													
-																													 
 																													
 																													do {
 																													
-																													Qfd6uMJrMUCoVpW3uV('pre-zero');
+																													RYtkTQfZ1my('pre',true);
 																													
-																													if($RVy6wyco4qv7HO) {
+																													RYtkTQfZ1my('pre1');
 																													
-																													$_ul = array_shift($RVy6wyco4qv7HO);
+																													if($SMLYdzM8Msiva534J4) {
 																													
-																													list($this->gkc6cuOs53JHjwRAY6, $j5W4gDOzhQN2qf) = $_ul;
+																													$_ul = array_shift($SMLYdzM8Msiva534J4);
+																													
+																													list($this->aMX8JQFnFnMWTuOJ, $D2aBvrGfxJa6J32gUZJ) = $_ul;
 																													
 																													}else
 																													
 																													{
 																													
-																													$this->gkc6cuOs53JHjwRAY6 = key($this->UxoQSL7Suyq5hIutb);
-																													
-																													$j5W4gDOzhQN2qf=current($this->UxoQSL7Suyq5hIutb);
-																													
-																													next($this->UxoQSL7Suyq5hIutb);
+																													$this->aMX8JQFnFnMWTuOJ = key($urls_list);$D2aBvrGfxJa6J32gUZJ=current($urls_list);next($urls_list);
 																													
 																													}
 																													
 																													
-																													$y4x8WG0XW0x = ($j5W4gDOzhQN2qf>0 && $j5W4gDOzhQN2qf<1) ? $j5W4gDOzhQN2qf : 0;
+																													
+																													$zN7QvVaBZeQp5ZF = ($D2aBvrGfxJa6J32gUZJ>0 && $D2aBvrGfxJa6J32gUZJ<1) ? $D2aBvrGfxJa6J32gUZJ : 0;
 																													
 																													$this->num_urls_processed_in_current_batch++;
 																													
-																													Gpa9Bjai2UMV7SSv("\n[ ".$this->num_urls_processed_in_current_batch." - $this->gkc6cuOs53JHjwRAY6, $j5W4gDOzhQN2qf] \n");
+																													wkwPIGj7HFydE9Mly("\n[ ".$this->num_urls_processed_in_current_batch." - $this->aMX8JQFnFnMWTuOJ, $D2aBvrGfxJa6J32gUZJ] \n");
 																													
-																													unset($this->UxoQSL7Suyq5hIutb[$this->gkc6cuOs53JHjwRAY6]);
+																													unset($urls_list[$this->aMX8JQFnFnMWTuOJ]);
 																													
-																													$CMORy_I_zuO = false;
+																													$oO9pt9QoVu0fjOUEU6 = VNVyRwmOg2q_22W($this->aMX8JQFnFnMWTuOJ);
 																													
-																													$iAy4Xiz6k2fd = '';
+																													$wyhMGdq7QGd6 = false;
 																													
-																													$ua9tyorFugytr = array();
+																													$OgSj2zxK4Qo5Cc = '';
+																													
+																													RYtkTQfZ1my('pre1',true);
+																													
+																													RYtkTQfZ1my('pre2a');
+																													
+																													$uFxTSS9XSb52KZo7YrD = array();
 																													
 																													$cn = '';
 																													
-																													$n5KAwYyqy = array();
-																													
-																													$YJ1Dp5HqfXcXh12lbqb = array();
-																													
-																													
-																													
-																													$this->AcpzwbnlgjKcAF = $_fex = $this->llrdonYEt($this->gkc6cuOs53JHjwRAY6);
+																													$this->X76u1YKBMGYbXmzi6sH = $_fex = $this->k7_EQIP1qhQCfrZAa($this->aMX8JQFnFnMWTuOJ);
 																													
 																													extract($_fex);
 																													
-																													if($f) {
+																													if($f)
 																													
-																													if($this->links_level==0)
-																													
-																													$iAy4Xiz6k2fd = $_fex['uskip'];
-																													
-																													}
+																													$OgSj2zxK4Qo5Cc = $_fex['uskip'];
 																													
 																													
 																													
-																													if(!$f && ($this->mWZvXOgbL2muF5>0))
+																													RYtkTQfZ1my('pre2a',true);
 																													
-																													{
+																													RYtkTQfZ1my('pre2b');
 																													
-																													if($riHsxx1tgqk4ZFis1Nx = $this->sm_base[$this->gkc6cuOs53JHjwRAY6]){
-																													
-																													
-																													
+																													if(!$f && ($this->lOXW9WDJYx6ROZX>0) && ($gEBIZ5cHL = $this->sm_base[$this->aMX8JQFnFnMWTuOJ])){
 																													
 																													$f2 = true;
 																													
-																													$n5KAwYyqy = $riHsxx1tgqk4ZFis1Nx['pginfo'];
-																													
-																													$n5KAwYyqy['cached'] = true;
-																													
-																													Gpa9Bjai2UMV7SSv("<br>\n--- { extracted from cache: ".$this->gkc6cuOs53JHjwRAY6." } ---<br>\n");
-																													
-																													$hLq9Ye1exXyPf = array();
-																													
-																													if($Os0X_tRh9d9UY = $n5KAwYyqy['curpage_outlinks'])
-																													
-																													foreach($Os0X_tRh9d9UY as $CYrdjpIHAOWgcogb=>$_lcnt){
-																													
-																													if($us = $this->nNQauD8yqV($CYrdjpIHAOWgcogb))
-																													
-																													continue; // cont FOREACH llist
-																													
-																													$gwTxmd2WqPraW = $this->urls_list_full[$CYrdjpIHAOWgcogb];
-																													
-																													$this->VTEALPCPBnuCYjF($CYrdjpIHAOWgcogb, $this->gkc6cuOs53JHjwRAY6, $gwTxmd2WqPraW);
-																													
-																													if($gwTxmd2WqPraW)
-																													
-																													continue; // cont FOREACH llist
-																													
-																													if(!$this->VL35Keydv0RV[$CYrdjpIHAOWgcogb]++){
-																													
-																													$hLq9Ye1exXyPf[$CYrdjpIHAOWgcogb] = $_lcnt;
-																													
-																													Gpa9Bjai2UMV7SSv("<u>[[[cached acut] $CYrdjpIHAOWgcogb ]]]</u><br>\n",2);
-																													
-																													}
-																													
-																													}
-																													
-																													$n5KAwYyqy['curpage_outlinks'] = $hLq9Ye1exXyPf;
-																													
-																													}else {
 																													
 																													
 																													}
 																													
-																													if($_red = $this->Qzca9KtuSuweE7eg[$this->gkc6cuOs53JHjwRAY6]){
+																													if($this->Dku6hTsz64joltRugO && strstr($this->Dku6hTsz64joltRugO['content'],'header'))$f2 = true;
 																													
-																													$CYrdjpIHAOWgcogb = $this->FH24Z1Zzh6KfPVW($_red[0]);
+																													RYtkTQfZ1my('pre2b',true);
 																													
-																													$iAy4Xiz6k2fd = $this->u04XNfRtsQBwD1Mjst($_red[0],$_red[1], $_red[2]);
+																													do { // zero-while, while(false) to allow break only
 																													
-																													$f = true;
+																													$p0o_d8t8MHu9ndEDl = count($urls_list) + $this->E7PbBLC9yunfxjh;
 																													
-																													if(!$_red[2]){
+																													$YY6ZpVykum = $p0o_d8t8MHu9ndEDl + $this->lOXW9WDJYx6ROZX;
 																													
-																													$gwTxmd2WqPraW = $this->urls_list_full[$CYrdjpIHAOWgcogb];
-																													
-																													$this->VTEALPCPBnuCYjF($CYrdjpIHAOWgcogb, $this->gkc6cuOs53JHjwRAY6, $gwTxmd2WqPraW);
-																													
-																													if(!$gwTxmd2WqPraW) {
-																													
-																													$this->VL35Keydv0RV[$CYrdjpIHAOWgcogb]++;
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													if($this->lXZzreYj5Sp71N6a && strstr($this->lXZzreYj5Sp71N6a['content'],'header'))$f2 = true;
-																													
-																													if($this->mWZvXOgbL2muF5 >= $this->fdlKwoX4HgiIlRtTjC) {
-																													
-																													
-																													$f = true;
-																													
-																													}
-																													
-																													Qfd6uMJrMUCoVpW3uV('pre-zero', true);
-																													
-																													do {
-																													
-																													Qfd6uMJrMUCoVpW3uV('zero-while');
-																													
-																													
-																													
-																													
-																													
-																													
-																													$s07gWkM_tVWSw0sdC = count($this->UxoQSL7Suyq5hIutb) + $this->K9akDNrFty1;
-																													
-																													$vSAxJH4mP6HVBu3 = $s07gWkM_tVWSw0sdC + $this->mWZvXOgbL2muF5;
-																													
-																													$DXldhUqnScbelrJqT2 = $s07gWkM_tVWSw0sdC + $this->Lr95wALjvGm;
 																													
 																													if(!$f && !$f2)
 																													
@@ -1763,130 +1320,126 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													
 																													
+																													$Q2yukaFyeBRHXGLoZz = ($this->y5E6XiZB3w2DW4XFY>=200000);
 																													
-																													if($this->H7dpHAe1ZxqW2d4_oS && !$GLOBALS['forcepar_reset']){
+																													$Xg99Dr7wV27xjesu = ($this->y5E6XiZB3w2DW4XFY<=1000);
+																													
+																													if($Xg99Dr7wV27xjesu && !$GLOBALS['forcepar_reset']){
 																													
 																													$GLOBALS['forcepar_reset'] = true;
 																													
-																													if($vQhJcT8ct_Q[1])
+																													if($m7sJxx1ev[1])
 																													
-																													$vQhJcT8ct_Q[1] *= 10;
+																													$m7sJxx1ev[1] *= 10;
 																													
-																													if($vQhJcT8ct_Q[2])
+																													if($m7sJxx1ev[2])
 																													
-																													$vQhJcT8ct_Q[2] *= 10;
-																													
-																													if($vQhJcT8ct_Q[3])
-																													
-																													$vQhJcT8ct_Q[3] *= 2;
+																													$m7sJxx1ev[2] *= 10;
 																													
 																													}
 																													
-																													$O4yBi79nSVacKYHnul = ($vQhJcT8ct_Q[1] && (($this->ctime>$vQhJcT8ct_Q[0]) && ($this->Lr95wALjvGm>$this->fdlKwoX4HgiIlRtTjC*$vQhJcT8ct_Q[1])));
+																													$rzR9rfqnQiRlGki = ($m7sJxx1ev[1] && (($this->ctime>$m7sJxx1ev[0]) && ($this->num_processed>$this->y5E6XiZB3w2DW4XFY*$m7sJxx1ev[1])));
 																													
-																													$_pleft = $this->DpaHtb34sk_OJJy1();
+																													$v7cZje3jo = $m7sJxx1ev[2] && (
 																													
-																													$KuhsJGn5U4qZkxn7Gq = $vQhJcT8ct_Q[2] && (
+																													$Q2yukaFyeBRHXGLoZz && // large sites only
 																													
-																													$this->eWMxEMwbnUJuhi  && // large sites only
+																													($ELiT8ew5NjA*$m7sJxx1ev[2]+1000)<
 																													
-																													($_pleft*$vQhJcT8ct_Q[2]+1000)<
+																													($p0o_d8t8MHu9ndEDl - $this->num_urls_processed_in_current_batch));//-$iCGf7dEtSbU));
 																													
-																													($s07gWkM_tVWSw0sdC - $this->num_urls_processed_in_current_batch));
+																													wkwPIGj7HFydE9Mly("force: (1,$rzR9rfqnQiRlGki)(2,$v7cZje3jo) pleft: ".$ELiT8ew5NjA.", maxpg: ".$this->y5E6XiZB3w2DW4XFY.", pleft*: ".($ELiT8ew5NjA*$m7sJxx1ev[2]+1000).
 																													
-																													$_logdet = "force: (1,$O4yBi79nSVacKYHnul)(2,$KuhsJGn5U4qZkxn7Gq) pagesleft: ".$_pleft.", maxpg: ".$this->fdlKwoX4HgiIlRtTjC.", pagesleft*: ".($_pleft*$vQhJcT8ct_Q[2]+1000).
+																													" cmp: ".($p0o_d8t8MHu9ndEDl - $this->num_urls_processed_in_current_batch).
 																													
-																													" cmp: ".($s07gWkM_tVWSw0sdC - $this->num_urls_processed_in_current_batch).
+																													" / totc: ".($YY6ZpVykum).", proccur: ".$this->num_urls_processed_in_current_batch.
 																													
-																													" / totc: ".($vSAxJH4mP6HVBu3).", totproc: ".$DXldhUqnScbelrJqT2.", proccur: ".$this->num_urls_processed_in_current_batch.
+																													" | numproc: ".$this->num_processed. ", cmp2: ".$this->y5E6XiZB3w2DW4XFY*$m7sJxx1ev[1].
 																													
-																													" | numproc: ".$this->Lr95wALjvGm. ", cmp2: ".$this->fdlKwoX4HgiIlRtTjC*$vQhJcT8ct_Q[1].
-																													
-																													" -> fpar: ".implode(", ", $vQhJcT8ct_Q)."\n";
+																													" -> fpar: ".implode(", ", $m7sJxx1ev)."\n",2);
 																													
 																													
+																													$iHlgQjQb2bucfa6qPN = ($rzR9rfqnQiRlGki || $v7cZje3jo);// && !$Xg99Dr7wV27xjesu;
 																													
-																													$g4LrEkxyemXXcW = ($O4yBi79nSVacKYHnul || $KuhsJGn5U4qZkxn7Gq);
+																													$_fp3 = $m7sJxx1ev[3];
 																													
-																													$_fp3 = $vQhJcT8ct_Q[3];
+																													if($Xg99Dr7wV27xjesu)$_fp3*=2;
 																													
-																													if(!$g4LrEkxyemXXcW)
+																													if(!$iHlgQjQb2bucfa6qPN)
 																													
-																													$g4LrEkxyemXXcW = ($_fp3 && $this->fdlKwoX4HgiIlRtTjC && (($DXldhUqnScbelrJqT2>$this->fdlKwoX4HgiIlRtTjC*$_fp3)));
+																													$iHlgQjQb2bucfa6qPN = ($_fp3 && $this->y5E6XiZB3w2DW4XFY && (($YY6ZpVykum>$this->y5E6XiZB3w2DW4XFY*$_fp3)));
 																													
-																													if($g4LrEkxyemXXcW){
+																													if($iHlgQjQb2bucfa6qPN){
 																													
 																													
 																													}
 																													
-																													if(!$this->H7dpHAe1ZxqW2d4_oS)
+																													if(!$Xg99Dr7wV27xjesu)
 																													
-																													$qJ8QijpfEs4K1 = $vQhJcT8ct_Q[3] && $this->fdlKwoX4HgiIlRtTjC && (($this->Lr95wALjvGm>$this->fdlKwoX4HgiIlRtTjC*$vQhJcT8ct_Q[3]));
+																													$U91midzXMtJ = $m7sJxx1ev[3] && $this->y5E6XiZB3w2DW4XFY && (($this->num_processed>$this->y5E6XiZB3w2DW4XFY*$m7sJxx1ev[3]));
 																													
-																													if($qJ8QijpfEs4K1){
+																													if($U91midzXMtJ){
 																													
-																													$this->UxoQSL7Suyq5hIutb = $this->VL35Keydv0RV = array();
 																													
-																													$this->K9akDNrFty1 = 0;
+																													$urls_list = $urls_list2 = array();
 																													
-																													$this->wBD3MhpjtBO8tqmNhcW = 0;
+																													$this->E7PbBLC9yunfxjh = 0;
+																													
+																													$this->num_links_current_batch = 0;
 																													
 																													}
 																													
-																													$KSrdn3wZlYF = ($chqAiJrAXykZ3AMLs_<=0 || $this->links_level<$chqAiJrAXykZ3AMLs_);
+																													$OKRWM1CfS0GVN = ($O5DEYzmlsLOVgGYR1jS<=0 || $this->links_level<$O5DEYzmlsLOVgGYR1jS);
 																													
-																													Qfd6uMJrMUCoVpW3uV('zero-while', true);
-																													
-																													if(!$MuwACJTKYrI && $KSrdn3wZlYF)
+																													if(!$qaauW0uNhxPeh0CAA9z && $OKRWM1CfS0GVN)
 																													
 																													{
 																													
+																													RYtkTQfZ1my('extract');
 																													
-																													Qfd6uMJrMUCoVpW3uV('extract');
+																													$eip_KPaKUUBFoURGriK = array_sum(explode(' ', microtime()));
 																													
-																													$ECGh8yj0ftz5S = microtime(true);
+																													$wljeCd6fCRKulnoFsC4 = XGuLWSESslGQjVANPx1($this->A78wE6jgmrny, $this->aMX8JQFnFnMWTuOJ);
 																													
-																													$CjnDhqJxSIaLfkH = cGfjZGtuKd($this->LGu93aFor, $this->gkc6cuOs53JHjwRAY6);
+																													if(wS0f9iXRiSA('xs_http_parallel', false) || $Ar3WLiESdY){
 																													
-																													if($this->d4BTaRkTYe()) {
+																													if(!$SMLYdzM8Msiva534J4 && !isset($k0huGF8gg4LQ1A->f2TxlO8iTzsmVAI[$wljeCd6fCRKulnoFsC4])){
 																													
-																													if(!$RVy6wyco4qv7HO && !isset($Rgqo7Yox5Mydire->xMUDKBqCk3SP5yBxECB[$CjnDhqJxSIaLfkH])){
 																													
-																													$RVy6wyco4qv7HO = array();
+																													$SMLYdzM8Msiva534J4 = array();
 																													
-																													$Qbw15mZJr4 = array();
+																													$hJyw6kplxZTuBo_ = array();
 																													
-																													$_par = uYtRST7eOVyiC('xs_http_parallel_num', 10);
+																													$_par = wS0f9iXRiSA('xs_http_parallel_num', 10);
 																													
-																													for($i=0;($i<$_par*5)&&(count($Qbw15mZJr4)<$_par);$i++) {
+																													for($i=0;($i<$_par*5)&&(count($hJyw6kplxZTuBo_)<$_par);$i++) {
 																													
-																													$_ul = $i ? key($this->UxoQSL7Suyq5hIutb) : $CjnDhqJxSIaLfkH;
+																													$_ul = $i ? key($urls_list) : $wljeCd6fCRKulnoFsC4;
 																													
 																													$_added_toqueue = false;
 																													
+																													
 																													if($_ul) {
 																													
-																													$_intfex = $this->llrdonYEt($_ul);
+																													$_fex2 = $this->k7_EQIP1qhQCfrZAa($_ul);
 																													
-																													$_allow_u = !$_intfex['f'] && !$_intfex['f2'];
+																													$_allow_u = !$_fex2['f'] && !$_fex2['f2'];
 																													
 																													if($_allow_u){
 																													
-																													if($this->jMxbITiXlO5nmhmw()){
+																													if($Ar3WLiESdY){
 																													
-																													$_usk = $this->x9jVsd5GQ_0iK6e($_ul);
-																													
-																													$_allow_u = !$_usk['f'];
+																													$_allow_u = !$this->puPBJwgZjs1JB2($_ul);
 																													
 																													}
 																													
 																													if($_allow_u){
 																													
-																													$_u1 = cGfjZGtuKd($this->LGu93aFor, $_ul);
+																													$_u1 = XGuLWSESslGQjVANPx1($this->A78wE6jgmrny, $_ul);
 																													
 																													if(!isset($this->sm_base[$_u1])){
 																													
-																													$Qbw15mZJr4[] = $_u1;
+																													$hJyw6kplxZTuBo_[] = $_u1;
 																													
 																													$_added_toqueue = true;
 																													
@@ -1902,9 +1455,9 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if($i>0){
 																													
-																													next($this->UxoQSL7Suyq5hIutb); // move pointer
+																													next($urls_list); // move pointer
 																													
-																													$RVy6wyco4qv7HO[] = array($_ul);
+																													$SMLYdzM8Msiva534J4[] = array($_ul);
 																													
 																													}
 																													
@@ -1914,13 +1467,14 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													if($Qbw15mZJr4){
+																													if($hJyw6kplxZTuBo_){
 																													
-																													$Rgqo7Yox5Mydire->PsiPUeBCQgzxKlY($Qbw15mZJr4);
+																													$k0huGF8gg4LQ1A->yOp0Q9sI83Pd5w8($hJyw6kplxZTuBo_);
+																													
 																													
 																													}else {
 																													
-																													$RVy6wyco4qv7HO = array();
+																													$SMLYdzM8Msiva534J4 = array();
 																													
 																													}
 																													
@@ -1930,188 +1484,112 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													
 																													
-																													Gpa9Bjai2UMV7SSv("<h4>{ fetch: $CjnDhqJxSIaLfkH (".$this->links_level.") }</h4>\n");
+																													wkwPIGj7HFydE9Mly("<h4> { $wljeCd6fCRKulnoFsC4 } </h4>\n");
 																													
-																													$AR4CCjRWrr=0;
+																													$H3psU6E1Oh=0;
 																													
-																													$O4kU9hKnV6++;
+																													$m8HTpd_0s++;
 																													
-																													$LMZVEsSQU = false;
+																													$UXFc3uMWQ = false;
 																													
 																													do {
 																													
+																													$uFxTSS9XSb52KZo7YrD = $k0huGF8gg4LQ1A->fetch($wljeCd6fCRKulnoFsC4, 0, 0);
 																													
 																													
+																													$this->bBAymp71W4mgyv_2c($uFxTSS9XSb52KZo7YrD['last_url'], $this->AKn7hFzTSwEhWIx);
 																													
-																													if($this->UCZR3jLESp3_U){
+																													$this->KiQEfebckxJVM();
 																													
-																													Gpa9Bjai2UMV7SSv("(interrupted) ".$this->UCZR3jLESp3_U);
+																													$_to = $uFxTSS9XSb52KZo7YrD['flags']['socket_timeout'];
 																													
-																													$LMZVEsSQU = true;
+																													if($_to && ($nqlGKC7b_ZAN7dg['host']!=$uFxTSS9XSb52KZo7YrD['purl']['host'])){
+																													
+																													$uFxTSS9XSb52KZo7YrD['flags']['error'] = 'Host doesn\'t match';
+																													
+																													}
+																													
+																													$_ic = intval($uFxTSS9XSb52KZo7YrD['code']);
+																													
+																													$c0NPvBdlsu = preg_match($this->badreqcode,$_ic);
+																													
+																													$M3UkKfCl2Ig = $this->interruptcode && preg_match($this->interruptcode,$_ic);
+																													
+																													$kOOkR04Ndiu = ($_ic == 403);
+																													
+																													if($this->allowcode && preg_match($this->allowcode,$_ic)){
+																													
+																													$c0NPvBdlsu = $kOOkR04Ndiu = false;
+																													
+																													}
+																													
+																													$X9DhIsP39Q2Z2Ln_ = (($_ic == 301)||($_ic==302)) && ($wljeCd6fCRKulnoFsC4 == $uFxTSS9XSb52KZo7YrD['last_url']);
+																													
+																													if($M3UkKfCl2Ig) {
+																													
+																													$X5O38TAuWv4FR = "Stop processing code [$_ic] - interrupt session";
+																													
+																													$UXFc3uMWQ = true;
 																													
 																													break;
 																													
 																													}
 																													
-																													$ua9tyorFugytr = $Rgqo7Yox5Mydire->fetch($CjnDhqJxSIaLfkH, 0, ($this->links_level > 0) ? false : true);
+																													if( !$uFxTSS9XSb52KZo7YrD['flags']['error'] &&
 																													
-																													if(!$uo4Jx8ZSPUrN1SrFhm){
-																													
-																													$uo4Jx8ZSPUrN1SrFhm = true;
-																													
-																													$this->xS8BuXe3J4Ky('first_request', array(
-																													
-																													'url' => $CjnDhqJxSIaLfkH,
-																													
-																													'info' => $ua9tyorFugytr['info'],
-																													
-																													'content' => $ua9tyorFugytr['content']
-																													
-																													));
-																													
-																													}
-																													
-																													$dMnjtj7trqzv2cd = $ua9tyorFugytr['info'];
-																													
-																													unset($ua9tyorFugytr['info']);
-																													
-																													$this->i4YBy_a0gx($ua9tyorFugytr['last_url']);
-																													
-																													$this->m820vHOHqXjLbour0();
-																													
-																													$_tmout = $ua9tyorFugytr['flags']['socket_timeout'];
-																													
-																													if($_tmout){
-																													
-																													$ua9tyorFugytr['flags']['error'] = 'Socket timeout';
-																													
-																													}
-																													
-																													if($_bc = uYtRST7eOVyiC('xs_404req_httpcontent')) {
-																													
-																													if(preg_match('#'.$_bc.'#', $ua9tyorFugytr['content'])){
-																													
-																													$ua9tyorFugytr['flags']['error'] = 'Not found content response';
-																													
-																													$ua9tyorFugytr['code'] = '404 Not found by content';
-																													
-																													}
-																													
-																													}
-																													
-																													$_ic = intval($ua9tyorFugytr['code']);
-																													
-																													$_icmatch = preg_replace('#^(\d+).*#', '$01', $_ic);
-																													
-																													$fAAeLk4DD5K = !$_ic || preg_match($this->badreqcode,$_ic);
-																													
-																													$BBDkSyeXwf = false;
-																													
-																													$x6NjmM7AnShh = $this->interruptcode && preg_match($this->interruptcode,$_ic);
-																													
-																													$LdThlII4pmpSBotruyA = preg_match($this->forbidcode,$_ic);
-																													
-																													if($this->allowcode && preg_match($this->allowcode,$_ic)){
-																													
-																													
-																													$fAAeLk4DD5K = $LdThlII4pmpSBotruyA = false;
-																													
-																													}
-																													
-																													$AvCZ12FhNXPyS5Ky = ($this->retry_stop_code) &&
-																													
-																													preg_match($this->retry_stop_code, $_icmatch);
-																													
-																													if($AvCZ12FhNXPyS5Ky){
-																													
-																													$fAAeLk4DD5K = true;
-																													
-																													}
-																													
-																													if(!$fAAeLk4DD5K && ($_bc = uYtRST7eOVyiC('xs_badreq_httpcontent'))) {
-																													
-																													$BBDkSyeXwf = $fAAeLk4DD5K =  preg_match('#'.$_bc.'#', $ua9tyorFugytr['content']);
-																													
-																													}
-																													
-																													$D395Z55TOoFwPcoLLYJ = (($_ic == 301)||($_ic==302)) && ($CjnDhqJxSIaLfkH == $ua9tyorFugytr['last_url']);
-																													
-																													if($x6NjmM7AnShh) {
-																													
-																													$this->UCZR3jLESp3_U = "Stop processing code [$_ic] - interrupt session";
-																													
-																													$LMZVEsSQU = true;
-																													
-																													break; // break fetch while
-																													
-																													}
-																													
-																													if( !$ua9tyorFugytr['flags']['error'] &&
-																													
-																													(($fAAeLk4DD5K || $LdThlII4pmpSBotruyA || $D395Z55TOoFwPcoLLYJ) || !$ua9tyorFugytr['code'] || $_tmout)
+																													(($c0NPvBdlsu || $kOOkR04Ndiu || $X9DhIsP39Q2Z2Ln_) || !$uFxTSS9XSb52KZo7YrD['code'] || $_to)
 																													
 																													)
 																													
 																													{
 																													
-																													$AR4CCjRWrr++;
+																													$H3psU6E1Oh++;
 																													
-																													Gpa9Bjai2UMV7SSv("(fetch retry #$AR4CCjRWrr)");
+																													$_sl = $grab_parameters['xs_delay_ms']?$grab_parameters['xs_delay_ms']:1;
 																													
-																													$_sl = intval(uYtRST7eOVyiC('xs_delay_ms',1));
+																													if($uFxTSS9XSb52KZo7YrD['headers'] && ($_csl = $uFxTSS9XSb52KZo7YrD['headers']['retry-after']))
 																													
-																													if($ua9tyorFugytr['headers'] && ($_csl = $ua9tyorFugytr['headers']['retry-after']))
-																													
-																													$_sl = min(120,max($_sl, $_csl + ($AR4CCjRWrr+1)*$_sl));
+																													$_sl = min(120,max($_sl, $_csl + ($H3psU6E1Oh+1)*$_sl));
 																													
 																													
-																													if(
+																													if(($_to) && $grab_parameters['xs_timeout_break']){
 																													
-																													($_tmout || $BBDkSyeXwf || $AvCZ12FhNXPyS5Ky    )
+																													wkwPIGj7HFydE9Mly("<p> # TIMEOUT - $_to #</p>\n");
 																													
-																													&& $grab_parameters['xs_timeout_break']){
+																													if($H3psU6E1Oh==3){
 																													
-																													Gpa9Bjai2UMV7SSv("<p> # TIMEOUT ( $_tmout) OR BADREQ CONTENT ($BBDkSyeXwf) ".
 																													
-																													"OR RETRY_STOP CODE ($AvCZ12FhNXPyS5Ky) #</p>\n");
+																													if(strstr($_to,'read') ){
 																													
-																													if($AR4CCjRWrr==3){
+																													wkwPIGj7HFydE9Mly("<p> read200 break?</p>\n");
 																													
-																													if(strstr($_tmout,'read') ){
-																													
-																													Gpa9Bjai2UMV7SSv("<p> read200 break?</p>\n");
-																													
-																													break;// break fetch while
+																													break;
 																													
 																													}
 																													
-																													if($BmAoCtkHmjC++ > 4) {
+																													if($N0PX75BqtEcrjK++>5) {
 																													
+																													$X5O38TAuWv4FR = "Too many timeouts detected - interrupt session";
 																													
+																													$UXFc3uMWQ = true;
 																													
-																													
-																													$this->UCZR3jLESp3_U = "Too many timeouts detected - interrupt session";
-																													
-																													$LMZVEsSQU = true;
-																													
-																													break;// break fetch while
-																													
+																													break;
 																													
 																													}
+																													
+																													wkwPIGj7HFydE9Mly("<p> # MULTI TIMEOUT - SHORT TIME BREAK #</p>\n");
 																													
 																													$_sl = 60;
 																													
-																													Gpa9Bjai2UMV7SSv("<p> # MULTI TIMEOUT [$BmAoCtkHmjC] - ($_sl) TIME BREAK #</p>\n");
-																													
-																													$AR4CCjRWrr = 0;
+																													$H3psU6E1Oh = 0;
 																													
 																													}
 																													
 																													}
 																													
-																													$MhBxIWsrPx8Z6WF1_ = $D395Z55TOoFwPcoLLYJ?"(".$CjnDhqJxSIaLfkH." => ".$ua9tyorFugytr['last_url'].")":"-";
+																													$L1pZpKbDY = $X9DhIsP39Q2Z2Ln_?"(".$wljeCd6fCRKulnoFsC4." => ".$uFxTSS9XSb52KZo7YrD['last_url'].")":"-";
 																													
-																													Gpa9Bjai2UMV7SSv("<p> # RETRY - ".$ua9tyorFugytr['code']." - (code) ".(intval($ua9tyorFugytr['code']))." - error(".$ua9tyorFugytr['flags']['error'].") self-redir($MhBxIWsrPx8Z6WF1_) badreq($fAAeLk4DD5K) forbreq($LdThlII4pmpSBotruyA) tmout($_tmout)# zZz $_sl</p>\n");
+																													wkwPIGj7HFydE9Mly("<p> # RETRY - ".$uFxTSS9XSb52KZo7YrD['code']." - (code) ".(intval($uFxTSS9XSb52KZo7YrD['code']))." - error(".$uFxTSS9XSb52KZo7YrD['flags']['error'].") self-redir($L1pZpKbDY) badreq($c0NPvBdlsu) forbreq($kOOkR04Ndiu) tmout($_to)# zZz $_sl</p>\n");
 																													
 																													sleep($_sl);
 																													
@@ -2119,110 +1597,88 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													else
 																													
-																													break; // break fetch while
+																													break;
+																													
+																													}while($H3psU6E1Oh<3);
+																													
+																													if($UXFc3uMWQ) {
 																													
 																													
+																													$urls_list = array_merge(array($this->aMX8JQFnFnMWTuOJ => $D2aBvrGfxJa6J32gUZJ), $urls_list);
 																													
 																													
-																													}while($AR4CCjRWrr<3);
-																													
-																													if($LMZVEsSQU) {
-																													
-																													
-																													$this->UxoQSL7Suyq5hIutb = array_merge(array($this->gkc6cuOs53JHjwRAY6 => $j5W4gDOzhQN2qf), $this->UxoQSL7Suyq5hIutb);
-																													
-																													$this->num_urls_processed_in_current_batch--;
-																													
-																													$this->Lr95wALjvGm--;
-																													
-																													
-																													break; // break zero while
+																													break;
 																													
 																													}
 																													
 																													$this->fetch_no++;
 																													
-																													Qfd6uMJrMUCoVpW3uV('extract', true);
+																													RYtkTQfZ1my('extract', true);
 																													
-																													Qfd6uMJrMUCoVpW3uV('zero-while2');
+																													RYtkTQfZ1my('analyze');
 																													
-																													$this->ylHq2XW203CDYm1xpm = microtime(true)-$ECGh8yj0ftz5S;
+																													$this->htTmB_dxmeudFU = array_sum(explode(' ', microtime()))-$eip_KPaKUUBFoURGriK;
 																													
-																													$this->nettime += $this->ylHq2XW203CDYm1xpm;
-																													
-																													$n5KAwYyqy['nettime'] = $this->ylHq2XW203CDYm1xpm;
-																													
-																													Gpa9Bjai2UMV7SSv("<hr>\n[[[ ".$ua9tyorFugytr['code']." ]]] - [[[ ".number_format($this->ylHq2XW203CDYm1xpm,2)."s ]]] \n<br />".var_export($ua9tyorFugytr['headers'],1).'<br> lu - '.$ua9tyorFugytr['last_url'].'<hr>'
-																													
-																													);
-																													
-																													$ZR9ARCxDNGt = strtolower(
-																													
-																													is_array($ua9tyorFugytr['headers']) ?
-																													
-																													$ua9tyorFugytr['headers']['content-type'] :
-																													
-																													(is_array($ua9tyorFugytr['info']) ? $ua9tyorFugytr['info']['content_type'] :'')
-																													
-																													);
-																													
-																													$c5a5S6y_wC1h = $this->UUpjvRgAPDq($ZR9ARCxDNGt) || !$ZR9ARCxDNGt;
+																													$this->nettime += $this->htTmB_dxmeudFU;
 																													
 																													
-																													if((strstr($ZR9ARCxDNGt,'application/') && strstr($ZR9ARCxDNGt,'pdf'))
+																													wkwPIGj7HFydE9Mly("<hr>\n[[[ ".$uFxTSS9XSb52KZo7YrD['code']." ]]] - ".number_format($this->htTmB_dxmeudFU,2)."s (".number_format($k0huGF8gg4LQ1A->x97htgfoi5yU,2).' + '.number_format($k0huGF8gg4LQ1A->hOlwU2wM1,2).")\n".var_export($uFxTSS9XSb52KZo7YrD['headers'],1));
 																													
-																													||(strstr($ZR9ARCxDNGt,'/xml')&&!strstr($ZR9ARCxDNGt,'text/'))
+																													$K71jAZIWNQat1l9V = is_array($uFxTSS9XSb52KZo7YrD['headers']) ? strtolower($uFxTSS9XSb52KZo7YrD['headers']['content-type']) : '';
 																													
-																													||strstr($ZR9ARCxDNGt,'/rss')
+																													$GMdJHAjT0DeR6EDV67I = $this->PA0Gyvv3UI($K71jAZIWNQat1l9V) || !$K71jAZIWNQat1l9V;
 																													
-																													||strstr($ZR9ARCxDNGt,'text/plain')
+																													
+																													if((strstr($K71jAZIWNQat1l9V,'application/') && strstr($K71jAZIWNQat1l9V,'pdf'))
+																													
+																													||strstr($K71jAZIWNQat1l9V,'/xml')
+																													
+																													||strstr($K71jAZIWNQat1l9V,'/rss')
+																													
+																													||strstr($K71jAZIWNQat1l9V,'text/plain')
 																													
 																													)
 																													
 																													{
 																													
-																													$ua9tyorFugytr['content'] = '';
+																													$uFxTSS9XSb52KZo7YrD['content'] = '';
 																													
-																													$c5a5S6y_wC1h = true;
+																													$GMdJHAjT0DeR6EDV67I = true;
 																													
 																													}
 																													
-																													$FZn0UOjuetK3RlI = ($grab_parameters['xs_parse_swf'] && strstr($ZR9ARCxDNGt, 'shockwave-flash'));
+																													$NHjc8vQoRs5p48 = ($grab_parameters['xs_parse_swf'] && strstr($K71jAZIWNQat1l9V, 'shockwave-flash'));
 																													
-																													$WdLrF68MT4YPU4b  = ($grab_parameters['xs_parse_js'] && strstr($ZR9ARCxDNGt, 'javascript'));
+																													$BFocBiqRkw  = ($grab_parameters['xs_parse_js'] && strstr($K71jAZIWNQat1l9V, 'javascript'));
 																													
-																													if($ZR9ARCxDNGt && !$c5a5S6y_wC1h && !$FZn0UOjuetK3RlI && !$WdLrF68MT4YPU4b
+																													if($K71jAZIWNQat1l9V && !$GMdJHAjT0DeR6EDV67I && !$NHjc8vQoRs5p48 && !$BFocBiqRkw){
 																													
-																													&& !uYtRST7eOVyiC('xs_ignore_ctype')
+																													if(!$qaauW0uNhxPeh0CAA9z){
 																													
-																													){
+																													$OgSj2zxK4Qo5Cc = $K71jAZIWNQat1l9V;
 																													
-																													if(!$MuwACJTKYrI){
-																													
-																													$iAy4Xiz6k2fd = array('content-type',$ZR9ARCxDNGt);
-																													
-																													continue; // cont (break) ZERO WHILE
+																													continue;
 																													
 																													}
 																													
 																													}
 																													
-																													$Os0X_tRh9d9UY = array();
+																													$KcmpZavBWiSGlc = array();
 																													
-																													if($this->vH5384QiQe6('xs_crawl_proc_stripslash', $this->N3S6KHWOVBv2qC21A($this->gkc6cuOs53JHjwRAY6), false)) {
+																													if($this->NxfMP9qoH('xs_crawl_proc_stripslash', $this->oGNbg9vqexWio($this->aMX8JQFnFnMWTuOJ), false)) {
 																													
-																													$c5a5S6y_wC1h = true;
+																													$GMdJHAjT0DeR6EDV67I = true;
 																													
-																													$ua9tyorFugytr['content'] = stripslashes($ua9tyorFugytr['content']);
+																													$uFxTSS9XSb52KZo7YrD['content'] = stripslashes($uFxTSS9XSb52KZo7YrD['content']);
 																													
 																													}
 																													
 																													
-																													if(in_array($ua9tyorFugytr['code'], array(404,410) )
+																													if($uFxTSS9XSb52KZo7YrD['code']==404
 																													
 																													|| ($grab_parameters['xs_force_404']
 																													
-																													&& preg_match('#'.implode('|',preg_split('#\s+#',$grab_parameters['xs_force_404'])).'#', $this->gkc6cuOs53JHjwRAY6)
+																													&& preg_match('#'.implode('|',preg_split('#\s+#',$grab_parameters['xs_force_404'])).'#', $this->aMX8JQFnFnMWTuOJ)
 																													
 																													)
 																													
@@ -2235,36 +1691,24 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													count($this->urls_404) < $grab_parameters['xs_chlog_list_max']) {
 																													
 																													
-																													$HpOfWKO_anK = $this->z9wRO_UXMNYH7e4OnAv[$this->gkc6cuOs53JHjwRAY6];
+																													$e7q7NgwSQ6EWh5Ap8o = $this->ref_links_tmp2[$this->aMX8JQFnFnMWTuOJ];
 																													
 																													
-																													if($HpOfWKO_anK && isset($this->XrYcC_5YQ_q1ne[$HpOfWKO_anK[0]])
+																													if($e7q7NgwSQ6EWh5Ap8o && isset($this->x15LfqXVsH[$e7q7NgwSQ6EWh5Ap8o[0]])
 																													
-																													&& isset($this->ref_links_list[$HpOfWKO_anK[0]])
+																													&& isset($this->ref_links_list[$e7q7NgwSQ6EWh5Ap8o[0]])
 																													
 																													){
 																													
 																													
-																													$HpOfWKO_anK = array_merge($HpOfWKO_anK,
+																													$e7q7NgwSQ6EWh5Ap8o = array_merge($e7q7NgwSQ6EWh5Ap8o,
 																													
-																													array_slice($this->ref_links_list[$HpOfWKO_anK[0]],1));
+																													array_slice($this->ref_links_list[$e7q7NgwSQ6EWh5Ap8o[0]],1));
 																													
-																													
-																													}
-																													
-																													$_det404 = array($this->gkc6cuOs53JHjwRAY6, $HpOfWKO_anK);
-																													
-																													if(count($this->urls_404) < 100){
-																													
-																													$_fd2 = $ua9tyorFugytr;
-																													
-																													$_fd2['content'] = substr($_fd2['content'],0,10000);
-																													
-																													$_det404[] = $_fd2;
 																													
 																													}
 																													
-																													$this->urls_404[] = $_det404;
+																													$this->urls_404[]=array($this->aMX8JQFnFnMWTuOJ, $e7q7NgwSQ6EWh5Ap8o);
 																													
 																													$this->addedcnt['bl'] = count($this->urls_404);
 																													
@@ -2273,301 +1717,215 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													}
 																													
 																													
-																													$cn = $ua9tyorFugytr['content'];
-																													
-																													$n5KAwYyqy['cn_len1'] = strlen($cn);
+																													$cn = $uFxTSS9XSb52KZo7YrD['content'];
 																													
 																													
-																													$this->tsize += strlen($cn);
+																													$this->tsize+=strlen($cn);
+																													preg_match_all('#<script[^>]*application/ld\+json[^>]*>(.+?)</script>#is', $cn, $ps_json_match);
 																													
 																													
+																													if(!$grab_parameters['xs_parse_js'])
 																													
-																													Gpa9Bjai2UMV7SSv("\n\n<hr>\n".str_repeat('=',60)."\n$cn\n".str_repeat('=',60)."\n<hr>\n\n", 4, true);
+																													if($z_uE1_nRkISYKJyg5VK = preg_replace('#<script.*?</script[^>]*>#is', '',$cn)){
 																													
-																													preg_match_all('#<script[^>]*application/ld\+json[^>]*>(.+?)</script>#is', $cn, $fgO0T4cCO5_0YYq21);
-																													
-																													if(count($fgO0T4cCO5_0YYq21)>1) {
-																													
-																													foreach($fgO0T4cCO5_0YYq21[1] as $pp){
-																													
-																													if($d7fJoIZXHsui9P4G9S = json_decode($pp, true))
-																													
-																													{
-																													
-																													$d7fJoIZXHsui9P4G9S['top'] = $d7fJoIZXHsui9P4G9S;
-																													
-																													foreach($d7fJoIZXHsui9P4G9S as $_k=>$EV4uwQ2OzuuHDj){
-																													
-																													if(is_array($EV4uwQ2OzuuHDj))
-																													
-																													foreach($EV4uwQ2OzuuHDj as $k=>$v)
-																													
-																													$EV4uwQ2OzuuHDj[strtolower($k)] = $v;
-																													
-																													$d7fJoIZXHsui9P4G9S[$_k] = $EV4uwQ2OzuuHDj;
+																													$cn = $z_uE1_nRkISYKJyg5VK;
 																													
 																													}
 																													
-																													$YJ1Dp5HqfXcXh12lbqb[] = $d7fJoIZXHsui9P4G9S;
+																													if($z_uE1_nRkISYKJyg5VK = preg_replace('#<style.*?</style>#is', '',$cn)){
+																													
+																													$cn = $z_uE1_nRkISYKJyg5VK;
 																													
 																													}
 																													
-																													}
+																													if($z_uE1_nRkISYKJyg5VK = preg_replace('#<!--(\[if IE\]>|.*?-->)#is', '',$cn)){
+																													
+																													$cn = $z_uE1_nRkISYKJyg5VK;
 																													
 																													}
 																													
-																													if(!$grab_parameters['xs_parse_js']){
-																													
-																													if($zby6yQztgV31 = preg_replace('#<script.*?</script[^>]*>#is', '',$cn)){
-																													
-																													$cn = $zby6yQztgV31;
-																													
-																													}
-																													
-																													if($zby6yQztgV31 = preg_replace('#<style.*?</style>#is', '',$cn)){
-																													
-																													$cn = $zby6yQztgV31;
-																													
-																													}
-																													
-																													}
-																													
-																													if(!$grab_parameters['xs_parse_htmlcomments']){
-																													
-																													if($zby6yQztgV31 = preg_replace('#<!--(\[if IE\]>|.*?-->)#is', '',$cn)){
-																													
-																													$cn = $zby6yQztgV31;
-																													
-																													}
-																													
-																													}
-																													
-																													Gpa9Bjai2UMV7SSv("\n\n<hr>\n[[[Processed html content]]]\n\n".str_repeat('=',60)."\n$cn\n".str_repeat('=',60)."\n<hr>\n\n", 4, true);
+																													wkwPIGj7HFydE9Mly("\n\n<hr>\n\n$cn\n\n<hr>\n\n",4);//exit;
 																													
 																													preg_match('#<base[^>]*?href=[\'"](.*?)[\'"]#is', $cn, $bm);
 																													
-																													$this->l39B5BzXe($bm);
+																													$this->CkkDVwCnm_1R($bm, $i1zq0dY3F9_zWWq);
 																													
 																													if($grab_parameters['xs_canonical'])
 																													
-																													if($CjnDhqJxSIaLfkH == $ua9tyorFugytr['last_url'])
+																													if(($wljeCd6fCRKulnoFsC4 == $uFxTSS9XSb52KZo7YrD['last_url'])
+																													
+																													&&
+																													
+																													(
+																													
+																													preg_match('#<link[^>]*rel=[\'"]canonical[\'"][^>]*\shref=[\'"]([^>]*?)[\'"]#is', $cn, $U6pUvjdja) ||
+																													
+																													preg_match('#<link[^>]*\shref=[\'"]([^>]*?)[\'"][^>]*rel=[\'"]canonical[\'"]#is', $cn, $U6pUvjdja))
+																													
+																													){
+																													
+																													$PTdMTgtT4 = $this->drKZs8x1lb3X3n(trim($U6pUvjdja[1]));
+																													
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($PTdMTgtT4, $this->aMX8JQFnFnMWTuOJ);
+																													
+																													if($wljeCd6fCRKulnoFsC4 != $PTdMTgtT4){
+																													
+																													$OgSj2zxK4Qo5Cc = 'canonical - '.$PTdMTgtT4;
+																													
+																													}
+																													
+																													
+																													if(wS0f9iXRiSA('xs_canonical_nofollow', false))
+																													
+																													$iHlgQjQb2bucfa6qPN = true;
+																													
+																													}
+																													
+																													if($uFxTSS9XSb52KZo7YrD['last_url']){
+																													
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($uFxTSS9XSb52KZo7YrD['last_url'], $this->aMX8JQFnFnMWTuOJ);
+																													
+																													if($LV3feH44NvQ == 1){
+																													
+																													$OgSj2zxK4Qo5Cc = 'lu (ext) - '.$uFxTSS9XSb52KZo7YrD['last_url'];
+																													
+																													if($uFxTSS9XSb52KZo7YrD['last_url'] != $wljeCd6fCRKulnoFsC4) {
+																													
+																													
+																													continue;
+																													
+																													}
+																													
+																													}
+																													
+																													}
+																													
+																													$Io29DwFf3WcSyMtAl = $this->KVz31hE2O($uFxTSS9XSb52KZo7YrD['last_url']);
+																													
+																													if(($wljeCd6fCRKulnoFsC4 != $uFxTSS9XSb52KZo7YrD['last_url']))// && ($wljeCd6fCRKulnoFsC4 != $uFxTSS9XSb52KZo7YrD['last_url'].'/'))
 																													
 																													{
 																													
-																													$aW5Vn_nLjCJukVcY3qC = '';
+																													$this->x15LfqXVsH[$this->aMX8JQFnFnMWTuOJ] = $uFxTSS9XSb52KZo7YrD['last_url']; $io=$this->aMX8JQFnFnMWTuOJ;
 																													
-																													if(preg_match('#<link[^>]*rel\s*=\s*[\'"]?canonical[^>]*>#is', $cn, $gaZnCpmP5bn9O))
+																													if(strlen($Io29DwFf3WcSyMtAl) <= 2048)
 																													
-																													{
+																													if(!isset($urls_list_full[$Io29DwFf3WcSyMtAl])) {
 																													
-																													if(preg_match('#\shref\s*=\s*(?:[\'"](.*?)[\'"]|([^>\'\"\s]*))#is', $gaZnCpmP5bn9O[0], $ldW0qdt0PLY1PZb))
+																													$urls_list2[$Io29DwFf3WcSyMtAl]++;
 																													
-																													$aW5Vn_nLjCJukVcY3qC = $this->LyP4eUwdHgspaDQQTu3(trim($ldW0qdt0PLY1PZb[1].$ldW0qdt0PLY1PZb[2]));
-																													
-																													}
-																													
-																													if($_lhdr = $ua9tyorFugytr['headers']['link'])
-																													
-																													if(preg_match('#\<(.*?)\>.*rel\s*=\s*[\'"]?canonical#is', $_lhdr, $gaZnCpmP5bn9O))
-																													
-																													{
-																													
-																													$aW5Vn_nLjCJukVcY3qC = trim($gaZnCpmP5bn9O[1]);
+																													$this->VAsjehLyY7SfsjZNoL2($Io29DwFf3WcSyMtAl, $this->aMX8JQFnFnMWTuOJ);
 																													
 																													}
 																													
-																													if($aW5Vn_nLjCJukVcY3qC)
+																													$OgSj2zxK4Qo5Cc = 'lu - '.$uFxTSS9XSb52KZo7YrD['last_url'];
 																													
-																													{
-																													
-																													$_xlc = $this->i4YBy_a0gx($aW5Vn_nLjCJukVcY3qC);
-																													
-																													if($CjnDhqJxSIaLfkH != $aW5Vn_nLjCJukVcY3qC){
-																													
-																													$iAy4Xiz6k2fd = $this->u04XNfRtsQBwD1Mjst($aW5Vn_nLjCJukVcY3qC, 0, $_xlc['isext']);
+																													if(!$qaauW0uNhxPeh0CAA9z)continue;
 																													
 																													}
 																													
-																													}
+																													if($this->allowcode && !preg_match($this->allowcode,$uFxTSS9XSb52KZo7YrD['code'])){
 																													
+																													$OgSj2zxK4Qo5Cc = $uFxTSS9XSb52KZo7YrD['code'];
 																													
-																													if(uYtRST7eOVyiC('xs_canonical_nofollow', false))
-																													
-																													$g4LrEkxyemXXcW = true;
-																													
-																													}
-																													
-																													if($ua9tyorFugytr['last_url']){
-																													
-																													$_xlc = $this->i4YBy_a0gx($ua9tyorFugytr['last_url']);
-																													
-																													$q5mXhT0VAQKh0u = $_xlc['isext'];
-																													
-																													if($q5mXhT0VAQKh0u == 1){
-																													
-																													$iAy4Xiz6k2fd = $this->u04XNfRtsQBwD1Mjst($ua9tyorFugytr['last_url'],$ua9tyorFugytr['last_url_code'], true);
-																													
-																													if($ua9tyorFugytr['last_url'] != $CjnDhqJxSIaLfkH) {
-																													
-																													
-																													continue; // break ZERO WHILE
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													$CYrdjpIHAOWgcogb = $this->FH24Z1Zzh6KfPVW($ua9tyorFugytr['last_url']);
-																													
-																													if(($CjnDhqJxSIaLfkH != $ua9tyorFugytr['last_url']))// && ($CjnDhqJxSIaLfkH != $ua9tyorFugytr['last_url'].'/'))
-																													
-																													{
-																													
-																													if(strlen($CYrdjpIHAOWgcogb) <= 2048) {
-																													
-																													$gwTxmd2WqPraW = $this->urls_list_full[$CYrdjpIHAOWgcogb];
-																													
-																													if(!$gwTxmd2WqPraW) {
-																													
-																													$this->VL35Keydv0RV[$CYrdjpIHAOWgcogb]++;
-																													
-																													$this->VTEALPCPBnuCYjF($CYrdjpIHAOWgcogb, $this->gkc6cuOs53JHjwRAY6);
-																													
-																													}
-																													
-																													}
-																													
-																													$iAy4Xiz6k2fd = $this->u04XNfRtsQBwD1Mjst($ua9tyorFugytr['last_url'],$ua9tyorFugytr['last_url_code'], false);
-																													
-																													if(!$MuwACJTKYrI)continue; // break ZERO WHILE
-																													
-																													}
-																													
-																													if($this->allowcode && !preg_match($this->allowcode,$ua9tyorFugytr['code'])) {
-																													
-																													if($_c = trim($ua9tyorFugytr['code']))
-																													
-																													$iAy4Xiz6k2fd = array('http-code',$_c);
-																													
-																													else
-																													
-																													$iAy4Xiz6k2fd = 'no-response';
-																													
-																													continue; // break ZERO WHILE
+																													continue;
 																													
 																													}
 																													
 																													$retrno++;
 																													
-																													if($MuwACJTKYrI||$g4LrEkxyemXXcW) {
+																													if($qaauW0uNhxPeh0CAA9z||$iHlgQjQb2bucfa6qPN) {
 																													
 																													
-																													$c5a5S6y_wC1h = false;
+																													$GMdJHAjT0DeR6EDV67I = false;
 																													
 																													}
 																													
-																													if($FZn0UOjuetK3RlI)
+																													RYtkTQfZ1my('analyze',true);
+																													
+																													if($NHjc8vQoRs5p48)
 																													
 																													{
 																													
-																													include_once Y9kqmA8n8Eh.'class.pfile.inc.php';
+																													include_once plQDGddmmXu9xZB.'class.pfile.inc.php';
 																													
 																													$am = new SWFParser();
 																													
-																													$am->Lrlz7G4ghPsFb8($cn);
+																													$am->POwAT9n5Jfw($cn);
 																													
-																													$B_gTARpTkIxhz = $am->jPIs4R7ATh();
+																													$p0Z32taip_p = $am->o4tgRKj7P07n8();
 																													
 																													}else
 																													
-																													if($WdLrF68MT4YPU4b)
+																													if($GMdJHAjT0DeR6EDV67I || $BFocBiqRkw)
 																													
 																													{
 																													
-																													$iAy4Xiz6k2fd = 'javascript';
+																													RYtkTQfZ1my('parse');
+																													
+																													if($BFocBiqRkw) {
+																													
+																													$OgSj2zxK4Qo5Cc = 'js';
 																													
 																													$f = true; // Do not index
 																													
-																													preg_match_all('#(?:add|menu)item\s*\([^\)]*?["\']((?:\.+\/|http).*?)["\)\']#is', $cn, $Broh86XfLy0PO60Vd);
+																													preg_match_all('#(?:add|menu)item\s*\([^\)]*?["\']((?:\.+\/|http).*?)["\)\']#is', $cn, $L2HmGWTj9H);
 																													
-																													$Os0X_tRh9d9UY = $Broh86XfLy0PO60Vd[1];
+																													$KcmpZavBWiSGlc = $L2HmGWTj9H[1];
 																													
-																													if(preg_match_all('#\(\s*(\{.*?["\']content["\']\s*\:\s*[\'"](.*?)[\'"]\s*\})\s*\)#is', $cn, $vm2ZWXPDO)){
+																													if(preg_match_all('#\(\s*(\{.*?["\']content["\']\s*\:\s*[\'"](.*?)[\'"]\s*\})\s*\)#is', $cn, $T9v4StE5HjmB1)){
 																													
-																													foreach($vm2ZWXPDO[1] as $H6K9bBIGbFxTZZvp8vE){
+																													foreach($T9v4StE5HjmB1[1] as $CYUcx8sQS57c4YY){
 																													
-																													if($FAqFKp2hgMhp = stripslashes($H6K9bBIGbFxTZZvp8vE)){
+																													if($BJRQ6cQcDwIriiwiv6g = stripslashes($CYUcx8sQS57c4YY)){
 																													
-																													$Os0X_tRh9d9UY = array_merge(
+																													$KcmpZavBWiSGlc = array_merge(
 																													
-																													$Os0X_tRh9d9UY, $this->TAe0ymt1nLhsGSn($FAqFKp2hgMhp));
-																													
-																													}
+																													$KcmpZavBWiSGlc, $this->am05AsFKZIyD($BJRQ6cQcDwIriiwiv6g));
 																													
 																													}
 																													
 																													}
 																													
-																													}else
-																													
-																													if($c5a5S6y_wC1h)
-																													
-																													{
-																													
-																													$Os0X_tRh9d9UY = $this->TAe0ymt1nLhsGSn($cn);
-																													
 																													}
 																													
-																													if($ua9tyorFugytr['inpdata'] && ($_dlink = $ua9tyorFugytr['inpdata']['links']))
+																													}else {
 																													
-																													{
-																													
-																													foreach($_dlink as $_dframe)
-																													
-																													foreach($_dframe['flinks'] as $_fulink)
-																													
-																													{
-																													
-																													$Os0X_tRh9d9UY[] = $_fulink;
+																													$KcmpZavBWiSGlc = $this->am05AsFKZIyD($cn);
 																													
 																													}
 																													
 																													}
 																													
-																													$Os0X_tRh9d9UY = array_unique($Os0X_tRh9d9UY);
-																													
-																													$n5KAwYyqy['llist_count1'] = count($Os0X_tRh9d9UY);
+																													$KcmpZavBWiSGlc = array_unique($KcmpZavBWiSGlc);
 																													
 																													$nn = $nt = 0;
 																													
-																													reset($Os0X_tRh9d9UY);
+																													reset($KcmpZavBWiSGlc);
 																													
-																													if(uYtRST7eOVyiC('xs_robotstxt')){
+																													if(isset($grab_parameters['xs_robotstxt']) && $grab_parameters['xs_robotstxt']){
 																													
 																													if(preg_match('#<meta[^>]*name=[\'"]robots[\'"][^>]*>#is',$cn,$_cm))
 																													
 																													if(preg_match('#nofollow#is',$_cm[0]))
 																													
-																													$Os0X_tRh9d9UY = array();
+																													$KcmpZavBWiSGlc = array();
 																													
 																													}
 																													
 																													if(!$this->runstate['charset']){
 																													
-																													if($_cs = uYtRST7eOVyiC('xs_runstate_charset'))
+																													if(preg_match('#<meta[^>]*?charset\s*=\s*"?([^">]*)"#is',$cn, $hPw74OQezczKteg0gC))
 																													
-																													$this->runstate['charset'] = $_cs;
-																													
-																													else
-																													
-																													if(preg_match('#<meta[^>]*?charset\s*=\s*["\']?([^">]*)["\']#is',$cn, $QAADhI8z4NAQgyTYn))
-																													
-																													$this->runstate['charset'] = $QAADhI8z4NAQgyTYn[1];
+																													$this->runstate['charset'] = $hPw74OQezczKteg0gC[1];
 																													
 																													}
 																													
-																													foreach($Os0X_tRh9d9UY as $i=>$ll)
+																													RYtkTQfZ1my('parse', true);
+																													
+																													RYtkTQfZ1my('llist');
+																													
+																													foreach($KcmpZavBWiSGlc as $i=>$ll)
 																													
 																													if($ll)
 																													
@@ -2581,166 +1939,114 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$a = str_replace('&#58;',':',$a);
 																													
-																													$a = $this->ButLvR74PkmjEjSm7($a, 'xs_custom_replace_pre');
-																													
 																													if($grab_parameters['xs_proto_skip'] &&
 																													
-																													(
+																													(preg_match('#^'.$grab_parameters['xs_proto_skip'].'#i',$a)||
 																													
-																													preg_match('#^'.$grab_parameters['xs_proto_skip'].'#i',$a)
+																													($this->Te7nRdc2NfOAPzQBZFq && preg_match('#'.$grab_parameters['xs_exc_skip'].'#i',$a))||
 																													
-																													||
+																													preg_match('#^'.$grab_parameters['xs_proto_skip'].'#i',function_exists('html_entity_decode')?html_entity_decode($a):$a)
 																													
-																													($this->Y2JFas41Ha7Bh && preg_match('#'.$grab_parameters['xs_exc_skip'].'#i',$a))
+																													))
 																													
-																													||
-																													
-																													preg_match('#^'.$grab_parameters['xs_proto_skip'].'#i',function_exists('html_entity_decode') ? html_entity_decode($a) : $a)
-																													
-																													)) {
-																													
-																													continue; // cont FOREACH
-																													
-																													}
+																													continue;
 																													
 																													
+																													if(strlen($a) > 4096) continue;
 																													
-																													if(strlen($a) > 2048) continue; // cont FOREACH
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($a, $this->aMX8JQFnFnMWTuOJ);
 																													
-																													$_xlc = $this->i4YBy_a0gx($a, '', 'xs_links_allow_domains');
-																													
-																													if($q5mXhT0VAQKh0u = $_xlc['isext'])
+																													if($LV3feH44NvQ == 1)
 																													
 																													{
 																													
-																													if($q5mXhT0VAQKh0u == 1)
+																													if($grab_parameters['xs_extlinks'] &&
+																													
+																													(!$grab_parameters['xs_extlinks_excl'] || !preg_match('#'.$this->J4vPRMHzK($grab_parameters['xs_extlinks_excl']).'#',$a)) &&
+																													
+																													(!$grab_parameters['xs_ext_max'] || (count($urls_ext)<$grab_parameters['xs_ext_max']))
+																													
+																													)
 																													
 																													{
 																													
-																													if($grab_parameters['xs_extlinks'])
+																													if(!$urls_ext[$a] &&
+																													
+																													(!$grab_parameters['xs_ext_skip'] ||
+																													
+																													!preg_match('#'.$grab_parameters['xs_ext_skip'].'#',$a)
+																													
+																													)
+																													
+																													)
+																													
+																													$urls_ext[$a] = $wljeCd6fCRKulnoFsC4;
+																													
+																													}
+																													
+																													continue;
+																													
+																													}
+																													
+																													$Io29DwFf3WcSyMtAl = $LV3feH44NvQ ? $a : substr($a,strlen($this->A78wE6jgmrny));
+																													
+																													$Io29DwFf3WcSyMtAl = str_replace(' ', '%20', $Io29DwFf3WcSyMtAl);
+																													
+																													
+																													if($grab_parameters['xs_exclude_check'])
 																													
 																													{
 																													
-																													global $_xs_extskip;
+																													$_f=$_f2=false;
 																													
-																													if(!isset($_xs_extskip)){
+																													$_f=$this->MVZvUfEx6bYBJwmz&&preg_match('#('.$this->MVZvUfEx6bYBJwmz.')#',$Io29DwFf3WcSyMtAl);
 																													
-																													$_xs_extskip = '';
+																													$_f = $_f || ($_fbot = $this->MgKnEUlaw6_XfzaD($this->v0ytSBWER.$Io29DwFf3WcSyMtAl));
 																													
-																													$_xs_extskip .= $this->NFaNrp_DNnniC('xs_extlinks_excl');
 																													
-																													if($_p2 = $grab_parameters['xs_ext_skip'])
-																													
-																													$_xs_extskip .= ($_xs_extskip ? '|' : '').$_p2;
-																													
-																													if($_xs_extskip)
-																													
-																													$_xs_extskip = "#$_xs_extskip#";
+																													if($_f)continue;
 																													
 																													}
 																													
-																													if(!$_xs_extskip || !preg_match($_xs_extskip, $a))
+																													if(strcmp($Io29DwFf3WcSyMtAl, $this->aMX8JQFnFnMWTuOJ) == 0)
 																													
-																													{
+																													continue;
 																													
-																													$_mx = intval($grab_parameters['xs_ext_max']);
+																													$this->VAsjehLyY7SfsjZNoL2($Io29DwFf3WcSyMtAl, $this->aMX8JQFnFnMWTuOJ);
 																													
-																													$qt7yx4DD7Kx157 = max(1, intval($grab_parameters['xs_maxref']));
+																													if($urls_list_full[$Io29DwFf3WcSyMtAl])
 																													
-																													if(!$_mx || (count($this->VlATSmYmC7EQlOaRu)<$_mx)) {
+																													continue;
 																													
-																													if(is_array($this->VlATSmYmC7EQlOaRu[$a])){
+																													wkwPIGj7HFydE9Mly("<u>[[[acut] $Io29DwFf3WcSyMtAl ]]]</u><br>\n",2);//exit;
 																													
-																													if(count($this->VlATSmYmC7EQlOaRu[$a]) >= $qt7yx4DD7Kx157)
-																													
-																													{
-																													
-																													$this->VlATSmYmC7EQlOaRu[$a]['#more']++;
-																													
-																													}else
-																													
-																													{
-																													
-																													$this->VlATSmYmC7EQlOaRu[$a][] = $CjnDhqJxSIaLfkH;
-																													
-																													}
-																													
-																													}else
-																													
-																													$this->VlATSmYmC7EQlOaRu[$a] = [$CjnDhqJxSIaLfkH];
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													}else {
-																													
-																													
-																													if($q5mXhT0VAQKh0u<100)
-																													
-																													$this->Mp8_74X3QKt($a, [$this->uk1X1bxy5kVbdo19[$q5mXhT0VAQKh0u], $_xlc['extrs']]);
-																													
-																													}
-																													
-																													continue; // cont FOREACH llist
-																													
-																													}
-																													
-																													$CYrdjpIHAOWgcogb = $_xlc['extloc'] ? $a : substr($a,strlen($this->LGu93aFor));
-																													
-																													$CYrdjpIHAOWgcogb = str_replace(' ', '%20', $CYrdjpIHAOWgcogb);
-																													
-																													
-																													if($us = $this->nNQauD8yqV($CYrdjpIHAOWgcogb))
-																													
-																													continue; // cont FOREACH llist
-																													
-																													if(strcmp($CYrdjpIHAOWgcogb, $this->gkc6cuOs53JHjwRAY6) == 0)
-																													
-																													continue; // cont FOREACH llist
-																													
-																													$gwTxmd2WqPraW = $this->urls_list_full[$CYrdjpIHAOWgcogb];
-																													
-																													$this->VTEALPCPBnuCYjF($CYrdjpIHAOWgcogb, $this->gkc6cuOs53JHjwRAY6, $gwTxmd2WqPraW);
-																													
-																													if($gwTxmd2WqPraW)
-																													
-																													continue; // cont FOREACH llist
-																													
-																													if(!$this->VL35Keydv0RV[$CYrdjpIHAOWgcogb]++)
-																													
-																													Gpa9Bjai2UMV7SSv("<u>[[[acut] $CYrdjpIHAOWgcogb ]]]</u><br>\n",2);
-																													
-																													$n5KAwYyqy['curpage_outlinks'][$CYrdjpIHAOWgcogb]++;
+																													$urls_list2[$Io29DwFf3WcSyMtAl]++;
 																													
 																													$nt++;
 																													
 																													}
 																													
-																													unset($Os0X_tRh9d9UY);
+																													unset($KcmpZavBWiSGlc);
 																													
+																													RYtkTQfZ1my('llist', true);
 																													
-																													} // if(!$MuwACJTKYrI && $KSrdn3wZlYF)
-																													
+																													} // if(!$qaauW0uNhxPeh0CAA9z && $OKRWM1CfS0GVN)
 																													
 																													} // if(!$f && !$f2)
 																													
 																													
+																													$this->E7PbBLC9yunfxjh = count($urls_list2);
 																													
+																													RYtkTQfZ1my('analyze', true);
 																													
-																													
-																													
-																													
-																													$this->K9akDNrFty1 = count($this->VL35Keydv0RV);
+																													RYtkTQfZ1my('post');
 																													
 																													if(!$f){
 																													
 																													
-																													if($f = $f || !$this->vH5384QiQe6('xs_incl_only', $this->N3S6KHWOVBv2qC21A($this->gkc6cuOs53JHjwRAY6), true))
+																													if($f = $f || !$this->NxfMP9qoH('xs_incl_only', $this->oGNbg9vqexWio($this->aMX8JQFnFnMWTuOJ), true))
 																													
-																													$iAy4Xiz6k2fd = 'include-only';
+																													$OgSj2zxK4Qo5Cc = 'inclonly';
 																													
 																													}
 																													
@@ -2748,12 +2054,13 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$f = true;
 																													
+																													$OgSj2zxK4Qo5Cc = 'noinclmask';
 																													
 																													}
 																													
 																													if(!$f)
 																													
-																													if(uYtRST7eOVyiC('xs_robotstxt'))
+																													if(isset($grab_parameters['xs_robotstxt']) && $grab_parameters['xs_robotstxt'])
 																													
 																													{
 																													
@@ -2763,69 +2070,47 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if($f){
 																													
-																													if(strstr($ua9tyorFugytr['content'], 'Incapsula'))
+																													if(strstr($cn, 'Incapsula'))
 																													
-																													$iAy4Xiz6k2fd = 'incapsula-block';
+																													$OgSj2zxK4Qo5Cc = 'incapsula';
 																													
 																													else
 																													
-																													$iAy4Xiz6k2fd = 'robots-meta';
-																													
-																													}else {
-																													
-																													if(($_rh=$ua9tyorFugytr['headers']['x-robots-tag'])
-																													
-																													&& ($f = preg_match('#noindex#is',$_rh))) {
-																													
-																													$iAy4Xiz6k2fd = 'robots-http-header';
+																													$OgSj2zxK4Qo5Cc = 'mrob';
 																													
 																													}
 																													
 																													}
 																													
-																													}
+																													if(!$f && !$OgSj2zxK4Qo5Cc)
 																													
-																													$_smbase_link = preg_replace('#//+$#','/',
+																													{
+																													
+																													
+																													if(!$gEBIZ5cHL) {
+																													
+																													$gEBIZ5cHL = array(
+																													
+																													
+																													'link' => preg_replace('#//+$#','/',
 																													
 																													preg_replace('#^([^/\:\?]/)/+#','\\1',
 																													
-																													(preg_match('#^\w+://#',$this->gkc6cuOs53JHjwRAY6) ? $this->gkc6cuOs53JHjwRAY6 : $this->LGu93aFor . $this->gkc6cuOs53JHjwRAY6)
+																													(preg_match('#^\w+://#',$this->aMX8JQFnFnMWTuOJ) ? $this->aMX8JQFnFnMWTuOJ : $this->A78wE6jgmrny . $this->aMX8JQFnFnMWTuOJ)
 																													
-																													));
-																													
-																													if(!$n5KAwYyqy['cached'])
-																													
-																													{
-																													
-																													
-																													$riHsxx1tgqk4ZFis1Nx = array(
-																													
-																													
-																													'link' => $_smbase_link,
-																													
-																													'pginfo'  => $n5KAwYyqy
+																													))
 																													
 																													);
 																													
-																													}
-																													
-																													if(!$f && !$iAy4Xiz6k2fd)
-																													
-																													{
-																													
-																													
-																													if(!$n5KAwYyqy['cached']) {
-																													
-																													
-																													$qtsaB5Y_pzFMf = 1024;
+																													$j0dFHpRFFgv = 1024;
 																													
 																													if($grab_parameters['xs_makehtml']||$grab_parameters['xs_makeror']||$grab_parameters['xs_rssinfo']||$grab_parameters['xs_newsinfo'])
 																													
 																													{
 																													
-																													preg_match('#<title[^>]*?>([^<]*?)</title>#is', $ua9tyorFugytr['content'], $b3whEmcISMNpXBnzf2M);
+																													preg_match('#<title[^>]*?>([^<]*?)</title>#is', $uFxTSS9XSb52KZo7YrD['content'], $h7F8_WaY6lWU5mvC);
 																													
-																													$riHsxx1tgqk4ZFis1Nx['t'] = substr(trim(strip_tags($b3whEmcISMNpXBnzf2M[1])),0,$qtsaB5Y_pzFMf);
+																													$gEBIZ5cHL['t'] = substr(trim(strip_tags($h7F8_WaY6lWU5mvC[1])),0,$j0dFHpRFFgv);
 																													
 																													}
 																													
@@ -2833,101 +2118,100 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													{
 																													
-																													if(!preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?description[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $jlAh3iEpnzDfDc0QJdc))
+																													if(!preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?description[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $MdWOO751erxbvs))
 																													
-																													preg_match('#<meta[^>]*content\s*=\s*["]?([^>\"]*)[^>]*?(?:http-equiv|name)\s*=\s*"?description#is', $cn, $jlAh3iEpnzDfDc0QJdc);
+																													preg_match('#<meta[^>]*content\s*=\s*["]?([^>\"]*)[^>]*?(?:http-equiv|name)\s*=\s*"?description#is', $cn, $MdWOO751erxbvs);
 																													
-																													if($jlAh3iEpnzDfDc0QJdc[1])
+																													if($MdWOO751erxbvs[1])
 																													
-																													$riHsxx1tgqk4ZFis1Nx['d'] = substr(trim($jlAh3iEpnzDfDc0QJdc[1]),0,$qtsaB5Y_pzFMf);
+																													$gEBIZ5cHL['d'] = substr(trim($MdWOO751erxbvs[1]),0,$j0dFHpRFFgv);
 																													
 																													}
 																													
 																													if($grab_parameters['xs_makeror']||$grab_parameters['xs_autopriority'])
 																													
-																													$riHsxx1tgqk4ZFis1Nx['o'] = max(0,$this->links_level);
+																													$gEBIZ5cHL['o'] = max(0,$this->links_level);
 																													
-																													if($y4x8WG0XW0x)
+																													if($zN7QvVaBZeQp5ZF)
 																													
-																													$riHsxx1tgqk4ZFis1Nx['p'] = $y4x8WG0XW0x;
+																													$gEBIZ5cHL['p'] = $zN7QvVaBZeQp5ZF;
 																													
-																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?(?:last-modified|dc\.modified|revised)[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $jlAh3iEpnzDfDc0QJdc)){
+																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?last-modified[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $MdWOO751erxbvs)){
 																													
-																													$riHsxx1tgqk4ZFis1Nx['clm'] = str_replace('@',' ',$jlAh3iEpnzDfDc0QJdc[1]);
-																													
-																													}
-																													
-																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?priority[^>]*content\s*=\s*["]?([\d\.]+)#is', $cn, $jlAh3iEpnzDfDc0QJdc)){
-																													
-																													$riHsxx1tgqk4ZFis1Nx['p'] = $jlAh3iEpnzDfDc0QJdc[1];
+																													$gEBIZ5cHL['clm'] = str_replace('@',' ',$MdWOO751erxbvs[1]);
 																													
 																													}
 																													
-																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?changefreq[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $jlAh3iEpnzDfDc0QJdc)){
+																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?priority[^>]*content\s*=\s*["]?([\d\.]+)#is', $cn, $MdWOO751erxbvs)){
 																													
-																													$riHsxx1tgqk4ZFis1Nx['f'] = $jlAh3iEpnzDfDc0QJdc[1];
+																													$gEBIZ5cHL['p'] = $MdWOO751erxbvs[1];
+																													
+																													}
+																													
+																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?changefreq[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $MdWOO751erxbvs)){
+																													
+																													$gEBIZ5cHL['f'] = $MdWOO751erxbvs[1];
 																													
 																													}else
 																													
-																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?revisit-after[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $jlAh3iEpnzDfDc0QJdc)){
+																													if(preg_match('#<meta\s[^>]*(?:http-equiv|name)\s*=\s*"?revisit-after[^>]*content\s*=\s*["]?([^>\"]*)#is', $cn, $MdWOO751erxbvs)){
 																													
-																													if(preg_match('#(\d+)\s*hour#',$jlAh3iEpnzDfDc0QJdc[1])){
+																													if(preg_match('#(\d+)\s*hour#',$MdWOO751erxbvs[1])){
 																													
-																													$riHsxx1tgqk4ZFis1Nx['f'] = 'hourly';
-																													
-																													}
-																													
-																													if(preg_match('#(\d+)\s*month#',$jlAh3iEpnzDfDc0QJdc[1])){
-																													
-																													$riHsxx1tgqk4ZFis1Nx['f'] = 'monthly';
+																													$gEBIZ5cHL['f'] = 'hourly';
 																													
 																													}
 																													
-																													if(preg_match('#(\d+)\s*day#',$jlAh3iEpnzDfDc0QJdc[1], $jlAh3iEpnzDfDc0QJdc)){
+																													if(preg_match('#(\d+)\s*month#',$MdWOO751erxbvs[1])){
 																													
-																													$d = $jlAh3iEpnzDfDc0QJdc[1]+0;
+																													$gEBIZ5cHL['f'] = 'monthly';
 																													
-																													if($d<4)$riHsxx1tgqk4ZFis1Nx['f'] = 'daily';
+																													}
+																													
+																													if(preg_match('#(\d+)\s*day#',$MdWOO751erxbvs[1], $MdWOO751erxbvs)){
+																													
+																													$d = $MdWOO751erxbvs[1]+0;
+																													
+																													if($d<4)$gEBIZ5cHL['f'] = 'daily';
 																													
 																													else
 																													
-																													if($d<22)$riHsxx1tgqk4ZFis1Nx['f'] = 'weekly';
+																													if($d<22)$gEBIZ5cHL['f'] = 'weekly';
 																													
 																													else
 																													
-																													$riHsxx1tgqk4ZFis1Nx['f'] = 'monthly';
+																													$gEBIZ5cHL['f'] = 'monthly';
 																													
 																													}
 																													
 																													}
 																													
 																													
-																													if(preg_match('#'.$aBNjh41fLx.'#',$this->N3S6KHWOVBv2qC21A($this->gkc6cuOs53JHjwRAY6),$b8OGXRH4Q1QjbXd))
+																													if(preg_match('#'.$Xmfk5aHUVgA7WxET.'#',$this->oGNbg9vqexWio($this->aMX8JQFnFnMWTuOJ),$eADRrzkKihKqzHhKTq7))
 																													
 																													{
 																													
-																													
-																													for($_i=0;$_i<count($b8OGXRH4Q1QjbXd);$_i++)
+																													for($_i=0;$_i<count($eADRrzkKihKqzHhKTq7);$_i++)
 																													
 																													{
 																													
-																													if($b8OGXRH4Q1QjbXd[$_i+1])
+																													if($eADRrzkKihKqzHhKTq7[$_i+1])
 																													
-																													break; // break FOR
+																													break;
 																													
 																													}
 																													
-																													if($tagh20LfYEFTz[$_i]) {
+																													if($Rcj3xnKl_qu[$_i]) {
 																													
-																													if(!$riHsxx1tgqk4ZFis1Nx['clm'])
+																													if(!$gEBIZ5cHL['clm'])
 																													
-																													$riHsxx1tgqk4ZFis1Nx['clm'] = $tagh20LfYEFTz[$_i]['lm'];
+																													$gEBIZ5cHL['clm'] = $Rcj3xnKl_qu[$_i]['lm'];
 																													
-																													if(!$riHsxx1tgqk4ZFis1Nx['f'])
+																													if(!$gEBIZ5cHL['f'])
 																													
-																													$riHsxx1tgqk4ZFis1Nx['f'] = $tagh20LfYEFTz[$_i]['f'];
+																													$gEBIZ5cHL['f'] = $Rcj3xnKl_qu[$_i]['f'];
 																													
-																													$riHsxx1tgqk4ZFis1Nx['p'] = $tagh20LfYEFTz[$_i]['p'];
+																													$gEBIZ5cHL['p'] = $Rcj3xnKl_qu[$_i]['p'];
 																													
 																													}
 																													
@@ -2939,7 +2223,7 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$_maxi = $grab_parameters['xs_img_maxtot'];
 																													
-																													$_maxi_tot = $_maxi ? $_maxi : $this->fdlKwoX4HgiIlRtTjC * ($this->H7dpHAe1ZxqW2d4_oS ? 100 : 20);
+																													$_maxi_tot = $_maxi ? $_maxi : $this->y5E6XiZB3w2DW4XFY*100;
 																													
 																													if(!$_maxi_tot || ($this->addedcnt['i']<$_maxi_tot))
 																													
@@ -2949,61 +2233,34 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$_imgext = '(?:jpg|png|gif|jpeg|bmp)';
 																													
-																													$_imgattr = '(?:src|data-(?:[\w\-]*lazy[\w\-]*|image|thumbnail|original))(?:set)?\s*=\s*|image\:\s*url\s*\(\s*';
+																													preg_match_all('#<(?:(?:amp-)?img|div)[^>]*?(?:(?:src|data-(?:image|thumbnail|original))(?:set)?\s*=\s*|image\:\s*url\s*\(\s*)("([^">]+)|\'([^\'>]+)|([^\s\"\\\\>]+))(.*?>)#is', $cn, $dbZYiSonNrlDO42usc, PREG_SET_ORDER);
 																													
-																													$_imgleftmatch = '(?:'.$_imgattr.')';
+																													preg_match_all('#<a[^>]*\shref\s*=\s*[\'"]?([^>\'" ]*?\.'.$_imgext.')([\'" ][^>]*?>|>)#is', $cn, $L2HmGWTj9H, PREG_SET_ORDER);
 																													
-																													$_imgrightmatch = '("([^">]+)|\'([^\'>]+)|([^\s\"\\\\>\\)]+))';
-																													
-																													preg_match_all('#<(?:(?:amp-)?img|div)[^>]*?'.$_imgleftmatch.$_imgrightmatch.'(.*?>)#is', $cn, $X45y79QpUc, PREG_SET_ORDER);
-																													
-																													 
-																													
-																													preg_match_all('#<a[^>]*\shref\s*=\s*[\'"]?([^>\'" ]*?\.'.$_imgext.')([\'" ][^>]*?>|>)#is', $cn, $Broh86XfLy0PO60Vd, PREG_SET_ORDER);
-																													
-																													$vm2ZWXPDO = array();
+																													$T9v4StE5HjmB1 = array();
 																													
 																													
-																													$ai = $ae = $wlu6XgnneM8rai = array();
+																													$ai = $ae = array();
 																													
-																													if($_cusvsearch = uYtRST7eOVyiC('xs_custom_lookup_image')){
-																													
-																													preg_match_all('#'.$_cusvsearch.'#is', $cn,
-																													
-																													$wlu6XgnneM8rai, PREG_SET_ORDER);
-																													
-																													
-																													foreach($wlu6XgnneM8rai as $_aic=>$im)
-																													
-																													{
-																													
-																													if(strstr($im[1], '\\/'))
-																													
-																													$wlu6XgnneM8rai[$_aic][1] = stripslashes($im[1]);
-																													
-																													}
-																													
-																													}
-																													
-																													$X45y79QpUc = array_merge($X45y79QpUc, $Broh86XfLy0PO60Vd, $vm2ZWXPDO, $wlu6XgnneM8rai);
+																													$dbZYiSonNrlDO42usc = array_merge($dbZYiSonNrlDO42usc, $L2HmGWTj9H, $T9v4StE5HjmB1);
 																													
 																													$_maxi = $grab_parameters['xs_img_maxperpage'];
 																													
 																													if(!$_maxi)$_maxi = 1000;
 																													
-																													if($ua9tyorFugytr['inpdata'] && ($_dimg = $ua9tyorFugytr['inpdata']['img'])){
+																													if($uFxTSS9XSb52KZo7YrD['inpdata'] && ($_dimg = $uFxTSS9XSb52KZo7YrD['inpdata']['img'])){
 																													
 																													foreach($_dimg as $im)
 																													
 																													{
 																													
-																													$X45y79QpUc[] = array('', $im['url']);
+																													$dbZYiSonNrlDO42usc[] = array('', $im['url']);
 																													
 																													}
 																													
 																													}
 																													
-																													foreach($X45y79QpUc as $im)
+																													foreach($dbZYiSonNrlDO42usc as $im)
 																													
 																													{
 																													
@@ -3011,32 +2268,9 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if(strstr($im[0],'srcset')){
 																													
-																													if(preg_match('#[\s|-]srcset\s*=\s*[\'\"](.*?)[\'\"]#is', $im[0], $ueEBg5Zm23iPQN6cc8))
-																													
-																													if(!strstr($ueEBg5Zm23iPQN6cc8[1], 'data:')){
-																													
-																													$_il2 = preg_split('#(\s\s*\d+.(\s*\d+.)?(\s*,\s*|$))#is', $ueEBg5Zm23iPQN6cc8[1]);
-																													
-																													if(count($_il2) > 1)$_il = $_il2;
+																													$_il = preg_split('#(\s*,\s*|\s+[^\./]+\s*)#', $im[1]);
 																													
 																													}
-																													
-																													}else
-																													
-																													if(preg_match_all('#'.$_imgleftmatch.$_imgrightmatch.'#is', $im[0], $OYg8bQVhEVI9gnPOI, PREG_SET_ORDER))
-																													
-																													{
-																													
-																													$_il = array();
-																													
-																													foreach($OYg8bQVhEVI9gnPOI as $_im) {
-																													
-																													$_il[] = $_im[1];
-																													
-																													}
-																													
-																													}
-																													
 																													
 																													foreach($_il as $_ili)
 																													
@@ -3046,47 +2280,44 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													$_im1 = trim(preg_replace('#^[\'\"]+#','',$_ili));
 																													
+																													$LV3feH44NvQ = $this->bBAymp71W4mgyv_2c($_im1, $this->aMX8JQFnFnMWTuOJ,
 																													
-																													if(strstr($_im1, 'data:'))
+																													$grab_parameters['xs_img_allow_domains']);
+																													
+																													if($LV3feH44NvQ == 1)
 																													
 																													continue;
-																													
-																													if(preg_match('#\,[^\.]*$#',$_im1)) // incorrect srcset format
-																													
-																													continue;
-																													
-																													
-																													if(strlen($_im1) > 2048) continue; // cont FOREACH
-																													
-																													$_xlc = $this->i4YBy_a0gx($_im1, '','xs_img_allow_domains');
-																													
-																													$q5mXhT0VAQKh0u = $_xlc['isext'];
-																													
-																													if($q5mXhT0VAQKh0u){
-																													
-																													$this->o62A4fSUkV($this->gkc6cuOs53JHjwRAY6, $_im1,
-																													
-																													[$this->uk1X1bxy5kVbdo19[$q5mXhT0VAQKh0u], $_xlc['extrs']]
-																													
-																													);
-																													
-																													continue; // cont FOREACH
-																													
-																													}
 																													
 																													if($grab_parameters['xs_imgincmask'])
 																													
-																													if(!$this->vH5384QiQe6('xs_imgincmask', $_im1, true)){
+																													if(!$this->NxfMP9qoH('xs_imgincmask', $_im1, true))
 																													
-																													$this->o62A4fSUkV($this->gkc6cuOs53JHjwRAY6, $_im1,'img-incmas');
+																													continue;
 																													
-																													continue; // cont FOREACH
+																													$XegIxMo9HSXuEr = $this->v0ytSBWER.substr($_im1,strlen($this->A78wE6jgmrny));
+																													
+																													if($LV3feH44NvQ != 2)
+																													
+																													{
+																													
+																													if($this->MgKnEUlaw6_XfzaD($XegIxMo9HSXuEr))
+																													
+																													continue;
 																													
 																													}
+																													
+																													if(!$this->MVZvUfEx6bYBJwmz||!@preg_match('#('.$this->MVZvUfEx6bYBJwmz.')#',$XegIxMo9HSXuEr))
+																													
+																													{
 																													
 																													preg_match('#(?:title|alt)\s*=\s*"(.*?)"#i', $im[0], $tm);
 																													
 																													$t = trim($tm[1]);
+																													
+																													if(!$imlist[md5($_im1.($grab_parameters['xs_img_hashtitle'] ? '-'.$t : ''))]++)
+																													
+																													
+																													{
 																													
 																													$ai[] = array($_im1, $t);
 																													
@@ -3094,11 +2325,21 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													if($ai){
-																													
-																													$riHsxx1tgqk4ZFis1Nx['i'] = $ai;
+																													if(count($ai) >= $_maxi)break;
 																													
 																													}
+																													
+																													}
+																													
+																													if($ai){
+																													
+																													$gEBIZ5cHL['i'] = $ai;
+																													
+																													$this->addedcnt['i'] += count($ai);
+																													
+																													}
+																													
+																													wkwPIGj7HFydE9Mly("{ images added: ".count($ai)." }<br>\n",2);
 																													
 																													}
 																													
@@ -3110,13 +2351,13 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													if(
 																													
-																													preg_match_all('#<link[^>]*rel\s*=\s*"alternate"[^>]*>#is', $cn, $yA_NATpQcCK94, PREG_SET_ORDER)
+																													preg_match_all('#<link[^>]*rel\s*=\s*"alternate"[^>]*>#is', $cn, $G9M1u0W69Tn7MIsQ4, PREG_SET_ORDER)
 																													
 																													){
 																													
 																													$_la = array();
 																													
-																													foreach($yA_NATpQcCK94 as $_alt1){
+																													foreach($G9M1u0W69Tn7MIsQ4 as $_alt1){
 																													
 																													if(preg_match('#\s(hreflang|media)\s*=\s*"([^">]*?)"[^>]*>#is', $_alt1[0], $_alt)
 																													
@@ -3124,23 +2365,15 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													) {
 																													
-																													$this->i4YBy_a0gx($_hm[1]);
+																													$this->bBAymp71W4mgyv_2c($_hm[1], $this->aMX8JQFnFnMWTuOJ);
 																													
-																													$_la[] = array(
-																													
-																													't' => $_alt[1],
-																													
-																													'l' => $_alt[2],
-																													
-																													'u' => $_hm[1]
-																													
-																													);
+																													$_la[] = array('t' => $_alt[1], 'l' => $_alt[2], 'u' => $_hm[1]);
 																													
 																													}
 																													
 																													}
 																													
-																													$riHsxx1tgqk4ZFis1Nx['hl'] = $_la;
+																													$gEBIZ5cHL['hl'] = $_la;
 																													
 																													}
 																													
@@ -3150,272 +2383,158 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													{
 																													
-																													$ua9tyorFugytr = $Rgqo7Yox5Mydire->fetch($CjnDhqJxSIaLfkH, 0, 1, false, "", array('req'=>'HEAD'));
+																													$uFxTSS9XSb52KZo7YrD = $k0huGF8gg4LQ1A->fetch($wljeCd6fCRKulnoFsC4, 0, 1, false, "", array('req'=>'HEAD'));
 																													
 																													}
 																													
-																													if(!$riHsxx1tgqk4ZFis1Nx['lm'] && isset($ua9tyorFugytr['headers']['last-modified'])){
+																													if(!$gEBIZ5cHL['lm'] && isset($uFxTSS9XSb52KZo7YrD['headers']['last-modified']))
 																													
-																													$riHsxx1tgqk4ZFis1Nx['lm'] = $ua9tyorFugytr['headers']['last-modified'];
-																													
-																													}
-																													
+																													$gEBIZ5cHL['lm'] = $uFxTSS9XSb52KZo7YrD['headers']['last-modified'];
 																													
 																													}
 																													
-																													if(!$riHsxx1tgqk4ZFis1Nx['lm'] &&
+																													if(!$gEBIZ5cHL['lm'] &&
 																													
-																													preg_match('#<meta[^>]*?(?:name|property)\s*=\s*\"(?:last-|.*\:)modified(?:_time)?\".*?content\s*=\s*"?([^">]*)"#is',$ua9tyorFugytr['content'], $QAADhI8z4NAQgyTYn))
+																													preg_match('#<meta[^>]*?name\s*=\s*\"last-modified\" content\s*=\s*"?([^">]*)"#is',$uFxTSS9XSb52KZo7YrD['content'], $hPw74OQezczKteg0gC))
 																													
-																													$riHsxx1tgqk4ZFis1Nx['lm'] = $QAADhI8z4NAQgyTYn[1];
+																													$gEBIZ5cHL['lm'] = $hPw74OQezczKteg0gC[1];
 																													
-																													if(!$riHsxx1tgqk4ZFis1Nx['lm'] && $YJ1Dp5HqfXcXh12lbqb){
+																													RYtkTQfZ1my('post', true);
 																													
-																													foreach($YJ1Dp5HqfXcXh12lbqb as $d7fJoIZXHsui9P4G9S) {
+																													RYtkTQfZ1my('post-save1');
 																													
-																													foreach($d7fJoIZXHsui9P4G9S as $_k=>$EV4uwQ2OzuuHDj)
+																													wkwPIGj7HFydE9Mly("\n((include ".$gEBIZ5cHL['link']."))<br />\n");
 																													
-																													if(is_array($EV4uwQ2OzuuHDj) && ($_lm = $EV4uwQ2OzuuHDj['datemodified']))
-																													
-																													{
-																													
-																													$riHsxx1tgqk4ZFis1Nx['lm'] = $_lm;
-																													
-																													}
-																													
-																													}
-																													
-																													}
-																													
-																													
-																													
-																													
-																													$xz = 'img';
-																													
-																													if($_ev = $riHsxx1tgqk4ZFis1Nx['i']){
-																													
-																													$ai = array();
-																													
-																													foreach($_ev as $im)
-																													
-																													{
-																													
-																													$_im1 = $im[0];
-																													
-																													$ibpFRODl7xrVn = $this->xKSjC9fm7Ct.substr($_im1,strlen($this->LGu93aFor));
-																													
-																													if($q5mXhT0VAQKh0u != 2)
-																													
-																													{
-																													
-																													if($this->RUaplgNGInZve($ibpFRODl7xrVn)){
-																													
-																													$this->o62A4fSUkV($this->gkc6cuOs53JHjwRAY6, $_im1,'robots-txt');
-																													
-																													continue; // cont FOREACH
-																													
-																													}
-																													
-																													}
-																													
-																													
-																													if(!$this->U9E6sLwDkXCLtybu('excmask',$ibpFRODl7xrVn))
-																													
-																													{
-																													
-																													$t = $im[1];
-																													
-																													$_ihash = md5($_im1. (uYtRST7eOVyiC('xs_img_hashtitle',false) ? '-'.$t : ''));
-																													
-																													if(!$this->tVaBDPWljvwqY[$_ihash]++)
-																													
-																													{
-																													
-																													$ai[] = array($_im1, $t);
-																													
-																													}
-																													
-																													}
-																													
-																													if(count($ai) >= $_maxi)break; // break FOREACH
-																													
-																													}
-																													
-																													$riHsxx1tgqk4ZFis1Nx['i'] = $ai;
-																													
-																													$this->addedcnt['i'] += count($ai);
-																													
-																													Gpa9Bjai2UMV7SSv("<br>\n{ images added: ".count($ai)." }<br>\n",2);
-																													
-																													}
-																													
-																													$xz = '/img';
-																													
-																													
-																													
-																													
-																													Gpa9Bjai2UMV7SSv("\n((include ".$riHsxx1tgqk4ZFis1Nx['link']."))<br />\n");
-																													
-																													$CMORy_I_zuO = true;
-																													
-																													$o6rPLhhw0Dgo0gjA = $riHsxx1tgqk4ZFis1Nx;
-																													
-																													if($o6rPLhhw0Dgo0gjA['pginfo']){
-																													
-																													unset($o6rPLhhw0Dgo0gjA['pginfo']['curpage_outlinks']);
-																													
-																													}
+																													$wyhMGdq7QGd6 = true;
 																													
 																													if($grab_parameters['xs_memsave'])
 																													
 																													{
 																													
-																													$ZBOpkqThEaDwuvP = BRaaXjj8dMSPUCXL($this->gkc6cuOs53JHjwRAY6);
+																													DSdHxXD2UR($oO9pt9QoVu0fjOUEU6, $gEBIZ5cHL);
 																													
-																													bXQjcHjhM5WzanGWky($ZBOpkqThEaDwuvP, $o6rPLhhw0Dgo0gjA);
-																													
-																													$this->JcPjyNwPYF[] = $ZBOpkqThEaDwuvP;
+																													$this->urls_completed[] = $oO9pt9QoVu0fjOUEU6;
 																													
 																													}
 																													
-																													else $this->JcPjyNwPYF[] = $this->eVq4rYPNrn8($o6rPLhhw0Dgo0gjA);
+																													else $this->urls_completed[] = $this->dtRHNsRCOCS7gtKcKk3($gEBIZ5cHL);
 																													
-																													$this->mWZvXOgbL2muF5++;
+																													$this->lOXW9WDJYx6ROZX++;
 																													
+																													RYtkTQfZ1my('post-save1',true);
 																													
-																													
-																													}
-																													
-																													
-																													$_icnt = $riHsxx1tgqk4ZFis1Nx['i'] ? count($riHsxx1tgqk4ZFis1Nx['i']) : 0;
-																													
-																													$_vcnt = $riHsxx1tgqk4ZFis1Nx['v'] ? count($riHsxx1tgqk4ZFis1Nx['v']) : 0;
+																													RYtkTQfZ1my('post-save2');
 																													
 																													if($grab_parameters['xs_prev_sm_base']
 																													
 																													&& $this->basecachemask &&
 																													
-																													preg_match('#('.$this->basecachemask.')#',$this->gkc6cuOs53JHjwRAY6))
+																													preg_match('#('.$this->basecachemask.')#',$this->aMX8JQFnFnMWTuOJ)){
 																													
-																													{
-																													
-																													if(!$this->sm_base[$this->gkc6cuOs53JHjwRAY6]){
-																													
-																													Gpa9Bjai2UMV7SSv("<br>\n >>> / added to cache: ".$this->gkc6cuOs53JHjwRAY6." / >>><br>\n");
-																													
-																													$this->addedcnt['smbsessnew']++;
-																													
-																													$this->addedcnt['smbaccunew']++;
+																													$this->sm_base[$this->aMX8JQFnFnMWTuOJ] = $gEBIZ5cHL;
 																													
 																													}
 																													
-																													$this->sm_base[$this->gkc6cuOs53JHjwRAY6] = $riHsxx1tgqk4ZFis1Nx;
+																													$ELiT8ew5NjA = $this->y5E6XiZB3w2DW4XFY - $this->lOXW9WDJYx6ROZX;
 																													
-																													$this->addedcnt['smbsess']++;
+																													RYtkTQfZ1my('post-save2',true);
 																													
-																													$this->addedcnt['smbsess_i']+=$_icnt;
-																													
-																													$this->addedcnt['smbsess_v']+=$_vcnt;
-																													
-																													$this->addedcnt['smbaccu']++;
-																													
-																													$this->addedcnt['smbaccu_i']+=$_icnt;
-																													
-																													$this->addedcnt['smbaccu_v']+=$_vcnt;
 																													
 																													}
 																													
-																													$this->addedcnt['smbstored'] = count($this->sm_base);
+																													}while(false);// zero-while
 																													
-																													}while(false);// END OF ZERO WHILE
+																													RYtkTQfZ1my('post-progress1');
 																													
-																													Qfd6uMJrMUCoVpW3uV('zero-while2', true);
-																													
-																													Qfd6uMJrMUCoVpW3uV('post-zero');
-																													
-																													
-																													
-																													
-																													if($this->num_urls_processed_in_current_batch>=$this->wBD3MhpjtBO8tqmNhcW)
+																													if($this->num_urls_processed_in_current_batch>=$this->num_links_current_batch)
 																													
 																													{
 																													
 																													$this->links_level++;
 																													
-																													Gpa9Bjai2UMV7SSv("\n<br>NEXT LEVEL:$this->links_level ($this->num_urls_processed_in_current_batch>=$this->wBD3MhpjtBO8tqmNhcW)<br />\n");
+																													wkwPIGj7HFydE9Mly("\n<br>NEXT LEVEL:$this->links_level ($this->num_urls_processed_in_current_batch>=$this->num_links_current_batch)<br />\n");
 																													
-																													$this->D_92CNRcLCBbAvv();
+																													unset($urls_list);
+																													
+																													$this->num_urls_processed_in_current_batch = 0;
+																													
+																													$urls_list = $urls_list2;
+																													
+																													reset($urls_list);
+																													
+																													
+																													$urls_list_full += $urls_list;
+																													
+																													$this->num_links_current_batch = count($urls_list);
+																													
+																													unset($this->ref_links_tmp2);
+																													
+																													$this->ref_links_tmp2 = $this->ref_links_tmp;
+																													
+																													unset($this->ref_links_tmp); unset($urls_list2);
+																													
+																													$this->ref_links_tmp = array();
+																													
+																													$urls_list2 = array();
 																													
 																													
 																													}
 																													
-																													if(!$CMORy_I_zuO){
+																													if(!$wyhMGdq7QGd6){
 																													
 																													
-																													$this->Mp8_74X3QKt($this->gkc6cuOs53JHjwRAY6, $iAy4Xiz6k2fd, $dMnjtj7trqzv2cd);
+																													wkwPIGj7HFydE9Mly("\n({skipped ".$this->aMX8JQFnFnMWTuOJ." - $OgSj2zxK4Qo5Cc})<br />\n");
 																													
-																													}
+																													if(!$grab_parameters['xs_chlog_list_max'] ||
 																													
-																													$this->Lr95wALjvGm++;
+																													count($urls_list_skipped) < $grab_parameters['xs_chlog_list_max']) {
 																													
-																													Csw6DNRGy();
-																													
-																													$ZghyJyXXog8 = ($this->mWZvXOgbL2muF5>=$this->fdlKwoX4HgiIlRtTjC) || ($this->num_urls_processed_in_current_batch >= $this->wBD3MhpjtBO8tqmNhcW);
-																													
-																													if(!$this->UCZR3jLESp3_U) {
-																													
-																													$this->UCZR3jLESp3_U = s0wbaNiWsfBVT2pAbh(true);
+																													$urls_list_skipped[$this->aMX8JQFnFnMWTuOJ] = $OgSj2zxK4Qo5Cc;
 																													
 																													}
 																													
-																													if($_mint = $_REQUEST['maninterrupt']){
+																													}
 																													
-																													if(($this->Lr95wALjvGm % $_mint)==0)
+																													RYtkTQfZ1my('post-progress1',true);
 																													
-																													$this->UCZR3jLESp3_U = $_REQUEST['codeinterrupt'] ? $_REQUEST['codeinterrupt'] : 'man';
+																													RYtkTQfZ1my('post-progress2');
+																													
+																													$this->num_processed++;
+																													
+																													R1r_jX8NavH();
+																													
+																													$this->pl=min($this->num_links_current_batch - $this->num_urls_processed_in_current_batch,$ELiT8ew5NjA);
+																													
+																													$eG1Pm653b = ($this->lOXW9WDJYx6ROZX>=$this->y5E6XiZB3w2DW4XFY) || ($this->num_urls_processed_in_current_batch >= $this->num_links_current_batch);
+																													
+																													if(!$X5O38TAuWv4FR) {
+																													
+																													
+																													if($X5O38TAuWv4FR = VzipJxoohDvbtWM()){
+																													
+																													if(!@cMo3XWEqPThU4Id(pbAiQcHEGrGKkyqo4Q.guXHCq5aVeE))
+																													
+																													$X5O38TAuWv4FR=0;
 																													
 																													}
 																													
-																													
-																													Qfd6uMJrMUCoVpW3uV('post-zero', true);
-																													
-																													Qfd6uMJrMUCoVpW3uV('post-save');
-																													
-																													$progpar = $this->m820vHOHqXjLbour0(false, $ZghyJyXXog8||$this->UCZR3jLESp3_U);
-																													
-																													if(preg_match('#delay-(\d+)#', $this->UCZR3jLESp3_U, $_intm) && ($_intl = $_intm[1])){
-																													
-																													Gpa9Bjai2UMV7SSv("[ Detected Delay signal, sleeping for ".$_intl."s ]<br />\n");
-																													
-																													$_sls = 5;
-																													
-																													while($_intl>0) {
-																													
-																													$this->sHrx8IoVOZ8R('Paused, '.$_intl.'sec left');
-																													
-																													Gpa9Bjai2UMV7SSv(".");
-																													
-																													sleep($_sls);
-																													
-																													$_intl -= $_sls;
-																													
 																													}
 																													
-																													s0wbaNiWsfBVT2pAbh(true);
+																													RYtkTQfZ1my('post-progress2',true);
 																													
-																													$this->UCZR3jLESp3_U = '';
+																													RYtkTQfZ1my('post-progress3');
 																													
-																													}
+																													$progpar = $this->KiQEfebckxJVM(false, $eG1Pm653b||$X5O38TAuWv4FR);
 																													
-																													$this->VA1LHa1ylRh = false;
+																													RYtkTQfZ1my('post-progress3',true);
+																													
+																													RYtkTQfZ1my('post-progress4');
 																													
 																													if($grab_parameters['xs_exec_time'] &&
 																													
-																													((time()-$CXZgCKQbL_L) > $grab_parameters['xs_exec_time']) ){
+																													((time()-$dgHgts6lFbG) > $grab_parameters['xs_exec_time']) ){
 																													
-																													$this->UCZR3jLESp3_U = 'Time limit exceeded - '.($grab_parameters['xs_exec_time']).' - '.(time()-$CXZgCKQbL_L);
-																													
-																													$this->VA1LHa1ylRh = true;
+																													$X5O38TAuWv4FR = 'Time limit exceeded - '.($grab_parameters['xs_exec_time']).' - '.(time()-$dgHgts6lFbG);
 																													
 																													}
 																													
@@ -3423,11 +2542,11 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													(
 																													
-																													($this->ctime-$I2wjdAAsNKblNhs3T>$grab_parameters['xs_savestate_time'])
+																													($this->ctime-$epcQYfCl1>$grab_parameters['xs_savestate_time'])
 																													
-																													|| $ZghyJyXXog8
+																													|| $eG1Pm653b
 																													
-																													|| $this->UCZR3jLESp3_U
+																													|| $X5O38TAuWv4FR
 																													
 																													)
 																													
@@ -3435,150 +2554,79 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													{
 																													
-																													$NwXU_11EBncQ0U2WO2y = microtime(true);
+																													$epcQYfCl1 = $this->ctime;
 																													
-																													$I2wjdAAsNKblNhs3T = $this->ctime;
+																													wkwPIGj7HFydE9Mly("(saving dump)<br />\n");
 																													
-																													$this->sHrx8IoVOZ8R('Saving session state log');
+																													$mFUcZxJGA4itwRbJ = array();
 																													
-																													$TYHRDZiWCRbVqzBb6 = array();
-																													
-																													Gpa9Bjai2UMV7SSv("(saving dump)<br />\n");
-																													
-																													$Yz_MVNcyiaZX = array(
+																													$gHdDA3umqlMQEf47qO = array(
 																													
 																													'num_urls_processed_in_current_batch',
 																													
-																													'urls_list_current_batch','urls_list_next_batch','num_urls_current_batch',
+																													'urls_list','urls_list2','num_links_current_batch',
 																													
-																													'ref_urls_next_batch','ref_urls_current_batch','ref_links_list',
+																													'ref_links_tmp','ref_links_tmp2','ref_links_list',
 																													
-																													'urls_list_full','num_urls_completed',
+																													'urls_list_full','urls_completed',
 																													
 																													'urls_404',
 																													
-																													'nt','tsize','num_urls_processed','links_level','ctime', 'urls_list_ext','fetch_no',
+																													'nt','tsize','num_processed','links_level','ctime', 'urls_ext','fetch_no',
 																													
 																													'starttime', 'retrno', 'nettime', 'urls_list_skipped',
 																													
-																													'hashlist_img', 'hashlist_vid', 'progpar', 'runstate', 'sm_sessions',
+																													'imlist', 'imlist2', 'progpar', 'runstate', 'sm_sessions',
 																													
-																													'addedcnt',              'crawl_stats',
-																													
-																													'img_list_skipped'
+																													'addedcnt'
 																													
 																													);
 																													
-																													foreach($Yz_MVNcyiaZX as $k){
+																													foreach($gHdDA3umqlMQEf47qO as $k){
 																													
-																													$TYHRDZiWCRbVqzBb6[$k] = isset($this->$k) ? $this->$k : $$k;
-																													
-																													}
-																													
-																													$TYHRDZiWCRbVqzBb6['time']=time();
-																													
-																													$gki63aqDKBEeylgy8 = LvwoBy4yxyXbghxY($TYHRDZiWCRbVqzBb6);
-																													
-																													o_V2IjGO4FbBy(EZDFQmUtjVbpx9NW,$gki63aqDKBEeylgy8,ee6DE3zheBrz3N,true);
-																													
-																													unset($TYHRDZiWCRbVqzBb6);
-																													
-																													unset($gki63aqDKBEeylgy8);
-																													
-																													Gpa9Bjai2UMV7SSv("(restoring urls completed list)<br />\n");
-																													
-																													$this->NrcHJzHWg8nzjl();
-																													
-																													$this->fb23nrOMWYh = array_merge(
-																													
-																													$this->fb23nrOMWYh, $this->JcPjyNwPYF);
-																													
-																													Gpa9Bjai2UMV7SSv("(saving urls completed list)<br />\n");
-																													
-																													o_V2IjGO4FbBy(WM4in_T2Mrf, LvwoBy4yxyXbghxY(
-																													
-																													array(
-																													
-																													'full_uc' => $this->fb23nrOMWYh,
-																													
-																													)), ee6DE3zheBrz3N,true);
-																													
-																													$this->JcPjyNwPYF = $this->fb23nrOMWYh = array();
-																													
-																													
-																													Gpa9Bjai2UMV7SSv("(saving sm base)<br />\n");
-																													
-																													$this->H7tBTJDfOm();
-																													
-																													$this->addedcnt['dscnt']++;
-																													
-																													$this->addedcnt['dstime']+=(microtime(true)-$NwXU_11EBncQ0U2WO2y);
-																													
-																													if($this->UCZR3jLESp3_U == 'memprofile'){
-																													
-																													Gpa9Bjai2UMV7SSv("\n\n<br><br>Storing memory profiler details. Exit.\n");
-																													
-																													$_memprof  = 'local';
-																													
-																													include Swpw9A1Vzx69.'extra_memprofile.inc-dbg.php';
-																													
-																													$_memprof  = 'this';
-																													
-																													include Swpw9A1Vzx69.'extra_memprofile.inc-dbg.php';
-																													
-																													$_memprof  = 'global';
-																													
-																													include Swpw9A1Vzx69.'extra_memprofile.inc-dbg.php';
-																													
-																													$JVX6IydwlUlG2 = ee6DE3zheBrz3N.'memprof.log';
-																													
-																													if(file_exists($JVX6IydwlUlG2)) {
-																													
-																													$_fmt = filemtime($JVX6IydwlUlG2);
-																													
-																													rename($JVX6IydwlUlG2, ee6DE3zheBrz3N.'memprof-'.
-																													
-																													date('Y-m-d',$_fmt).'-'.$_fmt.'.log');
+																													$mFUcZxJGA4itwRbJ[$k] = isset($this->$k) ? $this->$k : $$k;
 																													
 																													}
 																													
-																													file_put_contents($JVX6IydwlUlG2,$_memdesc);
+																													$mFUcZxJGA4itwRbJ['time']=time();
 																													
-																													exit;
+																													$y5GpEuKtv9=Ie0qgN_fQ8HA($mFUcZxJGA4itwRbJ);
 																													
-																													}
+																													Ndm7I4IRr(TYR4q027D0OWvh,$y5GpEuKtv9,pbAiQcHEGrGKkyqo4Q,true);
+																													
+																													unset($mFUcZxJGA4itwRbJ);
+																													
+																													unset($y5GpEuKtv9);
 																													
 																													}
 																													
 																													if($grab_parameters['xs_delay_req'] && $grab_parameters['xs_delay_ms'] &&
 																													
-																													(($O4kU9hKnV6-$wz8QwzYhiSeh1LS)==$grab_parameters['xs_delay_req']))
+																													(($m8HTpd_0s-$WCC6wCSTlQ4MjKyNm3)==$grab_parameters['xs_delay_req']))
 																													
 																													{
 																													
-																													$wz8QwzYhiSeh1LS = $O4kU9hKnV6;
+																													$WCC6wCSTlQ4MjKyNm3 = $m8HTpd_0s;
 																													
 																													sleep(intval($grab_parameters['xs_delay_ms']));
 																													
 																													}
 																													
-																													Qfd6uMJrMUCoVpW3uV('post-save', true);
+																													RYtkTQfZ1my('post-progress4', true);
 																													
-																													}while(!$ZghyJyXXog8 && !$this->UCZR3jLESp3_U);
+																													}while(!$eG1Pm653b && !$X5O38TAuWv4FR);
 																													
-																													 
 																													
-																													Gpa9Bjai2UMV7SSv("\n\n<br><br>Crawling completed<br>\n");
 																													
-																													$this->sHrx8IoVOZ8R('Exit: ['.($ZghyJyXXog8?'F':'').' '.($this->UCZR3jLESp3_U?'I':'').']');
+																													wkwPIGj7HFydE9Mly("\n\n<br><br>Crawling completed<br>\n");
 																													
 																													if($_GET['ddbgexit']){
 																													
 																													echo '<hr><hr><h2>Dbg exit</h2>';
 																													
-																													echo $Rgqo7Yox5Mydire->JJjzIRLhzb6m.' / '.$Rgqo7Yox5Mydire->nettime.'<hr>';
+																													echo $k0huGF8gg4LQ1A->K7DRsNrsbdnzu9hi.' / '.$k0huGF8gg4LQ1A->nettime.'<hr>';
 																													
-																													echo EmYGhMsQNtkUAjX().'<hr>';
+																													echo DfjNmPlYlDtVYeKoRsL().'<hr>';
 																													
 																													exit;
 																													
@@ -3592,7 +2640,7 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													'starttime'=>$starttime,
 																													
-																													'topmu' => $kvzPJVC8WZaEAjzv2,
+																													'topmu' => $K5qP9_ZsHx,
 																													
 																													'ctime'=>$this->ctime,
 																													
@@ -3604,37 +2652,31 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													'errmsg'=>'',
 																													
-																													'initurl'=>$this->CKkufD8Jt,
+																													'initurl'=>$this->wOd8ZRUj4KujS,
 																													
-																													'initdir'=>$this->LGu93aFor,
+																													'initdir'=>$this->A78wE6jgmrny,
 																													
-																													'ucount'=>$this->mWZvXOgbL2muF5,
+																													'ucount'=>$this->lOXW9WDJYx6ROZX,
 																													
-																													'crcount'=>$this->Lr95wALjvGm,
+																													'crcount'=>$this->num_processed,
 																													
 																													'fetch_no'=>$this->fetch_no,
 																													
 																													'time'=>time(),
 																													
-																													'params'=>$this->NdDirA6nDitD7,
+																													'params'=>$this->SVH4BzIyh56a_HEGqt,
 																													
 																													'sm_sessions'=>$this->sm_sessions,
 																													
-																													'interrupt'=>$this->UCZR3jLESp3_U,
+																													'interrupt'=>$X5O38TAuWv4FR,
 																													
 																													'runstate' => $this->runstate,
 																													
-																													'crawl_stats' => $this->crawl_stats,
+																													'urls_ext'=>$urls_ext,
 																													
-																													'progpar' => $this->progpar,
+																													'urls_list_skipped' => $urls_list_skipped,
 																													
-																													'urls_ext'=>$this->VlATSmYmC7EQlOaRu,
-																													
-																													'urls_list_skipped' => $this->urls_list_skipped,
-																													
-																													'img_list_skipped' => $this->PcrmU5d0puI6Fy,
-																													
-																													'max_reached' => $this->mWZvXOgbL2muF5>=$this->fdlKwoX4HgiIlRtTjC
+																													'max_reached' => $this->lOXW9WDJYx6ROZX>=$this->y5E6XiZB3w2DW4XFY
 																													
 																													);
 																													
@@ -3642,115 +2684,117 @@ $UUJIo90038438XTBlT=226674785;$zgmhA97207455nUPiT=294605561;$uHiMu50740960DlyEA=
 																													
 																													}
 																													
-																													$th9r4riT2 = new SiteCrawler();
+																													$AIqYzQK_mhY = new SiteCrawler();
 																													
-																													function w81RXoNzadssEV06TGW(){
 																													
-																													@WSvkWWFpjZnripMo(ee6DE3zheBrz3N.HIlbAcY4dtv);
+																									function xvQcTIF8B113J(){
 																													
-																													if(@file_exists(ee6DE3zheBrz3N.rwrAhkTe5AehA))
+																													@cMo3XWEqPThU4Id(pbAiQcHEGrGKkyqo4Q.crI8G26xJzM);
 																													
-																													@rename(ee6DE3zheBrz3N.rwrAhkTe5AehA,ee6DE3zheBrz3N.HIlbAcY4dtv);
+																													if(@file_exists(pbAiQcHEGrGKkyqo4Q.m093Bbc4Eg))
+																													
+																													@rename(pbAiQcHEGrGKkyqo4Q.m093Bbc4Eg,pbAiQcHEGrGKkyqo4Q.crI8G26xJzM);
 																													
 																													}
 																													
 																													
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													
+																													

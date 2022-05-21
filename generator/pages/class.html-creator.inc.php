@@ -1,810 +1,820 @@
 <?php // This file is protected by copyright law and provided under license. Reverse engineering of this file is strictly prohibited.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$hOhtm83833568CqlCX=347759133;$mrXVD81565190eDyOD=988110470;$kYWPK73731942fTzoY=373787189;$wgQjr61742175uqhmC=656916299;$ofabA77507104ExWHA=616973146;$afxlK69742219eMdEb=156583647;$OroPi54004029ImqUi=327364128;$vardQ47609241Qqfsb=74743681;$VdoRy47588218vcCGc=45423031;$UPgoR43457649RVtBT=595496045;$vQqfg63229335XYjiC=330852742;$mkYWs75135988tBrEE=382134497;$yfQys95897436WksTF=390921364;$nwdAn89972921dnXTW=368959565;$AafRG82605884QCsXt=491195374;$kOhGf19555652sNZXB=145480855;$zkZmm67520670paTeh=768797481;$goouh63272195barMy=587035662;$xHwYG68460034vTKwV=416925296;$eJKQh82274035Ywhnj=387140110;$ZUkpV44329898eaxMd=385943245;$apSiD40670295Zhrqz=491058384;$yKbti60939857oniLp=316513714;$RKFpZ14886488nlUMM=251276793;$QJjWL15094404doqAX=232999254;$ftChD94433328jsfgR=361514891;$QZcSv82431241HmkBf=891356669;$EiZEl39814857WanPr=948331706;$iGsnM50209399uaugP=268773451;$LdVEO38627603UjYEf=55227479;$EimLM39954528zYGtR=839005576;$ahfAk98881220kHfGu=726896565;$cFudO72929856ADnvw=397482765;$Yrgug63775090iUuVG=953395650;$XSGAq53683782mwnZj=933971734;$DSNBd38680273AxRoG=230158985;$HTjfw77865833uIvck=619270024;$sPxle19953560cROQq=774168971;$TyOMK19306503gfhmv=892895861;$JwWGo35828818KiHKh=961165930;$XmImF85481664OVpla=37998442;$UExLH95194806lsgoy=378132271;$EFzGU65486414PjicL=404824719;$OfKzr13658285eNBCf=303644888;$EPMOq42795714STjIb=148707684;$MMYXk53962828PsdEU=484420447;$fygJx43587035afgsj=32765054;$OhjeE28517937SXzcX=609176565;$WcfDB52226822YXvSa=200822624;$EnmAK96114794dBmyc=823046499;?><?php
-																											
-																											include Y9kqmA8n8Eh . 'class.templates.inc.php';
-																											
-																											echo 'Creating HTML sitemap...<div id="percprog2"></div>';
-																											
-																											flush();
-																											
-																											$cucZ1DZmfsRxJvm = $grab_parameters['xs_initurl'];
-																											
-																											
-																											
-																											
-																											function NZ0qA9ySpvGc58T($Kcvw3bSWPzap, $i)
-																											
-																											{
-																											
-																											global $_tm;
-																											
-																											Csw6DNRGy();
-																											
-																											Gpa9Bjai2UMV7SSv("($Kcvw3bSWPzap / $i / " . (time() - $_tm) . " / " .
-																											
-																											(function_exists('memory_get_usage') ? number_format(memory_get_usage() / 1024 / 1024) : '') . "M)  ");
-																											
-																											$_tm = time();
-																											
-																											}
-																											
-																											$qZe32HtcWPkM       = '';
-																											
-																											$Hykphc33TOTgYAtu = array();
-																											
-																											$sLp2u1yDom3rEx      = 0;
-																											
-																											$kA9TIRrlHz3xdd = count($th9r4riT2->fb23nrOMWYh);
-																											
-																											$fRA0Df84F     = ceil($kA9TIRrlHz3xdd / $grab_parameters['xs_htmlpart']);
-																											
-																											$xQveemhc_kgSdGb70rq = intval($trvxfqtdpmsYVCvq['istart']);
-																											
-																											if ($trvxfqtdpmsYVCvq) {
-																											
-																											$sLp2u1yDom3rEx = $trvxfqtdpmsYVCvq['curpage'];
-																											
-																											}
-																											
-																											$lRGExs5pWoj    = $a2Ky0QAlkrOelv5CDZ    = array();
-																											
-																											$LoX3B38aHgfK = '';
-																											
-																											function YGEfWHtHk($FjFLAdcO4nvLWfMUE)
-																											
-																											{
-																											
-																											global $th9r4riT2;
-																											
-																											return ZemEb1wrkmtr2t($th9r4riT2->fb23nrOMWYh[$FjFLAdcO4nvLWfMUE]);
-																											
-																											}
-																											
-																											function r7mlHoJO5Nq3AP()
-																											
-																											{
-																											
-																											global $lRGExs5pWoj, $cucZ1DZmfsRxJvm, $th9r4riT2, $grab_parameters, $LoX3B38aHgfK, $kA9TIRrlHz3xdd;
-																											
-																											for ($i = 0; $i < $kA9TIRrlHz3xdd; $i++) {
-																											
-																											if ($i % 500 == 0) {
-																											
-																											NZ0qA9ySpvGc58T('AFjEMFrh8Oop', $i);
-																											
-																											}
-																											
-																											$ur = YGEfWHtHk($i);
-																											
-																											if (!$LoX3B38aHgfK && $ur['t']) {
-																											
-																											$LoX3B38aHgfK = VQlXHm2SJ2($ur['t']);
-																											
-																											}
-																											
-																											$Qd3cb0WOM7zhx = str_replace($cucZ1DZmfsRxJvm, '', $ur['link']);
-																											
-																											$Qd3cb0WOM7zhx = preg_replace('#\?.*#', '', $Qd3cb0WOM7zhx);
-																											
-																											$Qd3cb0WOM7zhx = preg_replace('#^.*\://#', '', $Qd3cb0WOM7zhx);
-																											
-																											$kfnDiJqFWyk8yg5f  = &$lRGExs5pWoj;
-																											
-																											if ($grab_parameters['xs_htmlstruct'] == 2) {
-																											
-																											$ns  = 'Sitemap';
-																											
-																											$kfnDiJqFWyk8yg5f = &$kfnDiJqFWyk8yg5f['elem'][$ns];
-																											
-																											$kfnDiJqFWyk8yg5f['tcnt']++;
-																											
-																											} else
-																											
-																											if ($grab_parameters['xs_htmlstruct'] == 1) {
-																											
-																											$ns  = substr($Qd3cb0WOM7zhx, 0, strrpos($Qd3cb0WOM7zhx, '/'));
-																											
-																											$kfnDiJqFWyk8yg5f = &$kfnDiJqFWyk8yg5f['elem'][$ns];
-																											
-																											$kfnDiJqFWyk8yg5f['tcnt']++;
-																											
-																											} else {
-																											
-																											$O7x3ToNYM8yI8d = 0;
-																											
-																											while (($ps = strpos($Qd3cb0WOM7zhx, '/')) !== false) {
-																											
-																											$ns  = substr($Qd3cb0WOM7zhx, 0, $ps + 1);
-																											
-																											if($O7x3ToNYM8yI8d++>0)
-																											
-																											$kfnDiJqFWyk8yg5f = &$kfnDiJqFWyk8yg5f['elem'][$ns];
-																											
-																											$kfnDiJqFWyk8yg5f['tcnt']++;
-																											
-																											$Qd3cb0WOM7zhx = substr($Qd3cb0WOM7zhx, $ps + 1);
-																											
-																											}
-																											
-																											}
-																											
-																											$kfnDiJqFWyk8yg5f['cnt']++;
-																											
-																											$kfnDiJqFWyk8yg5f['pages'][] = $i;
-																											
-																											}
-																											
-																											}
-																											
-																											function lbiBK9sbSXXdCi3KKYL($_a, $_b)
-																											
-																											{
-																											
-																											global $grab_parameters, $Wn1PmehRFQUuNc9v, $_tm;
-																											
-																											$a = YGEfWHtHk($_a); if(!$a)$a = $_a;
-																											
-																											$b = YGEfWHtHk($_b); if(!$b)$b=  $_b;
-																											
-																											if (($GLOBALS['_iter']++ % 100) == 0) {
-																											
-																											NZ0qA9ySpvGc58T('sort', $GLOBALS['_iter']);
-																											
-																											}
-																											
-																											$at = is_array($a) ? ($a['t'] ? $a['t'] : $a['link']) : $a;
-																											
-																											$bt = is_array($b) ? ($b['t'] ? $b['t'] : $b['link']) : $b;
-																											
-																											if ($grab_parameters['xs_htmlsort'] == 3) {
-																											
-																											if (!$Wn1PmehRFQUuNc9v) {
-																											
-																											$Wn1PmehRFQUuNc9v = rand(1E10, 1E12);
-																											
-																											}
-																											
-																											$at = md5($at . $Wn1PmehRFQUuNc9v);
-																											
-																											$bt = md5($bt . $Wn1PmehRFQUuNc9v);
-																											
-																											}
-																											
-																											if ($at == $bt) {
-																											
-																											return 0;
-																											
-																											}
-																											
-																											$rs = ($at < $bt) ? -1 : 1;
-																											
-																											if ($grab_parameters['xs_htmlsort'] == 2) {
-																											
-																											$rs = -$rs;
-																											
-																											}
-																											
-																											return $rs;
-																											
-																											}
-																											
-																											function VQlXHm2SJ2($OzUD0qopeT){
-																											
-																											global $th9r4riT2, $grab_parameters;
-																											
-																											$OzUD0qopeT = str_replace(
-																											
-																											array('&amp;amp;', "'", '"', '>', '<'),
-																											
-																											array('&amp;', "&apos;", '&quot;', '&gt;', '&lt;'),
-																											
-																											$OzUD0qopeT);
-																											
-																											$KrTEj2Y_9GKorWgUFdJ = ($th9r4riT2->runstate['charset']);
-																											
-																											$SIFTk0nhSIw3Se6PzP = ($KrTEj2Y_9GKorWgUFdJ &&
-																											
-																											(strtolower($KrTEj2Y_9GKorWgUFdJ)!='utf-8'));
-																											
-																											$Nr4mMHQ_vWsIZoq = uYtRST7eOVyiC('xs_title_charset_convert', $SIFTk0nhSIw3Se6PzP ? true : false);
-																											
-																											if( $Nr4mMHQ_vWsIZoq && function_exists('iconv') )
-																											
-																											{
-																											
-																											if($l2 = iconv($th9r4riT2->runstate['charset'], 'UTF-8', $OzUD0qopeT))
-																											
-																											$OzUD0qopeT = $l2;
-																											
-																											}else
-																											
-																											if($Nr4mMHQ_vWsIZoq){
-																											
-																											if(function_exists('utf8_encode'))
-																											
-																											if($SIFTk0nhSIw3Se6PzP || $grab_parameters['xs_html_utfencode'])
-																											
-																											{
-																											
-																											$OzUD0qopeT = utf8_encode($OzUD0qopeT);
-																											
-																											}
-																											
-																											}
-																											
-																											return $OzUD0qopeT;
-																											
-																											}
-																											
-																											function LriNDtlw9th($mEStsJq4js1y56U, $hI4ZjizyM4n2qebOjH = 0, &$y7_YKCDZMS, $bJwmGOWiceoN8a0Zmr = '/')
-																											
-																											{
-																											
-																											global
-																											
-																											$viaA6z5AHqEMYOzGUR, $kA9TIRrlHz3xdd,
-																											
-																											$CusPMRBFNUP, $grab_parameters, $qZe32HtcWPkM, $Hykphc33TOTgYAtu, $sLp2u1yDom3rEx, $th9r4riT2, $xQveemhc_kgSdGb70rq, $lHq9RiXtmpJ4uxKat, $_tm;
-																											
-																											$gO3Yu0xwxYC   = '';
-																											
-																											$cgMWfMMFQwNSRVBR = $mEStsJq4js1y56U['cnt'];
-																											
-																											if($iWCeugnFUI = uYtRST7eOVyiC('xs_htmlsm_titlemod')){
-																											
-																											$me = explode(' ', $iWCeugnFUI, 2);
-																											
-																											$nnEyxhjyv0o5L = array('#'.$me[0].'#', $me[1]);
-																											
-																											}
-																											
-																											$y7_YKCDZMS = array(
-																											
-																											'folder' => $bJwmGOWiceoN8a0Zmr,
-																											
-																											
-																											'cnttxt' => ($cgMWfMMFQwNSRVBR ? (number_format($cgMWfMMFQwNSRVBR, 0) . (($cgMWfMMFQwNSRVBR > 1) ? ' pages' : ' page')) : ''),
-																											
-																											'level'  => $hI4ZjizyM4n2qebOjH+1
-																											
-																											);
-																											
-																											$NxNWGoLHUrKuWAPk   = array();
-																											
-																											if (is_array($mEStsJq4js1y56U['pages'])) {
-																											
-																											if ($grab_parameters['xs_htmlsort']) {
-																											
-																											Gpa9Bjai2UMV7SSv("sorting pages  ($bJwmGOWiceoN8a0Zmr)..");
-																											
-																											@usort($mEStsJq4js1y56U['pages'], 'lbiBK9sbSXXdCi3KKYL');
-																											
-																											}
-																											
-																											$pi = 0;
-																											
-																											foreach ($mEStsJq4js1y56U['pages'] as $_pg) {
-																											
-																											$pi++;
-																											
-																											if (($GLOBALS['_iter']++ % 1000) == 0) {
-																											
-																											NZ0qA9ySpvGc58T('Eg5MBSZ4IdJn', $GLOBALS['_iter']);
-																											
-																											$th9r4riT2->m820vHOHqXjLbour0(
-																											
-																											array(
-																											
-																											'smcreate' => array(
-																											
-																											'html', $GLOBALS['_iter'], $kA9TIRrlHz3xdd)
-																											
-																											));
-																											
-																											}
-																											
-																											$viaA6z5AHqEMYOzGUR++;
-																											
-																											if ($viaA6z5AHqEMYOzGUR <= $xQveemhc_kgSdGb70rq) {
-																											
-																											continue;
-																											
-																											}
-																											
-																											$pg = YGEfWHtHk($_pg);
-																											
-																											$t     = VQlXHm2SJ2($pg['t'] ? $pg['t'] : basename($pg['link']));
-																											
-																											if($nnEyxhjyv0o5L ){
-																											
-																											$t = preg_replace($nnEyxhjyv0o5L[0], $nnEyxhjyv0o5L[1], $t);
-																											
-																											}
-																											
-																											$NxNWGoLHUrKuWAPk[] = array
-																											
-																											(
-																											
-																											'link'        => $pg['link'],
-																											
-																											'title'       => $t,
-																											
-																											'desc'        => VQlXHm2SJ2($pg['d']),
-																											
-																											'title_clean' => $t,
-																											
-																											
-																											);
-																											
-																											if ($viaA6z5AHqEMYOzGUR % 1000 == 0) {
-																											
-																											iLftEYPCbh7lMGU(array(
-																											
-																											'cmd'  => 'info',
-																											
-																											'id'   => 'percprog2',
-																											
-																											'text' => number_format($viaA6z5AHqEMYOzGUR * 100 / $kA9TIRrlHz3xdd, 0) . '%',
-																											
-																											));
-																											
-																											}
-																											
-																											$hy5DHveJKL9qEsdFo6 = (($viaA6z5AHqEMYOzGUR % $grab_parameters['xs_htmlpart']) == 0);
-																											
-																											if ($hy5DHveJKL9qEsdFo6
-																											
-																											||
-																											
-																											($pi == count($mEStsJq4js1y56U['pages']))
-																											
-																											) {
-																											
-																											$y7_YKCDZMS['pages']  = $NxNWGoLHUrKuWAPk;
-																											
-																											if ($hy5DHveJKL9qEsdFo6) {
-																											
-																											
-																											$NxNWGoLHUrKuWAPk  = array();
-																											
-																											PJiI8OdidkGGex61();
-																											
-																											$sLp2u1yDom3rEx++;
-																											
-																											o_V2IjGO4FbBy($lHq9RiXtmpJ4uxKat, LvwoBy4yxyXbghxY(array('istart' => $viaA6z5AHqEMYOzGUR, 'curpage' => $sLp2u1yDom3rEx)));
-																											
-																											}
-																											
-																											}
-																											
-																											} // end foreach pages
-																											
-																											} // end if(is_array($mEStsJq4js1y56U['pages']))
-																											
-																											if ($mEStsJq4js1y56U['elem']) {
-																											
-																											if ($grab_parameters['xs_htmlsort']) {
-																											
-																											Gpa9Bjai2UMV7SSv("sorting folders ($bJwmGOWiceoN8a0Zmr)..");
-																											
-																											@uksort($mEStsJq4js1y56U['elem'], 'lbiBK9sbSXXdCi3KKYL');
-																											
-																											}
-																											
-																											foreach ($mEStsJq4js1y56U['elem'] as $DAcdyVpKloSJK0L6 => $TfFw6rgusELJ) {
-																											
-																											$bJwmGOWiceoN8a0Zmr = trim(urldecode($DAcdyVpKloSJK0L6));
-																											
-																											LriNDtlw9th($TfFw6rgusELJ, $hI4ZjizyM4n2qebOjH + 1, $y7_YKCDZMS['elem'][$bJwmGOWiceoN8a0Zmr], $bJwmGOWiceoN8a0Zmr);
-																											
-																											}
-																											
-																											}
-																											
-																											}
-																											
-																											$viaA6z5AHqEMYOzGUR = 0;
-																											
-																											biKIFeolSkNYaz('html_addloc');
-																											
-																											Gpa9Bjai2UMV7SSv("\nStarting adding locations\n");
-																											
-																											r7mlHoJO5Nq3AP();
-																											
-																											biKIFeolSkNYaz('html_addloc', true);
-																											
-																											
-																											$CA4F8xf5iDM      = $grab_parameters['xs_htmlname'];
-																											
-																											for($i=1;file_exists($sf=$O5xzS_c6yMs_Xg.tEFHaxOsM7H77NTsow($i,$CA4F8xf5iDM,true).$HFtH6NteYXZ9HymrT);$i++)
-																											
-																											WSvkWWFpjZnripMo($sf);
-																											
-																											for($i=1;file_exists($sf=$O5xzS_c6yMs_Xg.tEFHaxOsM7H77NTsow($i,$CA4F8xf5iDM,true).'.gz');$i++)
-																											
-																											WSvkWWFpjZnripMo($sf);
-																											
-																											biKIFeolSkNYaz('LriNDtlw9th');
-																											
-																											Gpa9Bjai2UMV7SSv("\nStarting compiling sitemap files\n");
-																											
-																											LriNDtlw9th($lRGExs5pWoj, 0, $Hykphc33TOTgYAtu[0], '/');
-																											
-																											PJiI8OdidkGGex61(); // last
-																											
-																											biKIFeolSkNYaz('LriNDtlw9th', true);
-																											
-																											Gpa9Bjai2UMV7SSv(mjyDxcvZBIVa8uLPffC()."\n");
-																											
-																											
-																											iLftEYPCbh7lMGU(array('cmd' => 'info', 'id' => 'percprog2', ''));
-																											
-																											function YoABAQeex4g8F0bP(&$hv)
-																											
-																											{
-																											
-																											$EswIIZ4xeeL0OKuJm = true;
-																											
-																											if($hv)
-																											
-																											foreach ($hv as $k => $PuT3wqR6o1d) {
-																											
-																											$nI6gVg3Y2nlHlKLvNuX = YoABAQeex4g8F0bP($hv[$k]['elem']);
-																											
-																											if($PuT3wqR6o1d['pages'] || !$nI6gVg3Y2nlHlKLvNuX){
-																											
-																											
-																											return false;
-																											
-																											}
-																											
-																											else
-																											
-																											unset($hv[$k]);
-																											
-																											}
-																											
-																											return true;
-																											
-																											}
-																											
-																											function CXHRTYSv7YoC2GCqZpq(&$hv)
-																											
-																											{
-																											
-																											if(!$hv)return true;
-																											
-																											$DvpI4S8WCbC = count($hv); $hi = 0;
-																											
-																											foreach ($hv as $k => $PuT3wqR6o1d) {
-																											
-																											if(++$hi<$DvpI4S8WCbC){
-																											
-																											unset($hv[$k]);
-																											
-																											}else {
-																											
-																											$hv[$k]['pages']=array();
-																											
-																											CXHRTYSv7YoC2GCqZpq($hv[$k]['elem']);
-																											
-																											
-																											}
-																											
-																											}
-																											
-																											return false;
-																											
-																											}
-																											
-																											function PJiI8OdidkGGex61()
-																											
-																											{
-																											
-																											global $grab_parameters, $cucZ1DZmfsRxJvm, $th9r4riT2, $sLp2u1yDom3rEx, $fRA0Df84F, $iQjQee0FhjFPc8hCI, $kA9TIRrlHz3xdd,
-																											
-																											$mYend_rMAUlK, $Hykphc33TOTgYAtu;
-																											
-																											$RUB0u6qo7Xy               = @parse_url($cucZ1DZmfsRxJvm);
-																											
-																											$CA4F8xf5iDM      = $grab_parameters['xs_htmlname'];
-																											
-																											$coSXYNuENk = basename($grab_parameters['xs_htmlname']);
-																											
-																											$TwT1zFHl3 = $fRA0Df84F > 1 ? tEFHaxOsM7H77NTsow($sLp2u1yDom3rEx + 1, $CA4F8xf5iDM, true) : $CA4F8xf5iDM;
-																											
-																											Gpa9Bjai2UMV7SSv("\nCreate html sitemap file [" . basename($TwT1zFHl3) . '], no ' . $sLp2u1yDom3rEx . ' of ' . $fRA0Df84F . "\n");
-																											
-																											if ($sLp2u1yDom3rEx >= $fRA0Df84F) {
-																											
-																											return;
-																											
-																											}
-																											
-																											$VCvRkoG9TkRk = $mYend_rMAUlK['charset'];
-																											
-																											$uoIAM7fvhvq2irwCt = new RawTemplate("pages/mods/");
-																											
-																											$uoIAM7fvhvq2irwCt->I2RZDANor6jrG8yYIK(cJLzmjY4Kt1Ed9(Swpw9A1Vzx69, 'sitemap_tpl.html'));
-																											
-																											$p1eLothO7f0  = '';
-																											
-																											$YN62Hmhwbmjw9CP6 = array();
-																											
-																											if ($fRA0Df84F > 1) {
-																											
-																											$DLztvHtFE1bLMFZI = false;
-																											
-																											for ($i1 = 0; $i1 < $fRA0Df84F; $i1++) {
-																											
-																											if (
-																											
-																											($i1 <= 3) ||
-																											
-																											($i1 >= $fRA0Df84F - 3) ||
-																											
-																											(abs($i1 - $sLp2u1yDom3rEx) < 4)
-																											
-																											) {
-																											
-																											$N4Yzrjvhbr = tEFHaxOsM7H77NTsow($i1 + 1, $coSXYNuENk, true);
-																											
-																											if($DLztvHtFE1bLMFZI){
-																											
-																											$YN62Hmhwbmjw9CP6[] = array('current' => true, 'link' => '', 'num' => '...');
-																											
-																											$DLztvHtFE1bLMFZI = false;
-																											
-																											}
-																											
-																											$YN62Hmhwbmjw9CP6[] = array('current' => ($i1 == $sLp2u1yDom3rEx), 'link' => $N4Yzrjvhbr, 'num' => $i1 + 1);
-																											
-																											}else $DLztvHtFE1bLMFZI = true;
-																											
-																											}
-																											
-																											}
-																											
-																											YoABAQeex4g8F0bP($Hykphc33TOTgYAtu);
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('slots', $Hykphc33TOTgYAtu);
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('LASTUPDATE',
-																											
-																											date(($grab_parameters['xs_dateformat'] ? $grab_parameters['xs_dateformat'] : 'Y, F j') . ' H:i:s'));
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('NOBRAND', $grab_parameters['xs_nobrand'] ? 1 : 0);
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('PCHARSET', $VCvRkoG9TkRk);
-																											
-																											global $LoX3B38aHgfK;
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('TOPTITLE', ($LoX3B38aHgfK));
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('TOPURL', $cucZ1DZmfsRxJvm);
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('PAGE', $fRA0Df84F ? ' Page ' . ($sLp2u1yDom3rEx + 1) : '');
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('APAGER', $YN62Hmhwbmjw9CP6);
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('TOTALURLS', $kA9TIRrlHz3xdd);
-																											
-																											$uoIAM7fvhvq2irwCt->PxxPHHmJlAG('DOMAIN', $RUB0u6qo7Xy['host']);
-																											
-																											biKIFeolSkNYaz('html_tpl_parse');
-																											
-																											$o2WHr3AQV1 = $uoIAM7fvhvq2irwCt->parse();
-																											
-																											biKIFeolSkNYaz('html_tpl_parse', true);
-																											
-																											if(!o_V2IjGO4FbBy($TwT1zFHl3, $o2WHr3AQV1, '', $grab_parameters['xs_compress_optimize']))
-																											
-																											$iQjQee0FhjFPc8hCI[] = $TwT1zFHl3;
-																											
-																											
-																											CXHRTYSv7YoC2GCqZpq($Hykphc33TOTgYAtu);
-																											
-																											
-																											
-																											}
-																											
-																											
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									$jAqatJDsMufFFDhJJX=511996078;$cVukUycEEFrw=19951507;$SrIjWqMURi29nTbnOm=889824860;$KXu7eytTihhzs=545778802;$CyspR99F_bA0WjU=611756057;$Jy13ek0lvZ754=941145135;$idAZgtZr8_TROR7rezL=380772090;$GneLz6mhc66a=640109403;$vRwRWs6Th0uoYBW4=751953693;$SslyWBFEw=226208842;$nNNX8WtEMv9U=958935437;$KpDsmL8sVHi=770926938;$lWpI6TV0_d=839936156;$p9xRQfTjoQZQ9m=651970007;$DRosL6WVaSgpxaf85=420802859;$KNvjRq6uohcMwG=805549604;$c6LKV1b_mqElF9cQr=398474104;$YuQC3_PF6id_=931334738;$gqjbaiNuHiLcrdP=636235884;$pJfj902ops=344482236;$YU8IgM0m4DwK2swjRZK=557383629;$p7XARHpnM0pmtfoGnBi=802272526;$ycAd8PlITFPQ7ab=512834323;$QYCBCKBRW=601882809;$hb3XAABjIzJ=558102195;$hHONyp9sFh2r3r_5=414692452;$ONfW4B8Qgrp=333212341;$VlnflsgtaogkwbDmt7j=877583857;$hsOPlb6QCRmsXjAt=324984576;$Nwy1lgLZRyL=726250232;$QRzbxbldEWBCVv=327298202;$Z_4Tol6ph=365361352;$miyb504m0dOc53j=810469911;$sVNcXwlcCL64=602850128;$T9ltkUuH0ZbWlERuTZ=952267169;$jHGgPDYKslkSm2_LV=776660110;$y2FunZLbZXDAf3=794313375;$kjGyM2Vt8Y=455543237;$OzTMJx9K9=560218128;$RjmwxN5zrI=929371512;$A6jkB_wg4uctzTX=508843264;$Q9IwOImai=741857122;$jKvrEZX9TahnqYavu=490511371;$sRTKHVoPhXK=725626318;$yvvyf3KiGk9PBhLvfwe=976068238;$fMm17TEZ0fDW=672886024;$x4GdOT4RRQ5z1=269809757;$z9HGnMOxxRW_eA0Ybvf=745406964;$v0YAHk1tKVU68X6z=541484308;$Cua5aNc7n=406884081;?><?php if(!defined('HqmBMPQB4QfPS'))return;
+																									
+																									include plQDGddmmXu9xZB . 'class.templates.inc.php';
+																									
+																									echo 'Creating HTML sitemap...<div id="percprog2"></div>';
+																									
+																									flush();
+																									
+																									$GfAZBwyaRMTouJ = $grab_parameters['xs_initurl'];
+																									
+																									if (substr_count($GfAZBwyaRMTouJ, '/') > 2) {
+																									
+																									$GfAZBwyaRMTouJ = substr($GfAZBwyaRMTouJ, 0, strrpos($GfAZBwyaRMTouJ, '/'));
+																									
+																									}
+																									
+																									
+																									function laMukA0rkhGXnO($tYegoJyswer2FPGW, $i)
+																									
+																									{
+																									
+																									global $_tm;
+																									
+																									R1r_jX8NavH();
+																									
+																									wkwPIGj7HFydE9Mly("($tYegoJyswer2FPGW / $i / " . (time() - $_tm) . " / " .
+																									
+																									(function_exists('memory_get_usage') ? number_format(memory_get_usage() / 1024 / 1024) : '') . "M)  ");
+																									
+																									$_tm = time();
+																									
+																									}
+																									
+																									$ODFesCknBseJ       = '';
+																									
+																									$v9ROH84TVrNx2mWR = array();
+																									
+																									$VWBKxVdZCnJNXFP      = 0;
+																									
+																									$WnR4Z8yrdar5c4S8     = ceil(count($AIqYzQK_mhY->urls_completed) / $grab_parameters['xs_htmlpart']);
+																									
+																									$y5ItXGR8oIfy7mwneIx = intval($urnTJWbuJ6mA764['istart']);
+																									
+																									if ($urnTJWbuJ6mA764) {
+																									
+																									$VWBKxVdZCnJNXFP = $urnTJWbuJ6mA764['curpage'];
+																									
+																									}
+																									
+																									$Fm7TTVIXUXBblAt3    = $A8XLo788lTiDM    = array();
+																									
+																									$UeAOSPFlLGgdorci9V = '';
+																									
+																									
+																									function bYeR5B7hZjny4DQ($ROhFixQz_aRUf)
+																									
+																									{
+																									
+																									global $AIqYzQK_mhY;
+																									
+																									return Za80dklcf36($AIqYzQK_mhY->urls_completed[$ROhFixQz_aRUf]);
+																									
+																									}
+																									
+																									
+																									function k02YQcw31kEHm()
+																									
+																									{
+																									
+																									global $Fm7TTVIXUXBblAt3, $GfAZBwyaRMTouJ, $AIqYzQK_mhY, $grab_parameters, $UeAOSPFlLGgdorci9V;
+																									
+																									for ($i = 0; $i < count($AIqYzQK_mhY->urls_completed); $i++) {
+																									
+																									if ($i % 500 == 0) {
+																									
+																									laMukA0rkhGXnO('yRBCPxCgQDSPw', $i);
+																									
+																									}
+																									
+																									$ur = bYeR5B7hZjny4DQ($i);
+																									
+																									if (!$UeAOSPFlLGgdorci9V && $ur['t']) {
+																									
+																									$UeAOSPFlLGgdorci9V = $ur['t'];
+																									
+																									}
+																									
+																									$mz45ExYgKItw_uSDq = str_replace($GfAZBwyaRMTouJ, '', $ur['link']);
+																									
+																									$mz45ExYgKItw_uSDq = preg_replace('#\?.*#', '', $mz45ExYgKItw_uSDq);
+																									
+																									$mz45ExYgKItw_uSDq = preg_replace('#^.*\://#', '', $mz45ExYgKItw_uSDq);
+																									
+																									$X30kP59TrhH  = &$Fm7TTVIXUXBblAt3;
+																									
+																									if ($grab_parameters['xs_htmlstruct'] == 2) {
+																									
+																									$ns  = 'Sitemap';
+																									
+																									$X30kP59TrhH = &$X30kP59TrhH['elem'][$ns];
+																									
+																									$X30kP59TrhH['tcnt']++;
+																									
+																									} else
+																									
+																									if ($grab_parameters['xs_htmlstruct'] == 1) {
+																									
+																									$ns  = substr($mz45ExYgKItw_uSDq, 0, strrpos($mz45ExYgKItw_uSDq, '/'));
+																									
+																									$X30kP59TrhH = &$X30kP59TrhH['elem'][$ns];
+																									
+																									$X30kP59TrhH['tcnt']++;
+																									
+																									} else {
+																									
+																									$Q403eM6N33nZrhE2RG = 0;
+																									
+																									while (($ps = strpos($mz45ExYgKItw_uSDq, '/')) !== false) {
+																									
+																									$ns  = substr($mz45ExYgKItw_uSDq, 0, $ps + 1);
+																									
+																									if($Q403eM6N33nZrhE2RG++>0)
+																									
+																									$X30kP59TrhH = &$X30kP59TrhH['elem'][$ns];
+																									
+																									$X30kP59TrhH['tcnt']++;
+																									
+																									$mz45ExYgKItw_uSDq = substr($mz45ExYgKItw_uSDq, $ps + 1);
+																									
+																									}
+																									
+																									}
+																									
+																									$X30kP59TrhH['cnt']++;
+																									
+																									$X30kP59TrhH['pages'][] = $i;
+																									
+																									}
+																									
+																									}
+																									
+																									
+																									function za7WjQLGJX22zkN($_a, $_b)
+																									
+																									{
+																									
+																									global $grab_parameters, $rv8lyK8G5P, $_tm;
+																									
+																									$a = bYeR5B7hZjny4DQ($_a); if(!$a)$a = $_a;
+																									
+																									$b = bYeR5B7hZjny4DQ($_b); if(!$b)$b=  $_b;
+																									
+																									if (($GLOBALS['_iter']++ % 100) == 0) {
+																									
+																									laMukA0rkhGXnO('sort', $GLOBALS['_iter']);
+																									
+																									}
+																									
+																									$at = is_array($a) ? ($a['t'] ? $a['t'] : $a['link']) : $a;
+																									
+																									$bt = is_array($b) ? ($b['t'] ? $b['t'] : $b['link']) : $b;
+																									
+																									if ($grab_parameters['xs_htmlsort'] == 3) {
+																									
+																									if (!$rv8lyK8G5P) {
+																									
+																									$rv8lyK8G5P = rand(1E10, 1E12);
+																									
+																									}
+																									
+																									$at = md5($at . $rv8lyK8G5P);
+																									
+																									$bt = md5($bt . $rv8lyK8G5P);
+																									
+																									}
+																									
+																									if ($at == $bt) {
+																									
+																									return 0;
+																									
+																									}
+																									
+																									$rs = ($at < $bt) ? -1 : 1;
+																									
+																									if ($grab_parameters['xs_htmlsort'] == 2) {
+																									
+																									$rs = -$rs;
+																									
+																									}
+																									
+																									return $rs;
+																									
+																									}
+																									
+																									
+																									function MwoUYhvrzvwjc($Z8F0gPCCw_jy){
+																									
+																									global $AIqYzQK_mhY, $grab_parameters;
+																									
+																									$Z8F0gPCCw_jy = str_replace(
+																									
+																									array('&amp;amp;', "'", '"', '>', '<'),
+																									
+																									array('&amp;', "&apos;", '&quot;', '&gt;', '&lt;'),
+																									
+																									$Z8F0gPCCw_jy);
+																									
+																									
+																									$VknBf7jA4z57bXp = ($AIqYzQK_mhY->runstate['charset']);
+																									$uJ9e_4Vgkb = ($VknBf7jA4z57bXp && (strtolower($VknBf7jA4z57bXp)!='utf-8'));
+																									$mbX4ij2HD = wS0f9iXRiSA('xs_title_charset_convert', $uJ9e_4Vgkb ? true : false);
+																									
+																									
+																									if( $mbX4ij2HD
+																									&& function_exists('iconv')
+																									)
+																									{
+																									if($l2 = iconv($AIqYzQK_mhY->runstate['charset'], 'UTF-8', $Z8F0gPCCw_jy)) 
+																									$Z8F0gPCCw_jy = $l2;
+																									}else if($mbX4ij2HD)
+																									{
+																									if(function_exists('utf8_encode'))
+																									
+																									if(
+																									
+																									($AIqYzQK_mhY->runstate['charset'] &&
+																									
+																									(strtolower($AIqYzQK_mhY->runstate['charset'])!='utf-8')
+																									
+																									)
+																									
+																									|| $grab_parameters['xs_html_utfencode'])
+																									
+																									{
+																									
+																									$Z8F0gPCCw_jy = utf8_encode($Z8F0gPCCw_jy);
+																									
+																									}
+																									}																											
+																									return $Z8F0gPCCw_jy;
+																									
+																									}
+																									
+																									
+																									function DSHa4EVKoYveK9VS1M($iY7zBsDM9ms8M0Jaba0, $Rl4yII6w3IXpaS = 0, &$jEs5XI7wl51VYcDclqz, $UFPQK1_HHoArORBR = '/')
+																									
+																									{
+																									
+																									global
+																									
+																									$ikBR382VtXStMlVsK2,
+																									
+																									$RjmJZLuHb, $grab_parameters, $ODFesCknBseJ, $v9ROH84TVrNx2mWR, $VWBKxVdZCnJNXFP, $AIqYzQK_mhY, $y5ItXGR8oIfy7mwneIx, $YsidzR3wAfF5l, $_tm;
+																									
+																									$r6XxOuEeRHt   = '';
+																									
+																									$s6R7iR1r2kH5or9H7 = $iY7zBsDM9ms8M0Jaba0['cnt'];
+																									
+																									if($uz4Q4TzDW6LH = wS0f9iXRiSA('xs_htmlsm_titlemod')){
+																									
+																									$me = explode(' ', $uz4Q4TzDW6LH, 2);
+																									
+																									$nOnbnaLrqE = array('#'.$me[0].'#', $me[1]);
+																									
+																									}
+																									
+																									$jEs5XI7wl51VYcDclqz = array(
+																									
+																									'folder' => $UFPQK1_HHoArORBR,
+																									
+																									
+																									'cnttxt' => ($s6R7iR1r2kH5or9H7 ? (number_format($s6R7iR1r2kH5or9H7, 0) . (($s6R7iR1r2kH5or9H7 > 1) ? ' pages' : ' page')) : ''),
+																									
+																									'level'  => $Rl4yII6w3IXpaS+1
+																									
+																									);
+																									
+																									$LCdOyYi6fmVOwt   = array();
+																									
+																									if (is_array($iY7zBsDM9ms8M0Jaba0['pages'])) {
+																									
+																									if ($grab_parameters['xs_htmlsort']) {
+																									
+																									wkwPIGj7HFydE9Mly("sorting pages  ($UFPQK1_HHoArORBR)..");
+																									
+																									@usort($iY7zBsDM9ms8M0Jaba0['pages'], 'za7WjQLGJX22zkN');
+																									
+																									}
+																									
+																									$pi = 0;
+																									
+																									foreach ($iY7zBsDM9ms8M0Jaba0['pages'] as $_pg) {
+																									
+																									$pi++;
+																									
+																									if (($GLOBALS['_iter']++ % 1000) == 0) {
+																									
+																									laMukA0rkhGXnO('I2lHPXuOL7h3VkACZ', $GLOBALS['_iter']);
+																									
+																									$AIqYzQK_mhY->KiQEfebckxJVM(
+																									
+																									array(
+																									
+																									'smcreate' => array(
+																									
+																									'html', $GLOBALS['_iter'], count($AIqYzQK_mhY->urls_completed))
+																									
+																									));
+																									
+																									}
+																									
+																									$ikBR382VtXStMlVsK2++;
+																									
+																									if ($ikBR382VtXStMlVsK2 <= $y5ItXGR8oIfy7mwneIx) {
+																									
+																									continue;
+																									
+																									}
+																									
+																									$pg = bYeR5B7hZjny4DQ($_pg);
+																									
+																									$t     = MwoUYhvrzvwjc($pg['t'] ? $pg['t'] : basename($pg['link']));
+																									
+																									if($nOnbnaLrqE ){
+																									
+																									$t = preg_replace($nOnbnaLrqE[0], $nOnbnaLrqE[1], $t);
+																									
+																									}
+																									
+																									$LCdOyYi6fmVOwt[] = array
+																									
+																									(
+																									
+																									'link'        => $pg['link'],
+																									
+																									'title'       => $t,
+																									
+																									'desc'        => MwoUYhvrzvwjc($pg['d']),
+																									
+																									'title_clean' => $t,
+																									
+																									
+																									);
+																									
+																									if ($ikBR382VtXStMlVsK2 % 1000 == 0) {
+																									
+																									SE7W3aG6iePcWzaA(array(
+																									
+																									'cmd'  => 'info',
+																									
+																									'id'   => 'percprog2',
+																									
+																									'text' => number_format($ikBR382VtXStMlVsK2 * 100 / count($AIqYzQK_mhY->urls_completed), 0) . '%',
+																									
+																									));
+																									
+																									}
+																									
+																									$WrVATwym2WnpTKc = (($ikBR382VtXStMlVsK2 % $grab_parameters['xs_htmlpart']) == 0);
+																									
+																									if ($WrVATwym2WnpTKc
+																									
+																									||
+																									
+																									($pi == count($iY7zBsDM9ms8M0Jaba0['pages']))
+																									
+																									) {
+																									
+																									$jEs5XI7wl51VYcDclqz['pages']  = $LCdOyYi6fmVOwt;
+																									
+																									if ($WrVATwym2WnpTKc) {
+																									
+																									
+																									$LCdOyYi6fmVOwt  = array();
+																									
+																									Hdb4pN5u_Y();
+																									
+																									$VWBKxVdZCnJNXFP++;
+																									
+																									Ndm7I4IRr($YsidzR3wAfF5l, Ie0qgN_fQ8HA(array('istart' => $ikBR382VtXStMlVsK2, 'curpage' => $VWBKxVdZCnJNXFP)));
+																									
+																									}
+																									
+																									}
+																									
+																									} // end foreach pages
+																									
+																									} // end if(is_array($iY7zBsDM9ms8M0Jaba0['pages']))
+																									
+																									if ($iY7zBsDM9ms8M0Jaba0['elem']) {
+																									
+																									if ($grab_parameters['xs_htmlsort']) {
+																									
+																									wkwPIGj7HFydE9Mly("sorting folders ($UFPQK1_HHoArORBR)..");
+																									
+																									@uksort($iY7zBsDM9ms8M0Jaba0['elem'], 'za7WjQLGJX22zkN');
+																									
+																									}
+																									
+																									foreach ($iY7zBsDM9ms8M0Jaba0['elem'] as $eYvN2Zgpz7pXeO => $pNSPszSpb9QrqlmggCl) {
+																									
+																									$UFPQK1_HHoArORBR = trim(urldecode($eYvN2Zgpz7pXeO));
+																									
+																									DSHa4EVKoYveK9VS1M($pNSPszSpb9QrqlmggCl, $Rl4yII6w3IXpaS + 1, $jEs5XI7wl51VYcDclqz['elem'][$UFPQK1_HHoArORBR], $UFPQK1_HHoArORBR);
+																									
+																									}
+																									
+																									}
+																									
+																									}
+																									
+																									$ikBR382VtXStMlVsK2 = 0;
+																									
+																									XBRBuRsDZP_('html_addloc');
+																									
+																									wkwPIGj7HFydE9Mly("\nStarting adding locations\n");
+																									
+																									k02YQcw31kEHm();
+																									
+																									XBRBuRsDZP_('html_addloc', true);
+																									
+																									
+																									$cHMa4Ehv6      = $grab_parameters['xs_htmlname'];
+																									
+																									for($i=1;file_exists($sf=$Wh9PFDSKGL5emH_ar0.QJ7ieWoyGceu_OpURmm($i,$cHMa4Ehv6,true).$zZgc4nYgpOSWc_eJWHk);$i++)
+																									
+																									cMo3XWEqPThU4Id($sf);
+																									
+																									for($i=1;file_exists($sf=$Wh9PFDSKGL5emH_ar0.QJ7ieWoyGceu_OpURmm($i,$cHMa4Ehv6,true).'.gz');$i++)
+																									
+																									cMo3XWEqPThU4Id($sf);
+																									
+																									XBRBuRsDZP_('DSHa4EVKoYveK9VS1M');
+																									
+																									wkwPIGj7HFydE9Mly("\nStarting compiling sitemap files\n");
+																									
+																									DSHa4EVKoYveK9VS1M($Fm7TTVIXUXBblAt3, 0, $v9ROH84TVrNx2mWR[0], '/');
+																									
+																									Hdb4pN5u_Y(); // last
+																									
+																									XBRBuRsDZP_('DSHa4EVKoYveK9VS1M', true);
+																									
+																									wkwPIGj7HFydE9Mly(mrmqy3ZTYBuJ8()."\n");
+																									
+																									
+																									SE7W3aG6iePcWzaA(array('cmd' => 'info', 'id' => 'percprog2', ''));
+																									
+																									
+																									function J4REL8ghEpuTR(&$hv)
+																									
+																									{
+																									
+																									$P45WyPschpdej = true;
+																									
+																									if($hv)
+																									
+																									foreach ($hv as $k => $O9KA_RO_nUc6TtsO471) {
+																									
+																									$txXSyyh1lzw2OFcuX7 = J4REL8ghEpuTR($hv[$k]['elem']);
+																									
+																									if($O9KA_RO_nUc6TtsO471['pages'] || !$txXSyyh1lzw2OFcuX7){
+																									
+																									
+																									return false;
+																									
+																									}
+																									
+																									else
+																									
+																									unset($hv[$k]);
+																									
+																									}
+																									
+																									return true;
+																									
+																									}
+																									
+																									
+																									function i4M3EDrmE4Tq6j(&$hv)
+																									
+																									{
+																									
+																									if(!$hv)return true;
+																									
+																									$YQZNl4T2Q = count($hv); $hi = 0;
+																									
+																									foreach ($hv as $k => $O9KA_RO_nUc6TtsO471) {
+																									
+																									if(++$hi<$YQZNl4T2Q){
+																									
+																									unset($hv[$k]);
+																									
+																									}else {
+																									
+																									$hv[$k]['pages']=array();
+																									
+																									i4M3EDrmE4Tq6j($hv[$k]['elem']);
+																									
+																									
+																									}
+																									
+																									}
+																									
+																									return false;
+																									
+																									}
+																									
+																									
+																									function Hdb4pN5u_Y()
+																									
+																									{
+																									
+																									global $grab_parameters, $GfAZBwyaRMTouJ, $AIqYzQK_mhY, $VWBKxVdZCnJNXFP, $WnR4Z8yrdar5c4S8, $xtko89HHgERl,
+																									
+																									$gmFeFSQMtwUCCL, $v9ROH84TVrNx2mWR;
+																									
+																									$i1zq0dY3F9_zWWq               = @parse_url($GfAZBwyaRMTouJ);
+																									
+																									$cHMa4Ehv6      = $grab_parameters['xs_htmlname'];
+																									
+																									$zxpdMcPKPKGE = basename($grab_parameters['xs_htmlname']);
+																									
+																									$Xo5dIGR0jPhg1lC = $WnR4Z8yrdar5c4S8 > 1 ? QJ7ieWoyGceu_OpURmm($VWBKxVdZCnJNXFP + 1, $cHMa4Ehv6, true) : $cHMa4Ehv6;
+																									
+																									wkwPIGj7HFydE9Mly("\nCreate html sitemap file [" . basename($Xo5dIGR0jPhg1lC) . '], no ' . $VWBKxVdZCnJNXFP . ' of ' . $WnR4Z8yrdar5c4S8 . "\n");
+																									
+																									if ($VWBKxVdZCnJNXFP >= $WnR4Z8yrdar5c4S8) {
+																									
+																									return;
+																									
+																									}
+																									
+																									$z6JlTsAmxStphTgTl2 = $gmFeFSQMtwUCCL['charset'];
+																									
+																									$BVvxOQnEYIQ8b = new RawTemplate("pages/mods/");
+																									
+																									$BVvxOQnEYIQ8b->Z3bRMfdOm8(ljRrlLBwuZZRlkJz(Dmi6FAkqegYk9l7QL, 'sitemap_tpl.html'));
+																									
+																									$gtzApaHsm6jzkz  = '';
+																									
+																									$gdS4JnuYRVJ = array();
+																									
+																									if ($WnR4Z8yrdar5c4S8 > 1) {
+																									
+																									$mJsOOcQ4fcxmntlKfn = false;
+																									
+																									for ($i1 = 0; $i1 < $WnR4Z8yrdar5c4S8; $i1++) {
+																									
+																									if (
+																									
+																									($i1 <= 3) ||
+																									
+																									($i1 >= $WnR4Z8yrdar5c4S8 - 3) ||
+																									
+																									(abs($i1 - $VWBKxVdZCnJNXFP) < 4)
+																									
+																									) {
+																									
+																									$jpQlPAprXrRh = QJ7ieWoyGceu_OpURmm($i1 + 1, $zxpdMcPKPKGE, true);
+																									
+																									if($mJsOOcQ4fcxmntlKfn){
+																									
+																									$gdS4JnuYRVJ[] = array('current' => true, 'link' => '', 'num' => '...');
+																									
+																									$mJsOOcQ4fcxmntlKfn = false;
+																									
+																									}
+																									
+																									$gdS4JnuYRVJ[] = array('current' => ($i1 == $VWBKxVdZCnJNXFP), 'link' => $jpQlPAprXrRh, 'num' => $i1 + 1);
+																									
+																									}else $mJsOOcQ4fcxmntlKfn = true;
+																									
+																									}
+																									
+																									}
+																									
+																									J4REL8ghEpuTR($v9ROH84TVrNx2mWR);
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('slots', $v9ROH84TVrNx2mWR);
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('LASTUPDATE',
+																									
+																									date(($grab_parameters['xs_dateformat'] ? $grab_parameters['xs_dateformat'] : 'Y, F j') . ' H:i:s'));
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('NOBRAND', $grab_parameters['xs_nobrand'] ? 1 : 0);
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('PCHARSET', $z6JlTsAmxStphTgTl2);
+																									
+																									global $UeAOSPFlLGgdorci9V;
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('TOPTITLE', ($UeAOSPFlLGgdorci9V));
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('TOPURL', $GfAZBwyaRMTouJ);
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('PAGE', $WnR4Z8yrdar5c4S8 ? ' Page ' . ($VWBKxVdZCnJNXFP + 1) : '');
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('APAGER', $gdS4JnuYRVJ);
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('TOTALURLS', count($AIqYzQK_mhY->urls_completed));
+																									
+																									$BVvxOQnEYIQ8b->wM3Um8blhHo('DOMAIN', $i1zq0dY3F9_zWWq['host']);
+																									
+																									XBRBuRsDZP_('html_tpl_parse');
+																									
+																									$jYzzpmIdkiEZ = $BVvxOQnEYIQ8b->parse();
+																									
+																									XBRBuRsDZP_('html_tpl_parse', true);
+																									
+																									if(!Ndm7I4IRr($Xo5dIGR0jPhg1lC, $jYzzpmIdkiEZ, '', $grab_parameters['xs_compress_optimize']))
+																									
+																									$xtko89HHgERl[] = $Xo5dIGR0jPhg1lC;
+																									
+																									
+																									i4M3EDrmE4Tq6j($v9ROH84TVrNx2mWR);
+																									
+																									
+																									
+																									}
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									

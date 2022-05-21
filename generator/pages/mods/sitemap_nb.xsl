@@ -205,7 +205,7 @@ The number of videos: <xsl:value-of select="count(sm:urlset/sm:url/video:video)"
 
 <div id="footer">
 <!--Created with Standalone Sitemap Generator,
-Copyright (c)2005-2021 <a href="https://www.xml-sitemaps.com/standalone-google-sitemap-generator.html">XML Sitemaps</a>
+Copyright (c)2005-2019 <a href="https://www.xml-sitemaps.com/standalone-google-sitemap-generator.html">XML Sitemaps</a>
 -->
 </div>
 
