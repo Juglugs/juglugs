@@ -1,0 +1,159 @@
+{
+	// Place your www.juglugs.com workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"brhr": {
+		"scope": "html, HTML",
+		"prefix": "bh",
+		"body": [
+			"<br>",
+			"<hr>"
+		],
+		"description": "Adds a BR and HR"
+	},
+	"Blog Entry Separator": {
+		"scope": "html, HTML",
+		"prefix": [
+			"dt",
+			"nbe"
+		],
+		"body": [
+			"<div id=$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE$CURRENT_HOUR$CURRENT_MINUTE>",
+			"<hr>",
+			"<p style=\"color: cadetblue;\">$CURRENT_DAY_NAME $CURRENT_DATE $CURRENT_MONTH_NAME $CURRENT_YEAR<br>",
+			"$CURRENT_HOUR:$CURRENT_MINUTE<br>",
+			"<abbr title=\"The UNIX Epoch occurred at 00:00 on 1st January 1970.\">Epoch</abbr> Seconds: $CURRENT_SECONDS_UNIX</p>",
+			"<hr>",
+			"<h1>${1:Heading}</h1>",
+			"</div>"
+		],
+		"description": "Add a blog entry separator"
+	},
+	"New Day Blog Entry Separator": {
+		"scope": "html, HTML",
+		"prefix": [
+			"dtn",
+			"ndbe"
+		],
+		"body": [
+			"<div id=$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE$CURRENT_HOUR$CURRENT_MINUTE>",
+			"<hr>",
+			"<p style=\"color: cadetblue;\">$CURRENT_DAY_NAME $CURRENT_DATE $CURRENT_MONTH_NAME $CURRENT_YEAR<br>",
+			"$CURRENT_HOUR:$CURRENT_MINUTE<br>",
+			"<abbr title=\"The UNIX Epoch occurred at 00:00 on 1st January 1970.\">Epoch</abbr> Seconds: $CURRENT_SECONDS_UNIX</p>",
+			"<hr>",
+			"<h1>${2:Heading}</h1>",
+			"</div>",
+			"<hr>"
+		],
+		"description": "Add a blog entry separator"
+	},
+	"Insert meme": {
+		"scope": "html,HTML",
+		"prefix": "im",
+		"body": [
+			"<li><a href=\"${1:file}\"><img class=\"lazyload\" src=\"${1:file}\" alt=\"${2:alttxt}\"></a><br>${2:alttxt}</li>"
+		],
+		"description": "Add a meme to the list"
+	},
+	"Insert Wendy Pic":{
+		"scope": "html,HTML",
+		"prefix": "iwp",
+		"body": [
+			"<li><a href=\"${1:file}\"><img class=\"lazyload\" src=\"${1:file}\" alt=\"Wendy Maureen Parker\"></a></li>"
+		],
+		"description": "Add Wendy Picture"
+	},
+	"Insert Picture": {
+		"scope": "html, HTML",
+		"prefix": "ip",
+		"body": [
+			"<div>",
+			"<figure class=\"lazyload\">",
+			"<a href=\"/media/blog/${1:yyyy/mm/xxxx} .jpg\">",
+			"<picture class=\"lazyload\">",
+			"<source type=\"image/webp\" media=\"(max-width: 300px)\" data-srcset=\"/media/blog/${1:yyyy/mm/xxxx} 300.webp\">",
+			"<source type=\"image/webp\" media=\"(max-width: 2000px)\" data-srcset=\"/media/blog/${1:yyyy/mm/xxxx} 600.webp\">",
+			"<source type=\"image/webp\" data-srcset=\"/media/blog/${1:yyyy/mm/xxxx} .webp\">",
+			"<source type=\"image/jpeg\" media=\"(max-width: 300px)\" data-srcset=\"/media/blog/${1:yyyy/mm/xxxx} 300.jpg\">",
+			"<source type=\"image/jpeg\" media=\"(max-width: 2000px)\" data-srcset=\"/media/blog/${1:yyyy/mm/xxxx} 600.jpg\">",
+			"<source type=\"image/jpeg\" data-srcset=\"/media/blog/${1:yyyy/mm/xxxx} .jpg\">",
+			"<img class=\"lazyload\" data-src=\"/media/blog/${1:yyyy/mm/xxxx} 300ph.jpg\" alt=\"${2:AltTxt}\" title=\"${2:AltTxt}\">",
+			"</picture>",
+			"</a>",
+			"<figcaption>${2:AltTxt}</figcaption>",
+			"</figure>",
+			"<br>",
+			"</div>"
+		],
+		"description": "Insert a picture with a figure wrapper"
+	},
+	"Open in New Tab": {
+		"scope": "html, HTML",
+		"prefix": "ont",
+		"body": " target=\"blank\" rel=\"noopener\"",
+		"description": "Open the link in a new tab"
+	},
+	"Thumbnail Grid": {
+		"scope": "html, HTML",
+		"prefix": "tg",
+		"body": [
+			"<div>",
+			"<ul class=\"thumbnailGrid lazyload\">",
+			"<li><a href=\"${1:link}\"><img class=\"lazyload\" src=\"${1:link}\" alt=\"${2:alt}\"></a><br>${2:alt}</li>",
+			"</ul>",
+			"</div>"
+		],
+		"description": "Insert a thumbnail gallery"
+	},
+	"Raw Video": {
+		"scope": "html, HTML",
+		"prefix": ["rv", "iv"],
+		"body": [
+			"<div>",
+			"<video class=\"lazyload\" style=\"max-width: 100%; height: auto;\" controls autoplay loop muted onclick=\"this.play();\">",
+			"<source type=\"video/mp4\" src=\"/media/blog/${1:video} .mp4\">",
+			"Error: Your browser does not support the video tag.",
+			"</video>",
+			"</div>"
+		],
+		"description": "Insert raw video"
+	},
+	"YouTube Video": {
+		"scope": "html, HTML",
+		"prefix": "yt",
+		"body": [
+			"<div class=\"lazyload iframe-container\">",
+			"${1:embedded video link}",
+			"</div>"
+		],
+		"description": "Insert a YouTube video"
+	},
+	"Footnotes": {
+		"scope": "html, HTML",
+		"prefix": "fn",
+		"body": [
+			"<div class=\" lazyload footnotes\">",
+			"<p>",
+			"<ol>",
+			"<li id=\"1\">${1:Footnote}</li>",
+			"</ol>",
+			"</p>",
+			"</div>"
+		],
+		"description": "Insert a footnote at the bottom of the page"
+	}
+}

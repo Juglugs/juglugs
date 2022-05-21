@@ -1,0 +1,26 @@
+/* TEAM */
+	Grand Poobah: Mark Andrew Smith
+	Contact: mark [at] juglugs.com
+	Twitter: @DaisyHeifer
+	From: Plymouth, Devon, England, United Kingdom
+
+/* EMOTIONAL SUPPORT */
+    Cat Lady: Kim Parker
+    Contact: kim [at] juglugs.com
+    From: Plymouth, Devon, England, United Kingdom
+
+    Eldest Offspring: Joshua Smith
+    Contact: joshua [at] juglugs.com
+    From: Plymouth, Devon, England, United Kingdom
+    
+    Youngest Offspring: Siobhan Smith
+    Contact: siobhan [at] juglugs.com
+    From: Torpoint, Cornwall, England, United Kingdom
+
+/* SITE */
+	Last update: Today
+	Language: English 
+	Doctype: HTML5
+	IDE: VSCode
+	OS: Ubuntu 22.04
+	WS: Apache 2.4  
