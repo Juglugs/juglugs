@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /snp
 
 Sitemap: https://juglugs.com/sitemap.xml
-Sitemap: https://juglugs.com/image-sitemap.xml
+Sitemap: https://juglugs.com/sitemap_images.xml
